@@ -1,0 +1,124 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section1 {
+    background-color: #eeeeee88;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section2 {
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.allH {
+    text-align: center;
+}
+
+.tuiles {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.imgSection2 {
+    width: 320px;
+    height: 230px;
+    margin: 10px;
+}
+
+.section2.box2 {
+    background-color: #b59f6b;
+}
+
+.section2A {
+    position: relative;
+}
+
+.section2A::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 230px;
+    margin: 10px;
+    background-color: #b59f6b;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.section2A:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 230px;
+    margin: 10px;
+    background-color: #b59f6b;
+    opacity: 1;
+}
+
+.section2A::after {
+    content: attr(data-title);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    width: 320px;
+    height: 230px;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out, width 0.4s ease-in-out, height 0.4s ease-in-out;
+}
+    
+.section2A:hover::after {
+    opacity: 1;
+    width: 265px;
+    height: 175px;
+    transition: opacity 0.4s ease-in-out, width 0.4s ease-in-out, height 0.4s ease-in-out;
+}
+  
+.box {
+    flex: 1;
+    height: 150px;
+    max-width: 420px;
+    min-width: 200px; 
+    margin: 10px;
+    font-size: 17px;
+}
+
+.box img {
+    float: left;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.box h1, .box p {
+    padding-left: 110px;
+    word-wrap: break-word;
+}
+
+.box1 {
+    background-color: white;
+}
+
+.box2 {
+    background-color: white;
+}
+
+.box3 {
+    background-color: white;
+}
+
+.title_p {
+    font-size: 24px;
+    font-weight: bold;
+}
