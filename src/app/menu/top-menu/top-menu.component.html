@@ -1,30 +1,35 @@
-<nav id="navBar">
-    <div id="navBarElements">
-        <div id="logo">
-            <a href="home">IF DESIGN STUDIO</a>
-        </div>
-        <div id="nav-links">
-            <ul>
-                <li class="active"><a href="home">Home</a></li>
-                <li><a href="#">Adventures</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Infos</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div id="hamburger-menu">
-            <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
-              <span></span>
-            </label>
-        
-            <ul class="menu__box">
-              <li><a class="menu__item active" href="#">Home</a></li>
-              <li><a class="menu__item" href="#">About</a></li>
-              <li><a class="menu__item" href="#">Team</a></li>
-              <li><a class="menu__item" href="#">Contact</a></li>
-              <li><a class="menu__item" href="#">Twitter</a></li>
-            </ul>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+      <div id="logo-container">
+          <div class="logo">
+              <a [routerLink]="'home'"><h1>IF DESIGN STUDIO</h1></a>
           </div>
-    </div>
-</nav>
+      </div>
+      <div id="link-container" *ngIf="linksDisplay">
+        <a [routerLink]="'home'" routerLinkActive="active-link" class="sidebar-item">Home</a>
+        <a [routerLink]="'agency'" routerLinkActive="active-link" class="sidebar-item">Agency</a>
+        <a [routerLink]="'project'" routerLinkActive="active-link" class="sidebar-item">Project</a>
+        <a [routerLink]="'contact'" routerLinkActive="active-link" class="sidebar-item">Contact</a>
+      </div>   
+      <div id="hamburger-container" *ngIf="!linksDisplay">
+        <i id="hamburger" class="ri-menu-line" (click)="toggleSidebar()"></i>
+      </div>      
+  </div>
+  <div class="body-container" [class.body-container-open]="sidebarOpen" *ngIf="!linksDisplay">
+      <div id="sidebar">
+        <div class="link-container">
+          <i id="hamburger" class="ri-menu-line" (click)="toggleSidebar()" *ngIf="!sidebarOpen"></i>
+          <i id="hamburger" class="ri-close-line" (click)="toggleSidebar()" *ngIf="sidebarOpen"></i>
+        </div>
+        <div id="sidebar-items">
+            <a [routerLink]="'home'" routerLinkActive="active-link" class="sidebar-item">Home</a>
+            <a [routerLink]="'agency'" routerLinkActive="active-link" class="sidebar-item">Agency</a>
+            <a [routerLink]="'project'" routerLinkActive="active-link" class="sidebar-item">Project</a>
+            <a [routerLink]="'contact'" routerLinkActive="active-link" class="sidebar-item">Contact</a>
+        </div>
+      </div>
+  </div>
+</body>

@@ -122,3 +122,9 @@
     font-size: 24px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 1000px) {
+    .tuiles {
+        display: block;
+    }
+}

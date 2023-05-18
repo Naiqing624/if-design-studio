@@ -98,3 +98,9 @@ form button {
     background: #007bb5;
     color: white;
 }
+
+@media screen and (max-width: 1000px) {
+    .footer {
+        display: block;
+    }
+}
