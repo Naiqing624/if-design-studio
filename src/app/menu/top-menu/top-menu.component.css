@@ -33,7 +33,7 @@ hr {
 
 /* scrollbar style */
 ::-webkit-scrollbar{
-    width: 8px;
+    width: 4px;
 }
 
 ::-webkit-scrollbar-track{
@@ -66,6 +66,7 @@ hr {
     padding: 5px 25px;
     padding-right: 40px;
     height: 100px;
+    z-index: 9998;
 }
 
 #logo-container {
@@ -111,16 +112,6 @@ hr {
     color:#a38a4b; 
 }
 
-#hamburger-container {
-    display: flex;
-    align-items: center;
-}
-
-#hamburger-container i {
-    margin-left: 25px;
-    cursor: pointer;
-}
-
 #hamburger {
     cursor: pointer;
     color: #000000;
@@ -131,9 +122,10 @@ hr {
     display: flex;
     position: fixed;
     height: calc(100vh);
+    max-width: 150px;
     top: 0;
     animation: slide-in 0.4s forwards;
-    z-index: 1;
+    z-index: 9999;
 }
 
 .body-container-open {
@@ -142,9 +134,8 @@ hr {
     height: calc(100vh);
     top: 0;
     animation: slide-out 0.4s forwards;
-
     #hamburger {
-        margin-left: 200px;
+        margin-left: 120px;
         cursor: pointer;
         color: #ffffff;
     }
@@ -166,6 +157,7 @@ hr {
     width: 240px;
     overflow-y: scroll;
     color: #fff;
+    z-index: 100;
 }
   
 #sidebar a {
@@ -241,11 +233,7 @@ hr {
 @media (max-width: 900px){
     .header{
         padding-right: 10px;
-    }
-
-    #link-container i {
-        margin-right: 15px;
-    }    
+    } 
 }
 
 @media (max-width: 500px){
