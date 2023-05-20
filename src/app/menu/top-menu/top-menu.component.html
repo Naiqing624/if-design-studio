@@ -5,14 +5,16 @@
   <div class="header">
       <div id="logo-container">
           <div class="logo">
-              <a [routerLink]="'home'"><h1>IF DESIGN STUDIO</h1></a>
+              <a [routerLink]="'首页'"><h1>IF DESIGN STUDIO</h1></a>
           </div>
       </div>
       <div id="link-container" *ngIf="linksDisplay">
-        <a [routerLink]="'home'" routerLinkActive="active-link" class="sidebar-item">Home</a>
-        <a [routerLink]="'agency'" routerLinkActive="active-link" class="sidebar-item">Agency</a>
-        <a [routerLink]="'project'" routerLinkActive="active-link" class="sidebar-item">Project</a>
-        <a [routerLink]="'contact'" routerLinkActive="active-link" class="sidebar-item">Contact</a>
+        <a [routerLink]="'首页'" routerLinkActive="active-link" class="sidebar-item">首页</a>
+        <a [routerLink]="'平面设计'" routerLinkActive="active-link" class="sidebar-item">平面设计</a>
+        <a [routerLink]="'UI/UX'" routerLinkActive="active-link" class="sidebar-item">UI/UX</a>
+        <a [routerLink]="'插画'" routerLinkActive="active-link" class="sidebar-item">插画</a>
+        <a [routerLink]="'关于我们'" routerLinkActive="active-link" class="sidebar-item">关于我们</a>
+        <a [routerLink]="'联系我们'" routerLinkActive="active-link" class="sidebar-item">联系我们</a>
       </div>   
       <div id="hamburger-container" *ngIf="!linksDisplay">
         <i id="hamburger" class="ri-menu-line" (click)="toggleSidebar()"></i>
@@ -25,10 +27,12 @@
           <i id="hamburger" class="ri-close-line" (click)="toggleSidebar()" *ngIf="sidebarOpen"></i>
         </div>
         <div id="sidebar-items">
-            <a [routerLink]="'home'" routerLinkActive="active-link" class="sidebar-item">Home</a>
-            <a [routerLink]="'agency'" routerLinkActive="active-link" class="sidebar-item">Agency</a>
-            <a [routerLink]="'project'" routerLinkActive="active-link" class="sidebar-item">Project</a>
-            <a [routerLink]="'contact'" routerLinkActive="active-link" class="sidebar-item">Contact</a>
+            <a [routerLink]="'首页'" routerLinkActive="active-link" class="sidebar-item">首页</a>
+            <a [routerLink]="'平面设计'" routerLinkActive="active-link" class="sidebar-item">平面设计</a>
+            <a [routerLink]="'UI/UX'" routerLinkActive="active-link" class="sidebar-item">UI/UX</a>
+            <a [routerLink]="'插画'" routerLinkActive="active-link" class="sidebar-item">插画</a>
+            <a [routerLink]="'关于我们'" routerLinkActive="active-link" class="sidebar-item">关于我们</a>
+            <a [routerLink]="'联系我们'" routerLinkActive="active-link" class="sidebar-item">联系我们</a>
         </div>
       </div>
   </div>
