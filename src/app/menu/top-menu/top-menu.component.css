@@ -57,22 +57,19 @@ hr {
 .header {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 25px;
-    padding-right: 40px;
-    height: 100px;
+    height: 80px;
     z-index: 9998;
 }
 
 #logo-container {
     display: flex;
     align-items: center;
-    padding-left: 300px;
+    padding-left: 260px;
 }
 
 .logo {
