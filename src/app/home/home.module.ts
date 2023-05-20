@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     RouterModule.forChild([{ path: "", component: HomeComponent }]),
     CommonModule
-  ]
+  ],
+  exports: [HomeComponent]
 })
 export class HomeModule { }

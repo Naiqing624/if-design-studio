@@ -8,99 +8,45 @@
 .footer{
     margin-top: 150px;
     width: 100%;
-    padding: 100px 15%;
+    padding: 50px 15%;
     background: #333;
     color: #efefef;
     display: flex;
 }
 
-.footer div {
-    text-align: center;
+#container{
+    display: flex;
+    justify-content: center;
 }
 
-.col-2{
-    flex-grow: 2;
+#logos{
+    padding-top: 30px;
+    font-size: 20px;
+    display: flex;
 }
 
-.footer div h3 {
-    font-weight: 300;
-    margin-bottom: 30px;
-    letter-spacing: 1px;
+.padding{
+    padding-left: 25px;
 }
 
-.col-1 a {
-    display: block;
-    text-decoration: none;
-    color: #efefef;
-    margin-bottom: 10px;
+.fa-weixin{
+    padding: 7px;
+    background-color: green;
+    border-radius: 50%;
 }
 
-form input {
-    width: 400px;
-    height: 45px;
-    border-radius: 4px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    outline: none;
-    border: none;
+.fa-linkedin{
+    padding: 7px;
+    background-color: rgb(7, 147, 241);
+    border-radius: 50%;
 }
 
-form button {
-    background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    border-radius: 30px;
-    padding: 10px 30px;
-    font-size: 15px;
+.fa-instagram{
+    padding: 7px;
+    background-color: rgb(224, 18, 224);
+    border-radius: 50%;
 }
 
-.social-icons {
-    margin-top: 30px;
-}
-
-.social-icons a {
-    font-size: 22px;
-    margin: 10px;
-}
-
-/* Style all font awesome icons */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: auto;
-    text-align: center;
-    text-decoration: none;
-}
-  
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
-}
-  
-/* Set a specific color for each brand */
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-  
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-@media screen and (max-width: 1000px) {
-    .footer {
-        display: block;
-    }
+#useful_links{
+    padding-left: 150px;
 }

@@ -24,7 +24,7 @@ export class TopMenuComponent implements OnInit {
 
   @HostListener('window:resize', ['$event'])
   checkScreenSize(): void{
-    if (window.innerWidth > 900) {
+    if (window.innerWidth > 1000) {
       this.linksDisplay = true;
     }else {
       this.linksDisplay = false;

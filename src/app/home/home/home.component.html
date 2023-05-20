@@ -55,7 +55,6 @@
             <a href="#">
                 <div class="container">
                     <img src="../../../assets/images/gt_motors.png" alt="icone" class="image">
-                    
                         <div class="overlay">
                             <div class="textSection2">Hello World</div>
                         </div>
@@ -65,7 +64,6 @@
             <a href="#">
                 <div class="container">
                     <img src="../../../assets/images/dore.png" alt="icone" class="image">
-                    
                         <div class="overlay">
                             <div class="textSection2">Hello World</div>
                         </div>
@@ -74,7 +72,6 @@
             <a href="#">
                 <div class="container">
                     <img src="../../../assets/images/paques.png" alt="icone" class="image">
-                    
                         <div class="overlay">
                             <div class="textSection2">Hello World</div>
                         </div>
@@ -87,7 +84,6 @@
             <a href="#">
                 <div class="container">
                     <img src="../../../assets/images/rochelle.png" alt="icone" class="image">
-                    
                         <div class="overlay">
                             <div class="textSection2">Hello World</div>
                         </div>
@@ -96,7 +92,6 @@
             <a href="#">
                 <div class="container">
                     <img src="../../../assets/images/yelo.png" alt="icone" class="image">
-                    
                         <div class="overlay">
                             <div class="textSection2">Hello World</div>
                         </div>
@@ -105,12 +100,31 @@
             <a href="#">
                 <div class="container">
                     <img src="../../../assets/images/dejeuner.png" alt="icone" class="image">
-                    
                         <div class="overlay">
                             <div class="textSection2">Hello World</div>
                         </div>
                 </div>
             </a>
         </div>        
+    </div>
+</div>
+<div id="logos">
+    <div id="logo-list">
+      <img draggable="false" *ngFor="let logo of logos" class="logo" [src]="logo.src" [alt]="logo.alt">
+    </div>
+</div>
+<div id="discussion">
+    <div id="discussion_image">
+        <img class="image_discussion" draggable="false" src="../../../assets/images/creative.png">
+    </div>
+    <div id="discussion_text">
+        <div id="imgDiscussion">
+            <img draggable="false" src="../../../assets/images/communication.png" width="50px" height="50px">
+        </div>
+        <div id="textDiscussion">
+            <h2>Échangeons Sur Votre Projet !</h2>
+            <p style="font-size: 17px; padding-bottom: 40px;">Notre agence de communication vous accompagne dans l'élaboration de votre stratégie de marque</p>
+            <button id="contactDiscussion">CONTACTEZ-NOUS</button>
+        </div>           
     </div>
 </div>

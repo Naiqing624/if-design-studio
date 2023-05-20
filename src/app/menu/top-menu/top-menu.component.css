@@ -87,7 +87,7 @@ hr {
 #link-container {
     display: flex;
     align-items: center;
-    padding-right: 300px;
+    padding-right: 260px;
 }
 
 #link-container i {
@@ -112,6 +112,7 @@ hr {
 #hamburger {
     cursor: pointer;
     color: #000000;
+    padding-right: 50px;
 }
 
 /* body container starts here*/
@@ -132,7 +133,7 @@ hr {
     top: 0;
     animation: slide-out 0.4s forwards;
     #hamburger {
-        margin-left: 120px;
+        margin-left: 80px;
         cursor: pointer;
         color: #ffffff;
     }
@@ -223,14 +224,22 @@ hr {
     }
     
     #link-container {
-        padding-right: 0;
+        padding-right: 100px;
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
     .header{
         padding-right: 10px;
     } 
+}
+
+@media (max-width: 700px){
+    .body-container-open {
+        #hamburger {
+            margin-left: 90px;
+        }
+    }
 }
 
 @media (max-width: 500px){
@@ -244,5 +253,18 @@ hr {
 
     #hamburger {
         font-size: 1rem;
+        padding-right: 30px;
+    }
+
+    .body-container-open {
+        #hamburger {
+            margin-left: 110px;
+        }
+    }
+}
+
+@media (max-width: 400px){
+    #hamburger {
+        padding-right: 20px;
     }
 }
