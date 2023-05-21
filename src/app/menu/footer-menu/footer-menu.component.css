@@ -8,7 +8,7 @@
 .footer{
     margin-top: 150px;
     width: auto;
-    padding: 50px 10%;
+    padding: 50px 5%;
     background: #333;
     color: #efefef;
     display: flex;
@@ -17,6 +17,12 @@
 #container{
     display: flex;
     justify-content: center;
+}
+
+#phones{
+    padding-top: 20px;
+    display: block;
+    font-size: 25px;
 }
 
 #logos{
@@ -48,18 +54,20 @@
 }
 
 #useful_links{
-    padding-left: 150px;
+    padding-left: 300px;
+    font-size: 18px;
+    line-height: 40px;
 }
 
 @media (max-width: 1700px){ 
     #useful_links{
-        padding-left: 125px;
+        padding-left: 250px;
     }
 }
 
 @media (max-width: 1600px){ 
     #useful_links{
-        padding-left: 75px;
+        padding-left: 200px;
     }
 }
 
@@ -71,13 +79,13 @@
 
 @media (max-width: 1400px){ 
     #useful_links{
-        padding-left: 50px;
+        padding-left: 150px;
     }
 }
 
 @media (max-width: 1300px){ 
     #useful_links{
-        padding-left: 25px;
+        padding-left: 100px;
     }
 }
 
@@ -96,6 +104,10 @@
 
     #logos{
         justify-content: center;
+    }
+
+    #phones{
+        text-align: center;
     }
 }
 

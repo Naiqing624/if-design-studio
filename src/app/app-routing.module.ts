@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home/home.component';
 
 const routes: Routes = [
-  {path: "首页", component: HomeComponent}
+  {path: "首页", component: HomeComponent},
+  {path: "联系我们", component: HomeComponent}
 ];
 
 @NgModule({

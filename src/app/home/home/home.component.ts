@@ -46,10 +46,11 @@ export class HomeComponent {
 
   onMouseMove = (event: MouseEvent) => {
     const distanceX = event.clientX - this.startX;
-    // Défiler horizontalement en ajustant la valeur de défilement (par exemple, utiliser scrollLeft)
     const logoList = document.getElementById('logo-list');
     if (logoList) {
-      logoList.scrollLeft -= distanceX;
+      if(event.clientY > 642 && event.clientY < 803){
+        logoList.scrollLeft -= distanceX;
+      }
     }
     this.startX = event.clientX;
   };
