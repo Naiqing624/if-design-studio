@@ -7,8 +7,8 @@
 
 .footer{
     margin-top: 150px;
-    width: 100%;
-    padding: 50px 15%;
+    width: auto;
+    padding: 50px 10%;
     background: #333;
     color: #efefef;
     display: flex;
@@ -49,4 +49,58 @@
 
 #useful_links{
     padding-left: 150px;
+}
+
+@media (max-width: 1700px){ 
+    #useful_links{
+        padding-left: 125px;
+    }
+}
+
+@media (max-width: 1600px){ 
+    #useful_links{
+        padding-left: 75px;
+    }
+}
+
+@media (max-width: 1500px){ 
+    .footer{
+        padding: 50px 5%;
+    }
+}
+
+@media (max-width: 1400px){ 
+    #useful_links{
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 1300px){ 
+    #useful_links{
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 1100px){ 
+    #useful_links{
+        padding-left: 0;
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    #container{
+        display: table;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    #logos{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px){ 
+    h1{
+        font-size: 25px;
+    }
 }

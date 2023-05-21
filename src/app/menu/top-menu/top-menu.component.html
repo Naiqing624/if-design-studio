@@ -3,37 +3,93 @@
 </head>
 <body>
   <div class="header">
-      <div id="logo-container">
-          <div class="logo">
-              <a [routerLink]="'首页'"><h1>IF DESIGN STUDIO</h1></a>
-          </div>
+    <div id="logo-container">
+      <div class="logo">
+        <a [routerLink]="'首页'"><h1>IF DESIGN STUDIO</h1></a>
       </div>
-      <div id="link-container" *ngIf="linksDisplay">
+    </div>
+    <div id="link-container" *ngIf="linksDisplay">
+      <a [routerLink]="'首页'" routerLinkActive="active-link" class="sidebar-item">首页</a>
+      <nav>
+        <label for="btn" class="button">平面设计
+          <span class="fa fa-angle-down"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul class="menu">
+          <li>
+            <label for="btn-2" class="first">Features
+              <span class="fa fa-angle-down"></span>
+            </label>
+            <input type="checkbox" id="btn-2">
+            <ul>
+              <li><a href="#">Pages</a></li>
+            </ul>
+          </li>
+          <li>
+            <label for="btn-3" class="second">Services
+              <span class="fa fa-angle-down"></span>
+            </label>
+            <input type="checkbox" id="btn-3">
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">App Design</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </nav>
+      <a [routerLink]="'UI/UX'" routerLinkActive="active-link" class="sidebar-item">UI/UX</a>
+      <a [routerLink]="'插画'" routerLinkActive="active-link" class="sidebar-item">插画</a>
+      <a [routerLink]="'关于我们'" routerLinkActive="active-link" class="sidebar-item">关于我们</a>
+      <a [routerLink]="'联系我们'" routerLinkActive="active-link" class="sidebar-item">联系我们</a>
+    </div>
+    <div id="hamburger-container" *ngIf="!linksDisplay">
+      <i id="hamburger" class="ri-menu-line" (click)="toggleSidebar()"></i>
+    </div>
+  </div>
+  <div class="body-container" [class.body-container-open]="sidebarOpen" *ngIf="!linksDisplay">
+    <div id="sidebar">
+      <div class="link-container">
+        <i id="hamburger" class="ri-menu-line" (click)="toggleSidebar()" *ngIf="!sidebarOpen"></i>
+        <i id="hamburger" class="ri-close-line" (click)="toggleSidebar()" *ngIf="sidebarOpen"></i>
+      </div>
+      <div id="sidebar-items">
         <a [routerLink]="'首页'" routerLinkActive="active-link" class="sidebar-item">首页</a>
-        <a [routerLink]="'平面设计'" routerLinkActive="active-link" class="sidebar-item">平面设计</a>
+        <ul id="submenu">
+          <label for="btn">平面设计
+            <span class="fa fa-angle-down"></span>
+          </label>
+          <input type="checkbox" id="btn">
+          <ul>
+            <li>
+              <label for="btn-2" class="first">Features
+                <span class="fa fa-angle-down"></span>
+              </label>
+              <input type="checkbox" id="btn-2">
+              <ul>
+                <li><a href="#">Pages</a></li>
+              </ul>
+            </li>
+            <li>
+              <label for="btn-3" class="second">Services
+                <span class="fa fa-angle-down"></span>
+              </label>
+              <input type="checkbox" id="btn-3">
+              <ul>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">App Design</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+        </ul>
         <a [routerLink]="'UI/UX'" routerLinkActive="active-link" class="sidebar-item">UI/UX</a>
         <a [routerLink]="'插画'" routerLinkActive="active-link" class="sidebar-item">插画</a>
         <a [routerLink]="'关于我们'" routerLinkActive="active-link" class="sidebar-item">关于我们</a>
         <a [routerLink]="'联系我们'" routerLinkActive="active-link" class="sidebar-item">联系我们</a>
-      </div>   
-      <div id="hamburger-container" *ngIf="!linksDisplay">
-        <i id="hamburger" class="ri-menu-line" (click)="toggleSidebar()"></i>
-      </div>      
-  </div>
-  <div class="body-container" [class.body-container-open]="sidebarOpen" *ngIf="!linksDisplay">
-      <div id="sidebar">
-        <div class="link-container">
-          <i id="hamburger" class="ri-menu-line" (click)="toggleSidebar()" *ngIf="!sidebarOpen"></i>
-          <i id="hamburger" class="ri-close-line" (click)="toggleSidebar()" *ngIf="sidebarOpen"></i>
-        </div>
-        <div id="sidebar-items">
-            <a [routerLink]="'首页'" routerLinkActive="active-link" class="sidebar-item">首页</a>
-            <a [routerLink]="'平面设计'" routerLinkActive="active-link" class="sidebar-item">平面设计</a>
-            <a [routerLink]="'UI/UX'" routerLinkActive="active-link" class="sidebar-item">UI/UX</a>
-            <a [routerLink]="'插画'" routerLinkActive="active-link" class="sidebar-item">插画</a>
-            <a [routerLink]="'关于我们'" routerLinkActive="active-link" class="sidebar-item">关于我们</a>
-            <a [routerLink]="'联系我们'" routerLinkActive="active-link" class="sidebar-item">联系我们</a>
-        </div>
       </div>
+    </div>
   </div>
 </body>
