@@ -10,7 +10,7 @@
 </div>
 <div class="section1">
     <h1 class="center">我们为您提供</h1>
-    <div class="tuiles">
+    <div class="tuiles" [ngClass]="{'fade-in-out': opacitySection1 === 1}">
         <div class="box">
             <div class="img">
                 <img src="../../../assets/images/ampoule.png" alt="icone" width="64" height="64">
@@ -50,7 +50,7 @@
             supports de communication print, découvrez les derniers projets <br> 
             créatifs menés par notre agence de communication visuelle.</p>
     </div>
-    <div class="tuiles">
+    <div class="tuilesSection2" [ngClass]="{'tuiles2': opacitySection2 === 1}">
         <div class="boxSection2">
             <a href="#">
                 <div class="container">
@@ -79,7 +79,7 @@
             </a>
         </div>
     </div>
-    <div class="tuiles">
+    <div class="tuilesSection2" [ngClass]="{'tuiles3': opacitySection2 === 1}">
         <div class="boxSection2">
             <a href="#">
                 <div class="container">
@@ -112,7 +112,7 @@
     </div>
 </div>
 <div id="logos">
-    <div id="logo-list">
+    <div id="logo-list" class="logo-list" [ngClass]="{'logos': opacityLogos === 1}">
       <img draggable="false" *ngFor="let logo of logos" class="logo" [src]="logo.src" [alt]="logo.alt">
     </div>
 </div>

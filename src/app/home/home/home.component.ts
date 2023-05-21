@@ -12,6 +12,10 @@ interface Logo {
 })
 export class HomeComponent {
   startX: number;
+  opacitySection1 = 1;
+  opacitySection2 = 1;
+  opacityLogos = 1;
+
   logos: Logo[] = [
     { src: '../../../assets/images/logos/apple.png', alt: 'apple' },
     { src: '../../../assets/images/logos/bk.png', alt: 'burger king' },
@@ -48,12 +52,13 @@ export class HomeComponent {
     const distanceX = event.clientX - this.startX;
     const logoList = document.getElementById('logo-list');
     if (logoList) {
-      if(event.clientY > 642 && event.clientY < 803){
+      const logoListRect = logoList.getBoundingClientRect();
+      if (event.clientY >= logoListRect.top && event.clientY <= logoListRect.bottom) {
         logoList.scrollLeft -= distanceX;
       }
     }
     this.startX = event.clientX;
-  };
+  };  
 
   onMouseUp = () => {
     document.removeEventListener('mousemove', this.onMouseMove);
@@ -71,16 +76,44 @@ export class HomeComponent {
   onTouchMove = (event: TouchEvent) => {
     const touch = event.touches[0];
     const distanceX = touch.clientX - this.startX;
-    // Défiler horizontalement en ajustant la valeur de défilement (par exemple, utiliser scrollLeft)
     const logoList = document.getElementById('logo-list');
     if (logoList) {
-      logoList.scrollLeft -= distanceX;
+      const logoListRect = logoList.getBoundingClientRect();
+      if (touch.clientY >= logoListRect.top && touch.clientY <= logoListRect.bottom) {
+        logoList.scrollLeft -= distanceX;
+      }
     }
     this.startX = touch.clientX;
   };
+  
 
   onTouchEnd = () => {
     document.removeEventListener('touchmove', this.onTouchMove);
     document.removeEventListener('touchend', this.onTouchEnd);
   };
+
+  @HostListener('window:scroll', ['$event'])
+  onScroll() {
+    const tuiles = document.querySelector('.tuiles');
+    const tuilesSection2 = document.querySelector('.tuilesSection2');
+    const logos = document.querySelector('.logo-list');
+
+    if (tuiles && tuiles.getBoundingClientRect().top <= window.innerHeight) {
+      this.opacitySection1 = 1;
+    }else{
+      this.opacitySection1 = 0;
+    }
+
+    if (tuilesSection2 && tuilesSection2.getBoundingClientRect().top <= window.innerHeight) {
+      this.opacitySection2 = 1;
+    }else{
+      this.opacitySection2 = 0;
+    }
+
+    if (logos && logos.getBoundingClientRect().top <= window.innerHeight) {
+      this.opacityLogos = 1;
+    }else{
+      this.opacityLogos = 0;
+    }
+  }
 }
