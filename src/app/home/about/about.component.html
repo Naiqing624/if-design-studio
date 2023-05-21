@@ -1,0 +1,16 @@
+<h2>IF 设计工作室，为您的项目锦上添花</h2>
+<div id="section1">
+    <div id="about">
+        <h3>À PROPOS</h3>
+        <h1>Stratégie et créativité au service de votre projet !</h1>
+        <div class="content" [ngStyle]="{ 'max-height': isExpanded ? 'none' : '150px', 'overflow': isExpanded ? 'visible' : 'hidden' }">
+            <p>L’objectif de notre agence de communication est de révéler votre marque aux yeux de votre cible et d’atteindre vos objectifs en matière de communication d’entreprise. Attirer l’attention de votre public dans une société où la publicité est omniprésente est un défi de taille.</p>
+            <p>Opter pour un positionnement omnicanal décuple vos chances de toucher et de marquer l’esprit de votre audience. Notre travail consiste donc à vous accompagner et à vous conseiller dans l’élaboration de la stratégie de communication qui permettra de promouvoir votre marque ou votre entreprise. Grâce à notre expertise, notre créativité et nos compétences techniques, nous sommes en mesure de répondre à vos objectifs. Notre agence de communication visuelle et design graphique vous propose des solutions personnalisées, sur mesure et adaptées à vos besoins.</p>
+        </div>
+
+        <p class="read-more" (click)="toggleExpansion()">{{ isExpanded ? 'Lire moins' : 'Lire plus' }}</p>
+    </div>
+    <div id="aboutImage">
+       <img id="image" src="../../../assets/images/gt_motors.png" alt="about">
+    </div>
+</div>
