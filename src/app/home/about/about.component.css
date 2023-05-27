@@ -27,14 +27,19 @@ h2{
 
 .content {
     transition: max-height 0.3s ease-in-out;
-  }
+}
   
 .read-more {
     color: blue;
     cursor: pointer;
 }  
 
-#image{
+#imageSection1{
+    width: 572px;
+    height: 413px;
+}
+
+#imageSection2{
     width: 572px;
     height: 413px;
 }
@@ -69,4 +74,177 @@ h2{
 
 #first {
     padding-right: 14px;
+}
+
+@media screen and (max-width: 1800px) {
+    #section1 {
+        padding-top: 153px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    #section2 {
+        background-size: 100% 60%;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #section1 {
+        padding-top: 153px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #section2 {
+        background-size: 100% 60%;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    h2{
+        font-size: 38px;
+    }
+
+    #about p{
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    #images{
+        padding-right: 100px;
+    }
+
+    #imageSize{
+        width: 230px;
+        height: 150px;
+    }
+
+    #imageSection1{
+        width: 475px;
+        height: 325px;
+    }
+
+    #imageSection2{
+        width: 475px;
+        height: 325px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1100px) {    
+    #section1 {
+        display: table;
+        padding-top: 75px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    #about{
+        padding-right: 0;
+    }
+
+    #about h3, h1 {
+        text-align: center;
+    }
+
+    .content, .read-more {
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+    #aboutImage {
+        text-align: center;
+    }
+    
+    #section2 {
+        background-size: auto 60%;
+    }
+    
+    #images{
+        padding-right: 50px;
+    }
+
+    #section2 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {   
+    #section2 {
+        display: table;
+        background-position: 0 150px;
+        padding-top: 122px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    #images{
+        padding-right: 0;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    
+    #imagesRight{
+        display: block;
+    }
+    
+    #imageSize{
+        width: 280px;
+        height: 210px;
+    }
+
+    #imageSection2{
+        width: 280px;
+        height: 210px;
+    }
+    
+    #imageLeft{
+        padding-top: 0;
+    }
+    
+    #first {
+        padding-right: 0;
+        padding-bottom: 25px;
+    }
+
+    #second {
+        padding-bottom: 25px;
+    }
+
+    #textRight{
+        text-align: center;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    #section1 {
+        padding-top: 25px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    #imageSection1{
+        width: 280px;
+        height: 210px;
+    }
+
+    .content, .read-more {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
