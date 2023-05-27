@@ -4,6 +4,9 @@ h2{
     padding-top: 60px;
     margin-top: 65px;
     padding-bottom: 65px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 67.2px;
 }
 
 #section1 {
@@ -31,7 +34,39 @@ h2{
     cursor: pointer;
 }  
 
-#image {
-    width: 690px; 
+#image{
+    width: 572px;
     height: 413px;
+}
+
+#section2 {
+    display: flex;
+    background-image: url(../../../assets/images/banner.png);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    background-position: 0 200px;
+    padding-top: 244px;
+    padding-left: 260px;
+    padding-right: 260px;
+}
+
+#images{
+    padding-right: 238px;
+}
+
+#imagesRight{
+    display: flex;
+}
+
+#imageSize{
+    width: 280px;
+    height: 210px;
+}
+
+#imageLeft{
+    padding-top: 60px;
+}
+
+#first {
+    padding-right: 14px;
 }
