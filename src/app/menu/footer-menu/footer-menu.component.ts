@@ -4,7 +4,7 @@ import { FooterService } from 'src/app/home/services/footer.service';
 @Component({
   selector: 'app-footer-menu',
   templateUrl: './footer-menu.component.html',
-  styleUrls: ['./footer-menu.component.css']
+  styleUrls: ['./footer-menu.component.scss']
 })
 export class FooterMenuComponent {
   currentUrl: string;

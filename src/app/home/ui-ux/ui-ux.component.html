@@ -16,38 +16,20 @@
     </div>
 </div>
 <div id="section2">
-    <body>
-        <div class="slider">
-            <div class="item">
-                <h1>Slide 1</h1>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
+    <div class="slider-container">
+      <div class="slider">
+        <div class="cards-wrapper">
+          <div class="card" *ngFor="let card of cards; let i = index" [class.active]="i === 1">
+            <img src="{{ card.image }}" alt="Card Image" />
+            <div class="card-content">
+              <h3>{{ card.title }}</h3>
+              <p>{{ card.description }}</p>
             </div>
-            <div class="item">
-                <h1>Slide 2</h1>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
-            </div>
-            <div class="item">
-                <h1>Slide 3</h1>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
-            </div>
-            <div class="item">
-                <h1>Slide 4</h1>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
-            </div>
-            <div class="item">
-                <h1>Slide 5</h1>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
-            </div>
-            <div class="item">
-                <h1>Slide 6</h1>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
-            </div>
-            <div class="item">
-                <h1>Slide 7</h1>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
-            </div>
-            <button id="next">></button>
-            <button id="prev"><</button>
+          </div>
         </div>
-    </body>
-</div>
+      </div>
+      <div class="slider-arrow left" (click)="slideLeft()">&lt;</div>
+      <div class="slider-arrow right" (click)="slideRight()">&gt;</div>
+    </div>
+  </div>
+  
