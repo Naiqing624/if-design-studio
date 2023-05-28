@@ -4,12 +4,14 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { UiUxComponent } from './ui-ux/ui-ux.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    UiUxComponent
   ],
   imports: [
     RouterModule.forChild([{ path: "", component: HomeComponent }]),
