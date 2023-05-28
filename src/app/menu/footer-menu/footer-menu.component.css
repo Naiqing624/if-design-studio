@@ -1,12 +1,19 @@
 * {
     margin: 0;
-    padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
 .footer{
     margin-top: 150px;
+    width: auto;
+    padding: 50px 5%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+
+.footerContact{
     width: auto;
     padding: 50px 5%;
     background: #333;

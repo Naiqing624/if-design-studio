@@ -1,5 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { FooterService } from 'src/app/home/services/footer.service';
 
 @Component({
   selector: 'app-top-menu',
@@ -11,7 +12,7 @@ export class TopMenuComponent implements OnInit {
   sidebarOpen = false;
   linksDisplay = true;
   
-  constructor(private readonly router: Router){}
+  constructor(private readonly router: Router, private readonly footerService: FooterService){}
 
   ngOnInit(): void {
     this.checkScreenSize();
@@ -29,5 +30,9 @@ export class TopMenuComponent implements OnInit {
     }else {
       this.linksDisplay = false;
     }
+  }
+
+  changeCSS(cssClass: string) {
+    this.footerService.cssClass = cssClass;
   }
 }

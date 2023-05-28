@@ -9,23 +9,23 @@
       </div>
     </div>
     <div id="link-container" *ngIf="linksDisplay">
-      <a [routerLink]="'首页'" routerLinkActive="active-link" class="sidebar-item">首页</a>
+      <a [routerLink]="'首页'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">首页</a>
       <nav>
         <label for="btn" class="button" style="color: white">平面设计
           <span class="fa fa-angle-down"></span>
         </label>
         <input type="checkbox" id="btn">
         <ul>
-          <li><a href="#">品牌全案设计</a></li>
-          <li><a href="#">LOGO设计</a></li>
-          <li><a href="#">书籍刊印</a></li>
-          <li><a href="#">宣传物料</a></li>
+          <li><a href="#" (click)="changeCSS('footer')">品牌全案设计</a></li>
+          <li><a href="#" (click)="changeCSS('footer')">LOGO设计</a></li>
+          <li><a href="#" (click)="changeCSS('footer')">书籍刊印</a></li>
+          <li><a href="#" (click)="changeCSS('footer')">宣传物料</a></li>
         </ul>
       </nav>
-      <a [routerLink]="'UI/UX'" routerLinkActive="active-link" class="sidebar-item">UI/UX</a>
-      <a [routerLink]="'插画'" routerLinkActive="active-link" class="sidebar-item">插画</a>
-      <a [routerLink]="'关于我们'" routerLinkActive="active-link" class="sidebar-item">关于我们</a>
-      <a [routerLink]="'联系我们'" routerLinkActive="active-link" class="sidebar-item">联系我们</a>
+      <a [routerLink]="'UI/UX'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">UI/UX</a>
+      <a [routerLink]="'插画'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">插画</a>
+      <a [routerLink]="'关于我们'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">关于我们</a>
+      <a [routerLink]="'联系我们'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footerContact')">联系我们</a>
     </div>
     <div id="hamburger-container" *ngIf="!linksDisplay">
       <i id="hamburger" class="ri-menu-line" (click)="toggleSidebar()"></i>
@@ -38,23 +38,23 @@
         <i id="hamburger" class="ri-close-line" (click)="toggleSidebar()" *ngIf="sidebarOpen"></i>
       </div>
       <div id="sidebar-items">
-        <a [routerLink]="'首页'" routerLinkActive="active-link" class="sidebar-item">首页</a>
+        <a [routerLink]="'首页'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">首页</a>
         <ul id="submenu">
           <label for="btn">平面设计
             <span class="fa fa-angle-down"></span>
           </label>
           <input type="checkbox" id="btn">
           <ul>
-            <li><a href="#">品牌全案设计</a></li>
-            <li><a href="#">LOGO设计</a></li>
-            <li><a href="#">书籍刊印</a></li>
-            <li><a href="#">宣传物料</a></li>
+            <li><a href="#" (click)="changeCSS('footer')">品牌全案设计</a></li>
+            <li><a href="#" (click)="changeCSS('footer')">LOGO设计</a></li>
+            <li><a href="#" (click)="changeCSS('footer')">书籍刊印</a></li>
+            <li><a href="#" (click)="changeCSS('footer')">宣传物料</a></li>
           </ul>
         </ul>
-        <a [routerLink]="'UI/UX'" routerLinkActive="active-link" class="sidebar-item">UI/UX</a>
-        <a [routerLink]="'插画'" routerLinkActive="active-link" class="sidebar-item">插画</a>
-        <a [routerLink]="'关于我们'" routerLinkActive="active-link" class="sidebar-item">关于我们</a>
-        <a [routerLink]="'联系我们'" routerLinkActive="active-link" class="sidebar-item">联系我们</a>
+        <a [routerLink]="'UI/UX'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">UI/UX</a>
+        <a [routerLink]="'插画'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">插画</a>
+        <a [routerLink]="'关于我们'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">关于我们</a>
+        <a [routerLink]="'联系我们'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footerContact')">联系我们</a>
       </div>
     </div>
   </div>
