@@ -29,22 +29,19 @@ export class UiUxComponent {
   activeIndex: number = 1;
 
   slideLeft() {
-    this.activeIndex = (this.activeIndex - 1 + this.cards.length) % this.cards.length;
-    this.updateCardsOrder();
+    const tempCard = this.cards[0];
+    this.cards[0] = this.cards[2];
+    this.cards[2] = this.cards[1];
+    this.cards[1] = tempCard;
+    this.activeIndex = 2;
   }
 
   slideRight() {
-    this.activeIndex = (this.activeIndex + 1) % this.cards.length;
-    this.updateCardsOrder();
-  }
-
-  updateCardsOrder() {
-    const shiftedCards = [
-      this.cards[(this.activeIndex + 2) % this.cards.length],
-      this.cards[this.activeIndex],
-      this.cards[(this.activeIndex + 1) % this.cards.length]
-    ];
-    this.cards = shiftedCards;
+    const tempCard = this.cards[2];
+    this.cards[2] = this.cards[0];
+    this.cards[0] = this.cards[1];
+    this.cards[1] = tempCard;
+    this.activeIndex = 0;
   }
 
   toggleExpansion() {
