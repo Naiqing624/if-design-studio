@@ -19,7 +19,7 @@
     <div class="slider-container">
       <div class="slider">
         <div class="cards-wrapper">
-          <div class="card" *ngFor="let card of cards; let i = index" [class.active]="i === 1">
+          <div class="card" *ngFor="let card of cards; let i = index" [class.active]="i === 1" (click)="cardClick(i)" [ngClass]="card.animationClass">
             <img src="{{ card.image }}" alt="Card Image" />
             <div class="card-content">
               <h3>{{ card.title }}</h3>
@@ -28,8 +28,7 @@
           </div>
         </div>
       </div>
-      <div class="slider-arrow left" (click)="slideLeft()">&lt;</div>
-      <div class="slider-arrow right" (click)="slideRight()">&gt;</div>
+      <div class="slider-arrow left" (click)="slideLeft()"><img id="arrowLeft" src="../../../assets/images/arrow_left.png" alt="arrow left"></div>
+      <div class="slider-arrow right" (click)="slideRight()"><img id="arrowRight" src="../../../assets/images/arrow_right.png" alt="arrow right"></div>
     </div>
   </div>
-  
