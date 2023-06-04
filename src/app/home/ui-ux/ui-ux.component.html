@@ -19,21 +19,21 @@
   <div class="button button--left" (click)="leftButtonClick()"><img id="arrowLeft" src="../../../assets/images/arrow_left.png" alt="arrow left"></div>
   <div class="button button--right" (click)="rightButtonClick()"><img id="arrowRight" src="../../../assets/images/arrow_right.png" alt="arrow right"></div>
   <ul class="carousel">
-    <li class="item item--1" data-position="1">
+    <li class="item item--1" data-position="1" (click)="onItemClicked(0)">
       <img src="../../../assets/images/市场方案.png" alt="Card Image" />
       <div class="card-content">
         <h3>市场方案</h3>
         <p>市场方案市场方案市场方案</p>
       </div>
     </li>
-    <li class="item item--2" data-position="2">
+    <li class="item item--2" data-position="2" (click)="onItemClicked(1)">
       <img src="../../../assets/images/品牌方案.png" alt="Card Image" />
       <div class="card-content">
         <h3>品牌方案</h3>
         <p>品牌方案品牌方案品牌方案</p>
       </div>
     </li>
-    <li class="item item--3" data-position="3">
+    <li class="item item--3" data-position="3" (click)="onItemClicked(2)">
       <img src="../../../assets/images/推广方案.png" alt="Card Image" />
       <div class="card-content">
         <h3>推广方案</h3>

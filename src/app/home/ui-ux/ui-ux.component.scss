@@ -52,6 +52,7 @@ h2 {
 
 .button {
   position: absolute;
+  cursor: pointer;
 
   img {
     width: 30%;
@@ -110,6 +111,7 @@ h2 {
 
 [data-position='1'] {
   transform: translate3d(-480px, 0px, 0px);
+  cursor: pointer;
   z-index: 1;
 }
 
@@ -119,6 +121,7 @@ h2 {
 }
 
 [data-position='3'] {
+  cursor: pointer;
   transform: translate3d(480px, 0px, -5px);
   z-index: 2;
 }

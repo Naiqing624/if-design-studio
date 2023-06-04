@@ -1,4 +1,4 @@
-import { Component, ViewChildren, QueryList } from '@angular/core';
+import { Component, ViewChildren, QueryList, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-ui-ux',
@@ -13,6 +13,20 @@ export class UiUxComponent {
 
   toggleExpansion() {
     this.isExpanded = !this.isExpanded;
+  }
+
+  onItemClicked(position: number) {
+    const items = document.querySelectorAll('.item');
+    const item = items[position] as HTMLElement;
+    const startPosition = item.getAttribute('data-position');
+
+    if(parseInt(startPosition!) === 1){
+      this.rightButtonClick();
+    }
+
+    if(parseInt(startPosition!) === 3){
+      this.leftButtonClick();
+    }
   }
 
   roll(direction: 'left' | 'right') {
@@ -50,9 +64,6 @@ export class UiUxComponent {
         carousel.classList.remove(`moving-${direction}`);
       });
     }
-
-    const activeItem = document.querySelector('[data-position="2"]');
-    console.log(activeItem);
   }
 
   leftButtonClick() {
