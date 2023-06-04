@@ -16,19 +16,29 @@
     </div>
 </div>
 <div id="section2">
-    <div class="slider-container">
-      <div class="slider">
-        <div class="cards-wrapper">
-          <div class="card" *ngFor="let card of cards; let i = index" [class.active]="i === 1" (click)="cardClick(i)" [ngClass]="card.animationClass">
-            <img src="{{ card.image }}" alt="Card Image" />
-            <div class="card-content">
-              <h3>{{ card.title }}</h3>
-              <p>{{ card.description }}</p>
-            </div>
-          </div>
-        </div>
+  <div class="button button--left" (click)="leftButtonClick()"><img id="arrowLeft" src="../../../assets/images/arrow_left.png" alt="arrow left"></div>
+  <div class="button button--right" (click)="rightButtonClick()"><img id="arrowRight" src="../../../assets/images/arrow_right.png" alt="arrow right"></div>
+  <ul class="carousel">
+    <li class="item item--1" data-position="1">
+      <img src="../../../assets/images/市场方案.png" alt="Card Image" />
+      <div class="card-content">
+        <h3>市场方案</h3>
+        <p>市场方案市场方案市场方案</p>
       </div>
-      <div class="slider-arrow left" (click)="slideLeft()"><img id="arrowLeft" src="../../../assets/images/arrow_left.png" alt="arrow left"></div>
-      <div class="slider-arrow right" (click)="slideRight()"><img id="arrowRight" src="../../../assets/images/arrow_right.png" alt="arrow right"></div>
-    </div>
-  </div>
+    </li>
+    <li class="item item--2" data-position="2">
+      <img src="../../../assets/images/品牌方案.png" alt="Card Image" />
+      <div class="card-content">
+        <h3>品牌方案</h3>
+        <p>品牌方案品牌方案品牌方案</p>
+      </div>
+    </li>
+    <li class="item item--3" data-position="3">
+      <img src="../../../assets/images/推广方案.png" alt="Card Image" />
+      <div class="card-content">
+        <h3>推广方案</h3>
+        <p>推广方案推广方案推广方案</p>
+      </div>
+    </li>
+  </ul>
+</div>
