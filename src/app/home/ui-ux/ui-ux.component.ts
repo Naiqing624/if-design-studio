@@ -50,10 +50,10 @@ export class UiUxComponent {
 
       if (endPosition > 3) {
         endPosition = 1;
-        item.style.zIndex = '-1';
+        item.style.zIndex = '';
       } else if (endPosition < 1) {
         endPosition = 3;
-        item.style.zIndex = '-1';
+        item.style.zIndex = '';
       } else {
         item.style.zIndex = '';
       }
