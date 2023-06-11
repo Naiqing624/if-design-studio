@@ -8,7 +8,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class UiUxComponent {
   isExpanded = false;
-  array = [];
+  cardNumber = 2;
 
   @ViewChildren('item')
   items!: QueryList<HTMLElement>;
@@ -36,7 +36,6 @@ export class UiUxComponent {
   roll(direction: 'left' | 'right') {
     const carousel = document.querySelector('.carousel') as HTMLElement;
     const items = document.querySelectorAll('.item');
-    const descs = document.querySelectorAll('.desc');
     carousel.classList.add(`moving-${direction}`);
 
     for (let i = 0; i < items.length; i++) {
@@ -68,34 +67,11 @@ export class UiUxComponent {
       });
     }
 
-    for (let i = 0; i < descs.length; i++) {
-      const desc = descs[i] as HTMLElement;
-      const startPosition = desc.getAttribute('data-position');
-      let endPosition: number;
-  
-      if (direction === 'right') {
-        endPosition = parseInt(startPosition!) + 1;
-      } else if (direction === 'left') {
-        endPosition = parseInt(startPosition!) - 1;
-      } else {
-        endPosition = parseInt(startPosition!);
+    for (let i = 0; i < items.length; i++) {
+      const item = items[i] as HTMLElement;
+      if(item.getAttribute('data-position') === '2'){
+        this.cardNumber = i;
       }
-  
-      if (endPosition > 4) {
-        endPosition = 1;
-        desc.style.zIndex = '';
-      } else if (endPosition < 1) {
-        endPosition = 4;
-        desc.style.zIndex = '';
-      } else {
-        desc.style.zIndex = '';
-      }
-  
-      desc.setAttribute('data-position', endPosition.toString());
-  
-      desc.addEventListener('transitionend', () => {
-        carousel.classList.remove(`moving-${direction}`);
-      });
     }
   }
 
