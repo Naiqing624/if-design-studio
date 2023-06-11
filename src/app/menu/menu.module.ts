@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { TopMenuComponent } from './top-menu/top-menu.component';
 import { FooterMenuComponent } from './footer-menu/footer-menu.component';
 import { RouterModule } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    TranslateModule
   ],
   exports: [
     TopMenuComponent,

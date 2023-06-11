@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { UiUxComponent } from './ui-ux/ui-ux.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { UiUxComponent } from './ui-ux/ui-ux.component';
   ],
   imports: [
     RouterModule.forChild([{ path: "", component: HomeComponent }]),
-    CommonModule
+    CommonModule,
+    TranslateModule.forChild()
   ],
   exports: [HomeComponent]
 })
