@@ -153,7 +153,14 @@
 
 #textSection2{
     text-align: center;
-    padding-bottom: 100px;
+}
+
+#textSection2 h4 {
+    font-size: 24px;
+}
+
+#textSection2 h1 {
+    font-size: 32px;
 }
 
 .boxSection2 {
@@ -284,6 +291,18 @@
     padding-left: 125px;
 }
 
+#imgDiscussion {
+    display: flex;
+    padding-bottom: 78px;
+}
+
+#imgDiscussion h2 {
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 32px;
+}
+
 #textDiscussion{
     position: relative;
     bottom: 10px;
@@ -291,18 +310,24 @@
     width: 400px;
 }
 
+#textDiscussion p {
+    padding-bottom: 65px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 #contactDiscussion {
-    background-color: #2e2e2e;
+    background-color: #000000;
     color: white;
     border: solid 1px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    height: 56px;
-    width: 300px;
+    height: 60px;
+    width: 180px;
     font-size: 17px;
-    border-color: #2e2e2e;
+    border-color: #000000;
     cursor: pointer;
 }
 
@@ -449,10 +474,6 @@
     #textDiscussion{
         padding-left: 0;
         width: 300px;
-    }
-
-    #imgDiscussion{
-        display: none;
     }
 
     #discussion_image{

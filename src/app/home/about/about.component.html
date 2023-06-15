@@ -1,33 +1,49 @@
-<h2>IF 设计工作室，为您的项目锦上添花</h2>
+<h2>IF设计工作室，提升您的品牌形象！</h2>
 <div id="section1">
     <div id="about">
         <h3>关于我们</h3>
         <h1>探索创意无极限的世界！</h1>
-        <div class="content" [ngStyle]="{ 'max-height': isExpanded ? 'none' : '150px', 'overflow': isExpanded ? 'visible' : 'hidden' }">
-            <p>我们拥有专业团队支持，为您提供平面设计、UI/UX设计和插画服务。无论您的需求是什么，我们都有相应领域的专业人员，为您提供卓越的设计支持。与我们合作，您将获得专业团队的专业服务，确保您的项目获得最佳的设计成果。</p>
-            <p>Opter pour un positionnement omnicanal décuple vos chances de toucher et de marquer l’esprit de votre audience. Notre travail consiste donc à vous accompagner et à vous conseiller dans l’élaboration de la stratégie de communication qui permettra de promouvoir votre marque ou votre entreprise. Grâce à notre expertise, notre créativité et nos compétences techniques, nous sommes en mesure de répondre à vos objectifs. Notre agence de communication visuelle et design graphique vous propose des solutions personnalisées, sur mesure et adaptées à vos besoins.</p>
+        <div class="content">
+            <p style="text-align: justify;">我们相信每个人都有独特的故事和视觉诉求，因此我们通过与你的深入沟通和理解，将你的想法转化为视觉上的精彩表达。在IF设计工作室，我们不仅仅是设计师，更是你的创意伙伴。我们深知设计对于传达品牌价值和吸引目标受众的重要性，因此我们注重细节，并将热情融入每一个项目中。
+                无论是平面设计的品牌形象、海报和宣传资料，还是插画的绘画和LOGO制作，我们都能满足你的需求。当然了，我们同样也有一只优秀的UI团队在这里等着大家。
+                我们希望所想能成为现实，不止是对设计的热爱，更想留下我们存在的一丝痕迹。</p>
+            <div class="citation">
+                <div id="bar"></div>
+                <p>There are three responses to a piece of design - yes, no, and WOW! <br>
+                    <strong>Wow is the one to aim for. </strong><br>
+                    ——Milton Glaser</p>
+            </div>
         </div>
-        <p class="read-more" (click)="toggleExpansion()">{{ isExpanded ? 'Lire moins' : 'Lire plus' }}</p>
     </div>
     <div id="aboutImage">
-       <img id="imageSection1" src="../../../assets/images/gt_motors.png" alt="about">
+       <img id="imageSection1" src="../../../assets/images/IFDESIGN.png" alt="about">
     </div>
 </div>
 <div id="section2">
     <div id="images">
         <div id="imagesRight">
             <div id="first">
-                <img id="imageSize" src="../../../assets/images/dejeuner.png" alt="photo">
+                <img id="imageSize" src="../../../assets/images/bag.png" alt="photo">
             </div>
             <div id="second">
-                <img id="imageSize" src="../../../assets/images/dejeuner.png" alt="photo">
+                <img id="imageSize" src="../../../assets/images/pins.png" alt="photo">
             </div>
         </div>
         <div id="imageLeft">
-            <img id="imageSection2" src="../../../assets/images/dore.png" alt="photo">
+            <img id="imageSection2" src="../../../assets/images/computer.png" alt="photo">
         </div>
     </div>
     <div id="textRight">
-        <p>我们拥有专业团队支持，为您提供平面设计、UI/UX设计和插画服务。无论您的需求是什么，我们都有相应领域的专业人员，为您提供卓越的设计支持。与我们合作，您将获得专业团队的专业服务，确保您的项目获得最佳的设计成果。</p>
+        <div class="like">
+            <img src="../../../assets/images/like.png" alt="thumb up" height="30px" width="27px">
+            <h1>我们的优势</h1>
+        </div>
+        <div class="like-text">
+            <p>我们团队拥有的“六边形战士”的特点是巨大的优势，但更重要的是我们所秉持的价值观。作为平面设计工作室，我们具备执行宣传运营所需的各种技能，更在于我们的热情！<br><br>
+                创造力、独创性和质量是我们工作室的关键词。我们团队充满激情和创意，致力于为每个项目带来与众不同的解决方案。我们相信，有着热情和创造力的驱动，我们能够提供卓越的成果，使您的品牌脱颖而出。<br><br>
+                无论是品牌设计、平面传播还是其他项目，我们团队将为您提供高质量的服务。我们坚信，热情是创造卓越的动力，而创造力、独创性和质量是我们成功的关键。<br><br>
+                让我们用热情和创意为您的项目注入新生命，为您带来独特而引人注目的传播效果！</p>
+        </div>
+        <button id="contactDiscussion" class="button-1" [routerLink]="'联系我们'">查看最新作品集</button>
     </div>
 </div>

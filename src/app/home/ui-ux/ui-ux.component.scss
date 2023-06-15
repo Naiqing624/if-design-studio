@@ -21,6 +21,11 @@ h2 {
   padding-right: 138px;
 }
 
+#description h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
 #description p {
   font-size: 20px;
   line-height: 30px;
@@ -31,8 +36,13 @@ h2 {
 }
 
 .read-more {
-  color: blue;
+  padding-top: 30px;
+  color: rgb(0, 0, 0);
   cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 #imageSection1 {
@@ -138,44 +148,11 @@ h2 {
 }
 
 .bar {
-  width: 168px;
+  width: 15px;
   height: 1572px;
-  background-color: rgb(0, 0, 0);
+  background-color: #979797;
   position: absolute;
   margin-top: 480px;
-}
-
-.number {
-  color: white;
-  position: absolute;
-  font-size: 80px;
-  font-weight: 700;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding-bottom: 175px;
-}
-
-.number--01 {
-  right: 0;
-  margin-right: 10px;
-  top: 125px;
-}
-
-.number--02 {
-  left: 0;
-  margin-left: 10px;
-  top: 375px;
-}
-
-.number--03 {
-  right: 0;
-  margin-right: 10px;
-  top: 625px;
-}
-
-.number--04 {
-  left: 0;
-  margin-left: 10px;
-  top: 875px;
 }
 
 .description-title {
@@ -196,10 +173,31 @@ h2 {
   text-align: justify;
 }
 
+.ellipse-exterieure {
+  width: 24px;
+  height: 24px;
+  border: 1px solid black; /* Couleur et épaisseur de la bordure de l'ellipse extérieure */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ellipse-interieure {
+  width: 14px;
+  height: 14px;
+  border: 1px solid black; /* Couleur et épaisseur de la bordure de l'ellipse intérieure */
+  border-radius: 50%;
+}
+
 .description--01 {
   position: relative;
   top: 620px;
   left: 1200px;
+}
+
+.test{
+  display: flex;
 }
 
 .description--02 {

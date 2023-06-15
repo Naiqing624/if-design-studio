@@ -1,4 +1,5 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
+import { FooterService } from '../services/footer.service';
 
 interface Logo {
   src: string;
@@ -10,7 +11,7 @@ interface Logo {
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
   startX: number;
   opacitySection1 = 1;
   opacitySection2 = 1;
@@ -27,10 +28,14 @@ export class HomeComponent {
     { src: '../../../assets/images/logos/total.png', alt: 'total' }
   ];
 
-  constructor() {
+  constructor(private readonly footerService: FooterService) {
     setInterval(() => {
       this.removeLogo();
     }, 5000);
+  }
+
+  ngOnInit(): void {
+    this.footerService.setCssClass('footer');
   }
   
   removeLogo() {

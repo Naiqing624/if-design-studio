@@ -8,7 +8,7 @@
     margin-top: 150px;
     width: auto;
     padding: 50px 5%;
-    background: #333;
+    background: #000000;
     color: #efefef;
     display: flex;
 }
@@ -16,7 +16,7 @@
 .footerContact{
     width: auto;
     padding: 50px 5%;
-    background: #333;
+    background: #000000;
     color: #efefef;
     display: flex;
 }
@@ -26,56 +26,19 @@
     justify-content: center;
 }
 
-#phones{
-    padding-top: 20px;
-    display: block;
-    font-size: 25px;
-}
-
-#logos{
-    padding-top: 30px;
-    font-size: 20px;
-    display: flex;
-}
-
-.padding{
-    padding-left: 25px;
-}
-
-.fa-weixin{
-    padding: 7px;
-    background-color: green;
-    border-radius: 50%;
-}
-
-.fa-linkedin{
-    padding: 7px;
-    background-color: rgb(7, 147, 241);
-    border-radius: 50%;
-}
-
-.fa-instagram{
-    padding: 7px;
-    background-color: rgb(224, 18, 224);
-    border-radius: 50%;
+#contact{
+    padding-left: 97px;
 }
 
 #useful_links{
-    padding-left: 300px;
+    padding-left: 111px;
+    padding-top: 50px;
     font-size: 18px;
     line-height: 40px;
 }
 
-@media (max-width: 1700px){ 
-    #useful_links{
-        padding-left: 250px;
-    }
-}
-
-@media (max-width: 1600px){ 
-    #useful_links{
-        padding-left: 200px;
-    }
+.align-right {
+    text-align: right;
 }
 
 @media (max-width: 1500px){ 
@@ -84,19 +47,7 @@
     }
 }
 
-@media (max-width: 1400px){ 
-    #useful_links{
-        padding-left: 150px;
-    }
-}
-
 @media (max-width: 1300px){ 
-    #useful_links{
-        padding-left: 100px;
-    }
-}
-
-@media (max-width: 1100px){ 
     #useful_links{
         padding-left: 0;
         padding-top: 25px;
@@ -109,12 +60,8 @@
         justify-content: center;
     }
 
-    #logos{
-        justify-content: center;
-    }
-
-    #phones{
-        text-align: center;
+    #contact{
+        padding-left: 0;
     }
 }
 
