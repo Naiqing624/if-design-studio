@@ -86,6 +86,12 @@ p,a{
     text-underline-offset: 8px;
 }
 
+#link-container .underline {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #525252;
+}
+
 #hamburger {
     cursor: pointer;
     color: #ffffff;
@@ -115,7 +121,6 @@ nav ul li {
     line-height: 30px;
     padding: 8px 20px;
     cursor: pointer;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.315);
     text-align: center;
 }
 
