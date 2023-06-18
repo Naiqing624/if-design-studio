@@ -40,127 +40,46 @@
         <p>推广方案推广方案推广方案</p>
       </div>
     </li>
+
     <div class="bar"></div>
 
-    <div class="description--01" *ngIf="cardNumber === 0">
-      <div class="test"> 
+   <div id="card">
+      <div class="position-text-1">
         <div class="ellipse-exterieure">
           <div class="ellipse-interieure"></div>
-        </div>   
-        <h1 class="description-title">{{ 'CARD1.DESCRIPTION1.TITLE' | translate }}</h1>
+        </div>
+        <div class="text-1" [innerHTML]="cards[cardNumber].title1 | translate"></div>
       </div>
-      <p class="description"> <strong>{{ 'CARD1.DESCRIPTION1.TEXT1B' | translate }}</strong>{{ 'CARD1.DESCRIPTION1.TEXT1' | translate }}<br>
-      <strong>{{ 'CARD1.DESCRIPTION1.TEXT2B' | translate }}</strong>{{ 'CARD1.DESCRIPTION1.TEXT2' | translate }}</p>
-    </div>
-
-    <div class="description--02" *ngIf="cardNumber === 0">
-      <div class="ellipse-exterieure">
-        <div class="ellipse-interieure"></div>
-      </div>  
-      <h1 class="description-title">{{ 'CARD1.DESCRIPTION2.TITLE' | translate }}</h1>
-      <p class="description"> 
-        <strong>{{ 'CARD1.DESCRIPTION2.TEXT1B' | translate }}</strong>{{ 'CARD1.DESCRIPTION2.TEXT1' | translate }}<br>
-        <strong>{{ 'CARD1.DESCRIPTION2.TEXT2B' | translate }}</strong>{{ 'CARD1.DESCRIPTION2.TEXT2' | translate }}</p>
-    </div>
-
-    <div class="description--03" *ngIf="cardNumber === 0">
-      <div class="ellipse-exterieure">
-        <div class="ellipse-interieure"></div>
-      </div>  
-      <h1 class="description-title">{{ 'CARD1.DESCRIPTION3.TITLE' | translate }}</h1>
-      <p class="description"> <strong>{{ 'CARD1.DESCRIPTION3.TEXT1B' | translate }}</strong>{{ 'CARD1.DESCRIPTION3.TEXT1' | translate }}<br>
-        <strong>{{ 'CARD1.DESCRIPTION3.TEXT2B' | translate }}</strong>{{ 'CARD1.DESCRIPTION3.TEXT2' | translate }}</p>
-    </div>
-
-    <div class="description--04" *ngIf="cardNumber === 0">
-      <div class="ellipse-exterieure">
-        <div class="ellipse-interieure"></div>
-      </div>  
-      <h1 class="description-title">{{ 'CARD1.DESCRIPTION4.TITLE' | translate }}</h1>
-      <p class="description"> <strong>{{ 'CARD1.DESCRIPTION4.TEXT1B' | translate }}</strong>{{ 'CARD1.DESCRIPTION4.TEXT1' | translate }}<br>
-        <strong>{{ 'CARD1.DESCRIPTION4.TEXT2B' | translate }}</strong>{{ 'CARD1.DESCRIPTION4.TEXT2' | translate }}<br>
-        <strong>{{ 'CARD1.DESCRIPTION4.TEXT3B' | translate }}</strong>{{ 'CARD1.DESCRIPTION4.TEXT3' | translate }}<br>
-        <strong>{{ 'CARD1.DESCRIPTION4.TEXT4B' | translate }}</strong>{{ 'CARD1.DESCRIPTION4.TEXT4' | translate }}</p>
-    </div>
-
-    <div class="description--01" *ngIf="cardNumber === 1">
-      <div class="ellipse-exterieure">
-        <div class="ellipse-interieure"></div>
-      </div>  
-      <h1 class="description-title">{{ 'CARD2.DESCRIPTION1.TITLE' | translate }}</h1>
-      <p class="description"> <strong>{{ 'CARD2.DESCRIPTION1.TEXT1B' | translate }}</strong>{{ 'CARD2.DESCRIPTION1.TEXT1' | translate }}<br>
-        <strong>{{ 'CARD2.DESCRIPTION1.TEXT2B' | translate }}</strong>{{ 'CARD2.DESCRIPTION1.TEXT2' | translate }}<br>
-        <strong>{{ 'CARD2.DESCRIPTION1.TEXT3B' | translate }}</strong>{{ 'CARD2.DESCRIPTION1.TEXT3' | translate }}</p>
-    </div>
-
-    <div class="description--02" *ngIf="cardNumber === 1">
-      <div class="ellipse-exterieure">
-        <div class="ellipse-interieure"></div>
-      </div>  
-      <h1 class="description-title">{{ 'CARD2.DESCRIPTION2.TITLE' | translate }}</h1>
-      <p class="description"> 
-        <strong>{{ 'CARD2.DESCRIPTION2.TEXT1B' | translate }}</strong>{{ 'CARD2.DESCRIPTION2.TEXT1' | translate }}<br>
-        <strong>{{ 'CARD2.DESCRIPTION2.TEXT2B' | translate }}</strong>{{ 'CARD2.DESCRIPTION2.TEXT2' | translate }}</p>
-    </div>
-
-    <div class="description--03" *ngIf="cardNumber === 1">
-      <div class="ellipse-exterieure">
-        <div class="ellipse-interieure"></div>
-      </div>  
-      <h1 class="description-title">{{ 'CARD2.DESCRIPTION3.TITLE' | translate }}</h1>
-      <p class="description"> <strong>{{ 'CARD2.DESCRIPTION3.TEXT1B' | translate }}</strong>{{ 'CARD2.DESCRIPTION3.TEXT1' | translate }}<br>
-        <strong>{{ 'CARD2.DESCRIPTION3.TEXT2B' | translate }}</strong>{{ 'CARD2.DESCRIPTION3.TEXT2' | translate }}</p>
-    </div>
-
-    <div class="description--04" *ngIf="cardNumber === 1">
-      <div class="ellipse-exterieure">
-        <div class="ellipse-interieure"></div>
-      </div>  
-      <h1 class="description-title">{{ 'CARD2.DESCRIPTION4.TITLE' | translate }}</h1>
-      <p class="description"> <strong>{{ 'CARD2.DESCRIPTION4.TEXT1B' | translate }}</strong>{{ 'CARD2.DESCRIPTION4.TEXT1' | translate }}<br>
-        <strong>{{ 'CARD2.DESCRIPTION4.TEXT2B' | translate }}</strong>{{ 'CARD2.DESCRIPTION4.TEXT2' | translate }}<br>
-        <strong>{{ 'CARD2.DESCRIPTION4.TEXT3B' | translate }}</strong>{{ 'CARD2.DESCRIPTION4.TEXT3' | translate }}<br>
-        <strong>{{ 'CARD2.DESCRIPTION4.TEXT4B' | translate }}</strong>{{ 'CARD2.DESCRIPTION4.TEXT4' | translate }}</p>
-    </div>
-
-    <div class="description--01" *ngIf="cardNumber === 2">
-      <div class="ellipse-exterieure">
-        <div class="ellipse-interieure"></div>
-      </div>  
-      <h1 class="description-title">{{ 'CARD3.DESCRIPTION1.TITLE' | translate }}</h1>
-      <p class="description"> <strong>{{ 'CARD3.DESCRIPTION1.TEXT1B' | translate }}</strong>{{ 'CARD3.DESCRIPTION1.TEXT1' | translate }}<br>
-        <strong>{{ 'CARD3.DESCRIPTION1.TEXT2B' | translate }}</strong>{{ 'CARD3.DESCRIPTION1.TEXT2' | translate }}<br>
-        <strong>{{ 'CARD3.DESCRIPTION1.TEXT3B' | translate }}</strong>{{ 'CARD3.DESCRIPTION1.TEXT3' | translate }}</p>
-    </div>
-
-    <div class="description--02" *ngIf="cardNumber === 2">
-      <div class="ellipse-exterieure">
-        <div class="ellipse-interieure"></div>
-      </div>  
-      <h1 class="description-title">{{ 'CARD3.DESCRIPTION2.TITLE' | translate }}</h1>
-      <p class="description"> 
-        <strong>{{ 'CARD3.DESCRIPTION2.TEXT1B' | translate }}</strong>{{ 'CARD3.DESCRIPTION2.TEXT1' | translate }}<br>
-        <strong>{{ 'CARD3.DESCRIPTION2.TEXT2B' | translate }}</strong>{{ 'CARD3.DESCRIPTION2.TEXT2' | translate }}</p>
-    </div>
-
-    <div class="description--03" *ngIf="cardNumber === 2">
-      <div class="ellipse-exterieure">
-        <div class="ellipse-interieure"></div>
-      </div>  
-      <h1 class="description-title">{{ 'CARD3.DESCRIPTION3.TITLE' | translate }}</h1>
-      <p class="description"> <strong>{{ 'CARD3.DESCRIPTION3.TEXT1B' | translate }}</strong>{{ 'CARD3.DESCRIPTION3.TEXT1' | translate }}<br>
-        <strong>{{ 'CARD3.DESCRIPTION3.TEXT2B' | translate }}</strong>{{ 'CARD3.DESCRIPTION3.TEXT2' | translate }}</p>
-    </div>
-
-    <div class="description--04" *ngIf="cardNumber === 2">
-      <div class="ellipse-exterieure">
-        <div class="ellipse-interieure"></div>
-      </div>  
-      <h1 class="description-title">{{ 'CARD3.DESCRIPTION4.TITLE' | translate }}</h1>
-      <p class="description"> <strong>{{ 'CARD3.DESCRIPTION4.TEXT1B' | translate }}</strong>{{ 'CARD3.DESCRIPTION4.TEXT1' | translate }}<br>
-        <strong>{{ 'CARD3.DESCRIPTION4.TEXT2B' | translate }}</strong>{{ 'CARD3.DESCRIPTION4.TEXT2' | translate }}<br>
-        <strong>{{ 'CARD3.DESCRIPTION4.TEXT3B' | translate }}</strong>{{ 'CARD3.DESCRIPTION4.TEXT3' | translate }}<br>
-        <strong>{{ 'CARD3.DESCRIPTION4.TEXT4B' | translate }}</strong>{{ 'CARD3.DESCRIPTION4.TEXT4' | translate }}</p>
-    </div>
+      <div class="position-text-2">
+        <div class="text-2" [innerHTML]="cards[cardNumber].title2 | translate"></div>
+        <div class="ellipse-exterieure">
+          <div class="ellipse-interieure"></div>
+        </div>
+      </div>
+      <div class="position-text-3">
+        <div class="ellipse-exterieure">
+          <div class="ellipse-interieure"></div>
+        </div>
+        <div class="text-3" [innerHTML]="cards[cardNumber].title3 | translate"></div>
+      </div>
+      <div class="position-text-4">
+        <div class="text-4" [innerHTML]="cards[cardNumber].title4 | translate"></div>
+        <div class="ellipse-exterieure">
+          <div class="ellipse-interieure"></div>
+        </div>
+      </div>
+      <div class="position-text-5" *ngIf="cards[cardNumber].title5">
+        <div class="ellipse-exterieure">
+          <div class="ellipse-interieure"></div>
+        </div>
+        <div class="text-5" [innerHTML]="cards[cardNumber].title5 | translate"></div>
+      </div>
+      <div class="position-text-6" *ngIf="cards[cardNumber].title6">
+        <div class="text-6" [innerHTML]="cards[cardNumber].title6 | translate"></div>
+        <div class="ellipse-exterieure">
+          <div class="ellipse-interieure"></div>
+        </div>
+      </div>
+   </div>
   </ul>
 </div>

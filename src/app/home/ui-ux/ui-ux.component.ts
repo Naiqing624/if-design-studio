@@ -1,6 +1,15 @@
 import { Component, ViewChildren, QueryList } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
+interface Card {
+  title1: string;
+  title2: string;
+  title3: string;
+  title4: string;
+  title5: string;
+  title6: string;
+}
+
 @Component({
   selector: 'app-ui-ux',
   templateUrl: './ui-ux.component.html',
@@ -8,7 +17,33 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class UiUxComponent {
   isExpanded = false;
-  cardNumber = 2;
+  cardNumber = 1;
+  cards: Card[] = [
+    {
+      title1: 'CARD1.TITLE1',
+      title2: 'CARD1.TITLE2',
+      title3: 'CARD1.TITLE3',
+      title4: 'CARD1.TITLE4',
+      title5: '',
+      title6: ''
+    },
+    {
+      title1: 'CARD2.TITLE1',
+      title2: 'CARD2.TITLE2',
+      title3: 'CARD2.TITLE3',
+      title4: 'CARD2.TITLE4',
+      title5: '',
+      title6: ''
+    },
+    {
+      title1: 'CARD3.TITLE1',
+      title2: 'CARD3.TITLE2',
+      title3: 'CARD3.TITLE3',
+      title4: 'CARD3.TITLE4',
+      title5: 'CARD3.TITLE5',
+      title6: 'CARD3.TITLE6'
+    }
+  ];
 
   @ViewChildren('item')
   items!: QueryList<HTMLElement>;
