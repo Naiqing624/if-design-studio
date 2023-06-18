@@ -107,7 +107,13 @@ h1{
 }
 
 .like h1 {
+    font-size: 30px;
     padding-left: 24px;
+}
+
+.like img {
+    height: 30px;
+    width: 27px;
 }
 
 #textRight{
@@ -152,8 +158,16 @@ h1{
     box-shadow: 0 0 7px 0 #333333 inset, 0 0 7px 1px #333333;
     border: 3px solid #333333;
 }
+  
+.like-text {
+    margin-bottom: 20px;
+}
+  
+#contactDiscussion {
+    margin-bottom: 20px;
+}
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1850px) {
     #section1 {
         padding-top: 153px;
         padding-left: 200px;
@@ -161,13 +175,12 @@ h1{
     }
 
     #section2 {
-        background-size: 100% 60%;
-        padding-left: 200px;
-        padding-right: 200px;
+        padding-left: 145px;
+        padding-right: 145px;
     }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1650px) {
     #section1 {
         padding-top: 153px;
         padding-left: 100px;
@@ -175,9 +188,27 @@ h1{
     }
 
     #section2 {
-        background-size: 100% 60%;
         padding-left: 100px;
         padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    #section2 {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #images{
+        padding-right: 188px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    #images{
+        padding-right: 148px;
     }
 }
 
@@ -209,15 +240,22 @@ h1{
         width: 475px;
         height: 325px;
     }
-}
 
-@media screen and (max-width: 1300px) {
-    h2{
-        font-size: 30px;
+    #section2 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .like-text p {
+        padding-bottom: 50px;
     }
 }
 
-@media screen and (max-width: 1100px) {    
+@media screen and (max-width: 1300px) {   
+    h2{
+        font-size: 30px;
+    }
+    
     #section1 {
         display: table;
         padding-top: 75px;
@@ -244,16 +282,39 @@ h1{
     }
     
     #section2 {
-        background-size: auto 60%;
-    }
-    
+        display: table;
+        background-position: 0 150px;
+        background-size: 100% 40%;
+        padding-top: 122px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 400px;
+    }    
+
     #images{
-        padding-right: 50px;
+        padding-bottom: 25px;
+        padding-right: 0;
+        text-align: center;
     }
 
-    #section2 {
-        padding-left: 50px;
+    #imagesRight{
+        justify-content: center;
+        padding-top: 80px;
+    }
+    
+    #first {
+        padding-bottom: 25px;
+    }
+
+    #second {
+        padding-bottom: 25px;
+    }
+
+    #textRight{
+        text-align: justify;
         padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 50px;
     }
 
     .citation {
@@ -271,52 +332,76 @@ h1{
     }
 }
 
-@media screen and (max-width: 900px) {   
+@media screen and (max-width: 700px) {
     #section2 {
-        display: table;
-        background-position: 0 150px;
-        padding-top: 122px;
-        padding-left: 0;
-        padding-right: 0;
+        padding-bottom: 500px;
+        background-size: 100% 35%;
     }
-    
-    #images{
-        padding-right: 0;
-        padding-bottom: 25px;
-        text-align: center;
-    }
-    
-    #imagesRight{
-        display: block;
-    }
-    
+}
+
+@media screen and (max-width: 550px) {
     #imageSize{
-        width: 280px;
-        height: 210px;
+        width: 200px;
+        height: 120px;
     }
 
     #imageSection2{
-        width: 280px;
-        height: 210px;
-    }
-    
-    #imageLeft{
-        padding-top: 0;
-    }
-    
-    #first {
-        padding-right: 0;
-        padding-bottom: 25px;
+        width: 410px;
+        height: 313px;
     }
 
-    #second {
-        padding-bottom: 25px;
+    #section2 {
+        padding-bottom: 600px;
+        background-size: 100% 30%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #imageSize{
+        width: 150px;
+        height: 100px;
     }
 
-    #textRight{
-        text-align: center;
-        padding-right: 50px;
-        padding-left: 50px;
+    #imageSection2{
+        width: 315px;
+        height: 213px;
+    }
+
+    #section2 {
+        padding-bottom: 800px;
+        background-size: 100% 25%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #imageSize{
+        width: 120px;
+        height: 70px;
+    }
+
+    #imageSection2{
+        width: 250px;
+        height: 183px;
+    }
+
+    #section2 {
+        padding-bottom: 900px;
+        background-size: 100% 20%;
+    }
+
+    .like h1 {
+        font-size: 25px;
+    }
+
+    .like img {
+        height: 25px;
+        width: 22px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    #section2 {
+        padding-bottom: 950px;
     }
 }
 
