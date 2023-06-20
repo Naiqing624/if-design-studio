@@ -65,16 +65,17 @@ h2 {
 }
 
 .button {
-  position: absolute;
+  position: relative;
   cursor: pointer;
 
   img {
     width: 30%;
   }
 
-  margin-top: 300px;
+  top: 380px;
 
   &--left{
+    top: 430px;
     margin-right: 1500px;
   }
 
@@ -149,7 +150,15 @@ h2 {
 
 .bar {
   width: 15px;
-  height: 1572px;
+  height: 1472px;
+  background-color: #979797;
+  position: absolute;
+  margin-top: 480px;
+}
+
+.barExtended {
+  width: 15px;
+  height: 1772px;
   background-color: #979797;
   position: absolute;
   margin-top: 480px;
@@ -168,8 +177,20 @@ h2 {
   font-size: 14px;
   font-weight: 400;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  width: 530px;
+  width: 364px;
   line-height: 19.6px;
+}
+
+.position-ellipse-right {
+  position: relative;
+  top:30px;
+  left: 35px;
+}
+
+.position-ellipse-left {
+  position: relative;
+  top:30px;
+  right: 35px;
 }
 
 .ellipse-exterieure {
@@ -183,6 +204,7 @@ h2 {
 }
 
 .ellipse-interieure {
+  position: relative;
   width: 14px;
   height: 14px;
   border: 1px solid black; /* Couleur et épaisseur de la bordure de l'ellipse intérieure */
@@ -194,7 +216,7 @@ h2 {
   display: flex;
   position: relative;
   top: 620px;
-  left: 470px;
+  left: 370px;
 }
 
 .text-1 {
@@ -226,16 +248,16 @@ h2 {
   display: flex;
   position: relative;
   text-align: right;
-  top: 870px;
-  right: 140px;
+  top: 720px;
+  right: 370px;
 }
 
 /*Description 03*/
 .position-text-3  {
   display: flex;
   position: relative;
-  top: 1120px;
-  left: 470px;
+  top: 820px;
+  left: 370px;
 }
 
 /*Description 04*/
@@ -243,16 +265,16 @@ h2 {
   display: flex;
   position: relative;
   text-align: right;
-  top: 1390px;
-  right: 1200px;
+  top: 920px;
+  right: 370px;
 }
 
 /*Description 05*/
 .position-text-5 {
   display: flex;
   position: relative;
-  top: 1660px;
-  left: 470px;
+  top: 1020px;
+  left: 370px;
 }
 
 /*Description 06*/
@@ -260,8 +282,8 @@ h2 {
   display: flex;
   position: relative;
   text-align: right;
-  top: 1930px;
-  right: 1200px;
+  top: 1120px;
+  right: 370px;
 }
 
 @media (max-width: 1700px){
