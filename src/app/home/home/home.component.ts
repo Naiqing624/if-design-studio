@@ -18,14 +18,11 @@ export class HomeComponent implements OnInit {
   opacityLogos = 1;
 
   logos: Logo[] = [
-    { src: '../../../assets/images/logos/apple.png', alt: 'apple' },
-    { src: '../../../assets/images/logos/bk.png', alt: 'burger king' },
-    { src: '../../../assets/images/logos/bmw.png', alt: 'bmw' },
-    { src: '../../../assets/images/logos/cc.png', alt: 'coco chanel' },
-    { src: '../../../assets/images/logos/dior.png', alt: 'dior' },
-    { src: '../../../assets/images/logos/kfc.png', alt: 'kfc' },
-    { src: '../../../assets/images/logos/pepsi.png', alt: 'pepsi' },
-    { src: '../../../assets/images/logos/total.png', alt: 'total' }
+    { src: '../../../assets/images/logos/hairsalon.png', alt: 'hairsalon' },
+    { src: '../../../assets/images/logos/lemon.png', alt: 'lemon' },
+    { src: '../../../assets/images/logos/baiweiyixuan.png', alt: 'baiweiyixuan' },
+    { src: '../../../assets/images/logos/bajiajiu.png', alt: 'bajiajiu' },
+    { src: '../../../assets/images/logos/elephant.png', alt: 'elephant' }
   ];
 
   constructor(private readonly footerService: FooterService) {
