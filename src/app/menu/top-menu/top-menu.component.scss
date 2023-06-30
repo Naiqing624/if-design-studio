@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -79,10 +78,13 @@ p,a{
 
 #link-container a:hover {
     color: #b3b3b3;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #b3b3b3;
 }
 
 #link-container .active-link {
-    text-decoration: underline;
+    text-decoration: none;
     text-underline-offset: 8px;
 }
 
@@ -107,15 +109,17 @@ nav ul {
     position: absolute;
     background: #000000;
     list-style: none;
-    top: 80px;
-    right: 640px;
+    top: 60px;
+    right: 665px;
     width: auto;
     display: none;
 }
 
-[id^=btn]:checked + ul {
-    display: block;
+#submenu:hover + ul,
+nav ul:hover {
+  display: block;
 }
+
 
 nav ul li {
     line-height: 30px;
@@ -216,7 +220,7 @@ input {
 }
 
 #sidebar-items .active-link {
-    text-decoration: underline;
+    text-decoration: none;
     text-underline-offset: 8px;
 }
 
@@ -234,7 +238,7 @@ input {
     }
 
     nav ul {
-        right: 640px;
+        right: 655px;
     }
 }
 
@@ -248,7 +252,7 @@ input {
     }
 
     nav ul {
-        right: 590px;
+        right: 605px;
     }
 }
 
@@ -262,7 +266,7 @@ input {
     }
 
     nav ul {
-        right: 490px;
+        right: 505px;
     }
 }
 
@@ -279,7 +283,6 @@ input {
 
     label {
         cursor: pointer;
-        padding-left: 23px;
         font-size: 15px;
         padding-top: 10px;
         padding-bottom: 10px;

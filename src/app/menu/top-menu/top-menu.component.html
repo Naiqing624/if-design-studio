@@ -11,16 +11,17 @@
     <div id="link-container" *ngIf="linksDisplay">
       <a [routerLink]="'首页'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">首页</a>
       <nav>
-        <label for="btn" class="button" style="color: white">平面设计
-          <span class="fa fa-angle-down"></span>
-        </label>
-        <input type="checkbox" id="btn">
+        <a id="submenu" [routerLink]="'graphics'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">
+          <label for="btn" class="button" style="color: white">平面设计
+            <span class="fa fa-angle-down"></span>
+          </label>
+        </a>
         <ul>
-          <li><a href="#" class="underline" (click)="changeCSS('footer')">品牌全案设计</a></li>
-          <li><a href="#" class="underline" (click)="changeCSS('footer')">LOGO设计</a></li>
-          <li><a href="#" class="underline" (click)="changeCSS('footer')">书籍刊印</a></li>
-          <li><a href="#" (click)="changeCSS('footer')">宣传物料</a></li>
-        </ul>
+          <li><a routerLink="/branding" class="underline" (click)="changeCSS('footer')">品牌全案设计</a></li>
+          <li><a routerLink="/logo-design" class="underline" (click)="changeCSS('footer')">LOGO设计</a></li>
+          <li><a routerLink="/book-printing" class="underline" (click)="changeCSS('footer')">书籍刊印</a></li>
+          <li><a routerLink="/marketing-materials" (click)="changeCSS('footer')">宣传物料</a></li>
+        </ul>        
       </nav>
       <a [routerLink]="'UI/UX'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">UI/UX</a>
       <a [routerLink]="'插画'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">插画</a>
@@ -40,9 +41,11 @@
       <div id="sidebar-items">
         <a [routerLink]="'首页'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">首页</a>
         <ul id="submenu">
-          <label for="btn">平面设计
-            <span class="fa fa-angle-down"></span>
-          </label>
+          <a id="submenu" [routerLink]="'graphics'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">
+            <label for="btn" class="button" style="color: white">平面设计
+              <span class="fa fa-angle-down"></span>
+            </label>
+          </a>
           <input type="checkbox" id="btn">
           <ul>
             <li><a href="#" (click)="changeCSS('footer')">品牌全案设计</a></li>

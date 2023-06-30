@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'PingFang';
+    src: url('../../../assets/font/PingFang.woff') format('woff');
+} 
+  
+* {
+    font-family: 'PingFang', sans-serif;
+}
+
 h2{
     text-align: center;
     background-color: #EFEFEF;
@@ -6,7 +15,7 @@ h2{
     padding-bottom: 65px;
     font-size: 32px;
     font-weight: 400;
-    line-height: 67.2px;
+    line-height: 45px;
 }
 
 h3{
@@ -356,6 +365,26 @@ h1{
     }
 }
 
+@media screen and (max-width: 500px) { 
+    #section1 {
+        padding-top: 25px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    #imageSection1{
+        width: 280px;
+        height: 210px;
+    }
+
+    .content, .read-more {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
 @media screen and (max-width: 450px) {
     #imageSize{
         width: 150px;
@@ -402,25 +431,5 @@ h1{
 @media screen and (max-width: 310px) {
     #section2 {
         padding-bottom: 950px;
-    }
-}
-
-@media screen and (max-width: 500px) { 
-    #section1 {
-        padding-top: 25px;
-    }
-
-    h1{
-        font-size: 20px;
-    }
-
-    #imageSection1{
-        width: 280px;
-        height: 210px;
-    }
-
-    .content, .read-more {
-        padding-left: 25px;
-        padding-right: 25px;
     }
 }

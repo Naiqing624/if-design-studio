@@ -1,0 +1,97 @@
+<h2>全方位的品牌设计全案</h2>
+<div id="section1">
+    <div id="description">
+        <h1>战略、驱动、一站式</h1>
+        <div class="content" [ngStyle]="{ 'max-height': isExpanded ? 'none' : '200px', 'overflow': isExpanded ? 'visible' : 'hidden' }">
+            <p>品牌全案是为企业提供强大动力和方向的关键要素。将企业比作一艘船，品牌全案服务就像是船的帆，为企业提供动力和引领。在这个比喻中，品牌全案服务不仅仅是主帆，也是船上的桨之一，推动企业向前发展。市场方案、品牌方案和传播方案有机地结合在品牌全案中，为企业打造独特的品牌形象，提升品牌的认知度和价值。</p>
+            <p>我们以综合性的视角和专业的知识，为客户提供从品牌策略到品牌传播的一系列服务。我们深入了解客户的品牌使命、目标受众和市场环境，通过战略规划和创意设计，打造出独特且有吸引力的品牌形象。
+                我们的品牌设计全案涵盖品牌标识设计，包括创造标志性的品牌标识和标志系统，以及视觉语言的开发，如色彩、字体、图形等元素的统一应用。同时，我们还为品牌打造一致的视觉形象，涵盖各种品牌资料、广告宣传、包装设计等方面，以确保品牌在各个媒体和渠道上都能传达出一致而专业的形象。
+                除此之外，我们也注重品牌传播的关键渠道和策略，包括线上和线下的营销活动、社交媒体策略、品牌故事传播等。我们致力于帮助客户在竞争激烈的市场中脱颖而出，树立与众不同的品牌形象，提升品牌认知度和影响力。
+                通过全方位的品牌设计全案，我们旨在为客户提供一站式的品牌设计服务，助力他们建立强大、引人注目的品牌。无论是创立全新品牌还是重新定位现有品牌，我们将与客户紧密合作，打造出令人印象深刻的品牌体验。</p>
+        </div>
+        <p class="read-more" (click)="toggleExpansion()">{{ isExpanded ? '查看少' : '查看更多' }}</p>
+    </div>
+    <div id="descriptionImage">
+       <img id="imageSection1" src="../../../assets/images/description.png" alt="about">
+    </div>
+</div>
+<div id="section2">
+  <div class="button button--left" (click)="leftButtonClick()"><img id="arrowLeft" src="../../../assets/images/arrow_left.png" alt="arrow left"></div>
+  <div class="button button--right" (click)="rightButtonClick()"><img id="arrowRight" src="../../../assets/images/arrow_right.png" alt="arrow right"></div>
+  <ul class="carousel">
+    <li class="item item--1" data-position="1" (click)="onItemClicked(0)">
+      <img src="../../../assets/images/品牌方案.png" alt="CARD1 Image" />
+      <div class="CARD1-content">
+        <h3>品牌方案</h3>
+        <p>品牌方案品牌方案品牌方案</p>
+      </div>
+    </li>
+    <li class="item item--2" data-position="2" (click)="onItemClicked(1)">
+      <img src="../../../assets/images/市场方案.png" alt="CARD1 Image" />
+      <div class="CARD1-content">
+        <h3>市场方案</h3>
+        <p>市场方案市场方案市场方案</p>
+      </div>
+    </li>
+    <li class="item item--3" data-position="3" (click)="onItemClicked(2)">
+      <img src="../../../assets/images/推广方案.png" alt="CARD1 Image" />
+      <div class="CARD1-content">
+        <h3>推广方案</h3>
+        <p>推广方案推广方案推广方案</p>
+      </div>
+    </li>
+
+   <div class="bar" [ngClass]="{'barExtended': cardNumber === 2}"></div>
+
+   <div id="card">
+      <div class="position-text-1">
+        <div class="position-ellipse-left">
+          <div class="ellipse-exterieure">
+            <div class="ellipse-interieure"></div>
+          </div>
+        </div>
+        <div class="text-1" [innerHTML]="cards[cardNumber].title1 | translate"></div>
+      </div>
+      <div class="position-text-2">
+        <div class="text-2" [innerHTML]="cards[cardNumber].title2 | translate"></div>
+        <div class="position-ellipse-right">
+          <div class="ellipse-exterieure">
+            <div class="ellipse-interieure"></div>
+          </div>
+        </div>
+      </div>
+      <div class="position-text-3">
+        <div class="position-ellipse-left">
+          <div class="ellipse-exterieure">
+            <div class="ellipse-interieure"></div>
+          </div>
+        </div>
+        <div class="text-3" [innerHTML]="cards[cardNumber].title3 | translate"></div>
+      </div>
+      <div class="position-text-4">
+        <div class="text-4" [innerHTML]="cards[cardNumber].title4 | translate"></div>
+        <div class="position-ellipse-right">
+          <div class="ellipse-exterieure">
+            <div class="ellipse-interieure"></div>
+          </div>
+        </div>
+      </div>
+      <div class="position-text-5" *ngIf="cards[cardNumber].title5">
+        <div class="position-ellipse-left">
+          <div class="ellipse-exterieure">
+            <div class="ellipse-interieure"></div>
+          </div>
+        </div>
+        <div class="text-5" [innerHTML]="cards[cardNumber].title5 | translate"></div>
+      </div>
+      <div class="position-text-6" *ngIf="cards[cardNumber].title6">
+        <div class="text-6" [innerHTML]="cards[cardNumber].title6 | translate"></div>
+        <div class="position-ellipse-right">
+          <div class="ellipse-exterieure">
+            <div class="ellipse-interieure"></div>
+          </div>
+        </div>
+      </div>
+   </div>
+  </ul>
+</div>

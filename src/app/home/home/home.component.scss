@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'PingFang';
+    src: url('../../../assets/font/PingFang.woff') format('woff');
+} 
+
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'PingFang', sans-serif;
 }
 
 .center {
