@@ -6,6 +6,7 @@ import { ContactComponent } from './home/contact/contact.component';
 import { UiUxComponent } from './home/ui-ux/ui-ux.component';
 import { GraphicsComponent } from './home/graphics/graphics.component';
 import { LogoDesignComponent } from './home/logo-design/logo-design.component';
+import { YuqinshanComponent } from './external-link/yuqinshan/yuqinshan.component';
 
 const routes: Routes = [
   {path: "首页", component: HomeComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path: "联系我们", component: ContactComponent},
   {path: "UI/UX", component: UiUxComponent},
   {path: "graphics", component: GraphicsComponent},
-  {path: "logo-design", component: LogoDesignComponent}
+  {path: "logo-design", component: LogoDesignComponent},
+  {path: "yuqinshan", component: YuqinshanComponent}
 ];
 
 @NgModule({

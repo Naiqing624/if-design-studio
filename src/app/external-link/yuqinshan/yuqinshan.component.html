@@ -1,0 +1,81 @@
+<div id="banner">
+    <img src="../../../assets/images/yuqianshan.png" alt="yuqianshan">    
+</div>
+<div id="section1">
+    <div id="about">
+        <h3>PORTFOLIO LOGO</h3>
+        <h1>俞沁衫 - LOGO、产品设计</h1>
+        <div class="content">
+            <p style="text-align: justify;"><strong>2022作品</strong> - LOGO、VI手册、电商、产品漫画
+                <br>
+                <strong>设计师：</strong>大羊 
+            </p>
+        </div>
+    </div>
+    <div id="aboutImage">
+       <img id="imageSection1" src="../../../assets/images/IFDESIGN.png" alt="about">
+    </div>
+  </div>
+  <div id="section2">
+    <div id="part1">
+        <p>俞沁衫品牌原名为岚潮：有山则有水，以风水代之。岚与浪近音，取浪潮之意。顾客想对整个品牌进行重塑，体现品牌的独特性、潮流感和自由精神。将岚潮改为俞沁衫，想要做更加渗入人心的衣衫。一颗想“浪”的心作为一个个性化衣服品牌的独特魅力。</p>
+        <div id="part1Images">
+            <img src="../../../assets/images/yuqinshan-logos.png" alt="yuqinshan-logos">
+            <img class="arrows" src="../../../assets/images/arrows.png" alt="arrows">
+            <p>俞沁衫？？？</p>
+        </div>
+    </div>
+    <div id="part2">
+        <p>在和顾客箱子沟通后，我们通过对品牌名字的拆解和品牌的价值观的了解，我们希望通过以下方式展现品牌的核心概念：</p>
+        <br>
+        <ol>
+            <li>"俞"的含义：将"俞"与"愈"联系起来，强调品牌的追求超越常规和更加出色的愿望。</li>
+            <li>"沁"的含义：将"沁"与水相关联，通过"氵"作为象征水的符号，代表着渗入和流动的意义。同时，水的形象也与海浪联系在一起，强调品牌的潮流感。</li>
+            <li>"衫"的含义：象征着衣服，代表品牌主营的衣着产品。</li>
+            <li>图标的形状：将海浪和爱心结合在图标中，通过流畅的线条和柔和的形状，传达出自由、浪漫和热情的氛围。</li>
+        </ol>
+    </div>
+    <div id="part3">
+        <div id="part3Images">
+          <div class="image-slide">
+            <img src="../../../assets/images/waves.png" alt="waves">
+            <div class="caption">海浪形状参考</div>
+          </div>
+          <div class="image-slide">
+            <img class="arrows" src="../../../assets/images/arrows.png" alt="arrows">
+          </div>
+          <div class="image-slide">
+            <img src="../../../assets/images/draw.png" alt="draw">
+            <div class="caption">手画设计草稿</div>
+          </div>
+          <div class="image-slide">
+            <img class="arrows" src="../../../assets/images/arrows.png" alt="arrows">
+          </div>
+          <div class="image-slide">
+            <img src="../../../assets/images/yuqinshan-logo.png" alt="yuqinshan-logo">
+            <div class="caption">AI设计终稿</div>
+          </div>
+        </div>
+      </div>
+    <div id="part4">
+        <div class="slider-container">
+            <div class="slider">
+              <div class="slide" *ngFor="let image of images.slice(currentIndex, currentIndex + 4)">
+                <img [src]="image" alt="Image">
+              </div>
+            </div>
+            <div class="slider-navigation">
+              <div class="arrow arrow-left" (click)="showPrevious()">&#8249;</div>
+              <div class="indicators">
+                <span
+                  class="indicator"
+                  *ngFor="let image of images; let i = index"
+                  [class.active]="i >= currentIndex && i < currentIndex + 4"
+                  (click)="setCurrentIndex(i)"
+                ></span>
+              </div>
+              <div class="arrow arrow-right" (click)="showNext()">&#8250;</div>
+            </div>
+        </div>                                  
+    </div>
+  </div>

@@ -8,6 +8,7 @@ import { UiUxComponent } from './ui-ux/ui-ux.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { GraphicsComponent } from './graphics/graphics.component';
 import { LogoDesignComponent } from './logo-design/logo-design.component';
+import { ExternalLinkModule } from '../external-link/external-link.module';
 
 @NgModule({
   declarations: [
