@@ -117,8 +117,6 @@ h1{
     line-height: 28px;
 }
   
-  
-
 //part4
 #part4{
     padding-top: 150px;
@@ -128,32 +126,32 @@ h1{
 
 .slider-container {
     position: relative;
-  }
+}
   
-  .slider {
+.slider {
     display: flex;
     overflow: hidden;
-  }
+}
   
-  .slide {
+.slide {
     flex: 0 0 25%;
     padding: 10px;
     box-sizing: border-box;
-  }
+}
   
-  .slide img {
+.slide img {
     width: 100%;
     height: auto;
-  }
+}
   
-  .slider-navigation {
+.slider-navigation {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-  }
+}
   
-  .arrow {
+.arrow {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,30 +159,142 @@ h1{
     height: 40px;
     font-size: 24px;
     cursor: pointer;
-  }
+}
   
-  .arrow-left {
+.arrow-left {
     margin-right: 10px;
-  }
+}
   
-  .arrow-right {
+.arrow-right {
     margin-left: 10px;
-  }
+}
   
-  .indicators {
+.indicators {
     display: flex;
-  }
+}
   
-  .indicator {
+.indicator {
     width: 10px;
     height: 10px;
     margin: 0 5px;
     border-radius: 50%;
     background-color: gray;
     cursor: pointer;
-  }
+}
   
-  .indicator.active {
+.indicator.active {
     background-color: black;
-  }
+}
   
+//section 3
+#section3 {
+    padding-top: 100px;
+}
+
+#section3 h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 400;
+}
+
+#section3 p {
+    padding-right: 260px;
+    padding-left: 260px;
+    text-align: justify;
+}
+
+#section3 #parts {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#section3 #parts img {
+   padding-right: 100px;
+   padding-left: 100px;
+   width: 372px;
+   height: 298px;
+}
+
+#section3 #part4{
+    padding-top: 150px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+
+#logos {
+    display: flex;
+    justify-content: center;
+}
+
+#logo-list {
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.logo {
+    padding-left: 25px;
+}
+
+.product {
+    padding: 20px 0;
+}
+
+.slider-wrap {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+}
+
+.slider-main {
+    position: absolute;
+    width: 200%;
+}
+
+.item {
+    display: inline-block;
+    width: 450px;
+    height: 250px;
+    position: relative;
+}
+
+.prev {
+    position: absolute;
+    left: 33px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.next {
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.slider-dots span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.slider-dots span.active {
+    background-color: #555;
+}
