@@ -8,13 +8,57 @@
     font-family: 'PingFang', sans-serif;
 }
 
-h2{
-    text-align: center;
+#ariane {
+    background-color: #EFEFEF;
     padding-top: 60px;
     margin-top: 65px;
+    padding-bottom: 65px;
+}
+
+h2 {
+    text-align: center;
     font-size: 32px;
     font-weight: 400;
     line-height: 45px;
+}
+
+.breadcrumb {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+  
+.breadcrumb ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.breadcrumb li {
+    display: inline;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: "/";
+    margin: 0 5px;
+    color: #999;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #333;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+#home{
+    position: relative;
+    top: 2px;
 }
 
 #contact{

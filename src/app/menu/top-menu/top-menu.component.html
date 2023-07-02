@@ -5,11 +5,11 @@
   <div class="header">
     <div id="logo-container">
       <div class="logo">
-        <a [routerLink]="'首页'"><img src="../../../assets/images/logo.png" alt="logo"></a>
+        <a [routerLink]="'home'"><img src="../../../assets/images/logo.png" alt="logo"></a>
       </div>
     </div>
     <div id="link-container" *ngIf="linksDisplay">
-      <a [routerLink]="'首页'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">首页</a>
+      <a [routerLink]="'home'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">首页</a>
       <nav>
         <a id="submenu" [routerLink]="'graphics'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">
           <label for="btn" class="button" style="color: white">平面设计
@@ -20,7 +20,7 @@
           <li><a routerLink="/branding" class="underline" (click)="changeCSS('footer')">品牌全案设计</a></li>
           <li><a routerLink="/logo-design" class="underline" (click)="changeCSS('footer')">LOGO设计</a></li>
           <li><a routerLink="/book-printing" class="underline" (click)="changeCSS('footer')">书籍刊印</a></li>
-          <li><a routerLink="/marketing-materials" (click)="changeCSS('footer')">宣传物料</a></li>
+          <li><a routerLink="/marketing" (click)="changeCSS('footer')">宣传物料</a></li>
         </ul>        
       </nav>
       <a [routerLink]="'UI/UX'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">UI/UX</a>
@@ -39,7 +39,7 @@
         <i id="hamburger" class="ri-close-line" (click)="toggleSidebar()" *ngIf="sidebarOpen"></i>
       </div>
       <div id="sidebar-items">
-        <a [routerLink]="'首页'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">首页</a>
+        <a [routerLink]="'home'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">首页</a>
         <ul id="submenu">
           <a id="submenu" [routerLink]="'graphics'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">
             <label for="btn" class="button" style="color: white">平面设计

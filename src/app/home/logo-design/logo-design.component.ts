@@ -31,5 +31,4 @@ export class LogoDesignComponent {
       this.opacitySection2 = 0;
     }
   }
-
 }

@@ -9,6 +9,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { GraphicsComponent } from './graphics/graphics.component';
 import { LogoDesignComponent } from './logo-design/logo-design.component';
 import { ExternalLinkModule } from '../external-link/external-link.module';
+import { MarketingComponent } from './marketing/marketing.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ExternalLinkModule } from '../external-link/external-link.module';
     ContactComponent,
     UiUxComponent,
     GraphicsComponent,
-    LogoDesignComponent
+    LogoDesignComponent,
+    MarketingComponent
   ],
   imports: [
     RouterModule.forChild([{ path: "", component: HomeComponent }]),

@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'PingFang';
+    src: url('../../../assets/font/PingFang.woff') format('woff');
+} 
+  
+* {
+    font-family: 'PingFang', sans-serif;
+}
+
+#ariane {
+    background-color: #EFEFEF;
+    padding-top: 60px;
+    margin-top: 65px;
+    padding-bottom: 65px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.breadcrumb {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+  
+.breadcrumb ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.breadcrumb li {
+    display: inline;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: "/";
+    margin: 0 5px;
+    color: #999;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #333;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+#home{
+    position: relative;
+    top: 2px;
+}
+
+#planet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+  
+#planet img {
+    width: 481px;
+    height: 411px;
+}
+
+#description {
+    padding-left: 250px;
+    margin-top: -150px;
+}
+
+#planet p {
+    width: 480px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 68.48px;
+}
+
+#button {
+    background-color: #000000;
+    border: 3px solid #000000;
+    border-radius: 30px;
+    font-size: 17px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #ffffff;
+    cursor: pointer;
+    height: 60px;
+    width: 180px;
+}
+
+#button:hover {
+    box-shadow: 0 0 7px 0 #333333 inset, 0 0 7px 1px #333333;
+    border: 3px solid #333333;
+}
+
+@media screen and (max-width: 1250px) {
+    #planet img {
+        width: 381px;
+        height: 311px;
+    }
+
+    #description {
+        padding-left: 150px;
+        margin-top: -100px;
+    }
+
+    #planet p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    #planet img {
+        width: 281px;
+        height: 211px;
+    }
+
+    #description {
+        padding-left: 100px;
+        margin-top: -20px;
+    }
+
+    #planet p {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 850px) {   
+    #planet {
+        display: table;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #planet img {
+        width: 381px;
+        height: 311px;
+        padding-bottom: 100px;
+    }
+
+    #description {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {  
+    #planet img {
+        width: 281px;
+        height: 211px;
+    }
+
+    #planet p {
+        width: 280px;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,34 @@
+<div id="ariane">
+    <h2>广告宣传物料设计</h2>
+    <nav class="breadcrumb">
+      <ul>
+          <li><a href="home"><img id="home" src="../../../assets/images/home.png" alt="home" width="26px" height="24px"></a></li>
+          <li>宣传物料</li>
+      </ul>
+    </nav>  
+ </div>
+ <div id="section1">
+    <div id="description">
+        <h3>MARKETING AND STRATEGY</h3>
+        <h1>IF设计工作室 - 帮您探索无限可能 </h1>
+        <div class="content" [ngStyle]="{ 'max-height': isExpanded ? 'none' : '200px', 'overflow': isExpanded ? 'visible' : 'hidden' }">
+            <p id="title">IF设计工作室 - 帮您探索无限可能 </p>
+            <p id="text">广告宣传物料设计在品牌宣传中占据着重要的角色。包括传单、海报、宣传册、展示板、横幅广告等各种视觉元素，通过独特的设计风格和创意表达，以吸引目标受众的注意力，塑造品牌形象，并传递核心信息。
+                在品牌宣传中，广告宣传物料设计起着突出品牌特点、激发消费者兴趣的重要作用。通过精心选择的色彩、排版、图像和文字，设计师可以创造出与品牌形象相一致的视觉效果，提升品牌的辨识度和吸引力。</p>
+        </div>
+        <p class="read-more" (click)="toggleExpansion()">{{ isExpanded ? '查看少' : '查看更多' }}</p>
+    </div>
+    <div id="descriptionImage">
+       <img id="imageSection1" src="../../../assets/images/marketing/scene.png" alt="scene">
+    </div>
+</div>
+<div class="section2">
+    <div class="card-container" [ngClass]="{'cards': opacitySection2 === 1}">
+        <div class="card-row">
+          <div class="card" *ngFor="let item of items">
+            <img class="card-image" [src]="item.image" alt="Image">
+            <div class="card-text">{{ item.text }}</div>
+          </div>
+        </div>
+    </div>      
+</div>

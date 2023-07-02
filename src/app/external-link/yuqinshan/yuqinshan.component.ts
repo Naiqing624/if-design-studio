@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
 
 interface Logo {
   src: string;
@@ -22,6 +22,7 @@ export class YuqinshanComponent {
   ];
   opacityLogos = 1;
   currentIndex = 0;
+
   @ViewChild('sliderMain') sliderMain: ElementRef;
 
   constructor(private el: ElementRef) {
@@ -38,7 +39,7 @@ export class YuqinshanComponent {
     }
   }  
 
- prevSlide() {
+  prevSlide() {
     this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
   }
 

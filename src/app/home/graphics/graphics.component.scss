@@ -7,44 +7,91 @@
     font-family: 'PingFang', sans-serif;
   }
   
-  h2 {
-    text-align: center;
+#ariane {
     background-color: #EFEFEF;
     padding-top: 60px;
     margin-top: 65px;
     padding-bottom: 65px;
+}
+
+h2 {
+    text-align: center;
     font-size: 32px;
     font-weight: 400;
     line-height: 45px;
-  }
+}
+
+.breadcrumb {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
   
-  #section1 {
+.breadcrumb ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.breadcrumb li {
+    display: inline;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: "/";
+    margin: 0 5px;
+    color: #999;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #333;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+#home{
+    position: relative;
+    top: 2px;
+}
+  
+#section1 {
     display: flex;
     padding-top: 99px;
     padding-left: 260px;
     padding-right: 260px;
     padding-bottom: 117px;
-  }
+}
   
-  #description {
+h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#description {
     padding-right: 138px;
-  }
+}
   
-  #description h1 {
+#description h1 {
     font-size: 32px;
     font-weight: 400;
-  }
+}
   
-  #description p {
+#description p {
     font-size: 20px;
     line-height: 30px;
-  }
+}
   
-  .content {
+.content {
     transition: max-height 0.3s ease-in-out;
-  }
+}
   
-  .read-more {
+.read-more {
     padding-top: 30px;
     color: rgb(0, 0, 0);
     cursor: pointer;
@@ -52,14 +99,14 @@
     font-weight: 400;
     text-decoration: underline;
     text-underline-offset: 8px;
-  }
+}
   
-  #imageSection1 {
+#imageSection1 {
     width: 689px;
     height: 497px;
-  }
+}
   
-  #section2 {
+#section2 {
     padding-bottom: 100%;
     background: #F8F8F8;
     background-size: 50% auto;
@@ -71,9 +118,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
+}
   
-  .button {
+.button {
     position: relative;
     cursor: pointer;
   
@@ -91,15 +138,15 @@
     &--right{
       margin-left: 1700px;
     }
-  }
+}
   
-  .carousel {
+.carousel {
     padding-top: 118px;
     display: flex;
     justify-content: center;
-  }
+}
   
-  .item {
+.item {
     width: 352px;
     height: 460px;
     background: #ffffff;
@@ -119,30 +166,30 @@
       width: 280px;
       padding-bottom: 50px;
     }
-  }
+}
   
-  .item:last-child {
+.item:last-child {
     margin-right: 0;
-  }
+}
   
-  [data-position='1'] {
+[data-position='1'] {
     transform: translate3d(-480px, 0px, 0px);
     cursor: pointer;
     z-index: 1;
-  }
+}
   
-  [data-position='2'] {
+[data-position='2'] {
     transform: scale(1.1) translate3d(0px, 0px, 0px);
     z-index: 3;
-  }
+}
   
-  [data-position='3'] {
+[data-position='3'] {
     cursor: pointer;
     transform: translate3d(480px, 0px, 0px);
     z-index: 2;
-  }
+}
   
-  @keyframes crossfade {
+@keyframes crossfade {
     0% {
       opacity: 1;
     }
@@ -155,85 +202,85 @@
     100% {
       opacity: 1;
     }
-  }
+}
   
-  .bar {
+.bar {
     width: 15px;
     height: 1472px;
     background-color: #979797;
     position: absolute;
     margin-top: 480px;
-  }
+}
   
-  .barExtended {
+.barExtended {
     width: 15px;
     height: 1772px;
     background-color: #979797;
     position: absolute;
     margin-top: 480px;
-  }
+}
   
-  .position-ellipse-right {
+.position-ellipse-right {
     position: relative;
     top:30px;
     left: 35px;
-  }
+}
   
-  .position-ellipse-left {
+.position-ellipse-left {
     position: relative;
     top:30px;
     right: 35px;
-  }
+}
   
-  .ellipse-exterieure {
+.ellipse-exterieure {
     width: 24px;
     height: 24px;
-    border: 1px solid black; /* Couleur et épaisseur de la bordure de l'ellipse extérieure */
+    border: 1px solid black;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .ellipse-interieure {
+.ellipse-interieure {
     position: relative;
     width: 14px;
     height: 14px;
-    border: 1px solid black; /* Couleur et épaisseur de la bordure de l'ellipse intérieure */
+    border: 1px solid black;
     border-radius: 50%;
-  }
+}
   
-  /*Description 01*/
-  .position-text-1 {
+/*Description 01*/
+.position-text-1 {
     display: flex;
     position: relative;
     top: 620px;
     left: 370px;
-  }
+}
   
-  .text-1 {
+.text-1 {
     width: 550px;
-  }
+}
   
-  .text-2 {
+.text-2 {
     width: 550px;
-  }
+}
   
-  .text-3 {
+.text-3 {
     width: 550px;
-  }
+}
   
-  .text-4 {
+.text-4 {
     width: 550px;
-  }
+}
   
-  .text-5 {
+.text-5 {
     width: 550px;
-  }
+}
   
-  .text-6 {
+.text-6 {
     width: 550px;
-  }
+}
   
   /*Description 02*/
   .position-text-2  {
