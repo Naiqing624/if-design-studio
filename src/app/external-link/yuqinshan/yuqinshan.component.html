@@ -6,7 +6,7 @@
         <h3>PORTFOLIO LOGO</h3>
         <h1>俞沁衫 - LOGO、产品设计</h1>
         <div class="content">
-            <p style="text-align: justify;"><strong>2022作品</strong> - LOGO、VI手册、电商、产品漫画
+            <p><strong>2022作品</strong> - LOGO、VI手册、电商、产品漫画
                 <br>
                 <strong>设计师：</strong>大羊 
             </p>
@@ -21,7 +21,7 @@
         <p>俞沁衫品牌原名为岚潮：有山则有水，以风水代之。岚与浪近音，取浪潮之意。顾客想对整个品牌进行重塑，体现品牌的独特性、潮流感和自由精神。将岚潮改为俞沁衫，想要做更加渗入人心的衣衫。一颗想“浪”的心作为一个个性化衣服品牌的独特魅力。</p>
         <div id="part1Images">
             <img src="../../../assets/images/yuqinshan-logos.png" alt="yuqinshan-logos">
-            <img class="arrows" src="../../../assets/images/arrows.png" alt="arrows">
+            <img id="arrow" src="../../../assets/images/arrows.png" alt="arrows">
             <p>俞沁衫？？？</p>
         </div>
     </div>
@@ -42,14 +42,14 @@
                 <div class="caption">海浪形状参考</div>
             </div>
             <div class="image-slide">
-                <img class="arrows" src="../../../assets/images/arrows.png" alt="arrows">
+                <img id="arrow1" class="arrows" src="../../../assets/images/arrows.png" alt="arrows">
             </div>
             <div class="image-slide">
                 <img src="../../../assets/images/draw.png" alt="draw">
                 <div class="caption">手画设计草稿</div>
             </div>
             <div class="image-slide">
-                <img class="arrows" src="../../../assets/images/arrows.png" alt="arrows">
+                <img id="arrow2" class="arrows" src="../../../assets/images/arrows.png" alt="arrows">
             </div>
             <div class="image-slide">
                 <img src="../../../assets/images/yuqinshan-logo.png" alt="yuqinshan-logo">
@@ -61,6 +61,7 @@
         <div id="logos">
             <div id="logo-list" class="logo-list" [ngClass]="{'logos': opacityLogos === 1}">
               <img draggable="false" *ngFor="let logo of logos" class="logo" [src]="logo.src" [alt]="logo.alt">
+            </div>
         </div>                        
     </div>
 </div>
@@ -105,38 +106,39 @@
             <div class="caption">机车（白色）</div>
         </div>
     </div>
+</div>
+<div id="section4">
     <div id="part4">
-       <section class="product">
-            <div class="container-fluid">
-                <div class="slider-wrap">
-                    <div class="slider-main">
-                        <div class="item">
-                            <img src="../../../assets/images/t-shirts/models/1.png" alt="model">
-                        </div>
-                        <div class="item">
-                            <img src="../../../assets/images/t-shirts/models/2.png" alt="model">
-                        </div>
-                        <div class="item">
-                            <img src="../../../assets/images/t-shirts/models/3.png" alt="model">
-                        </div>
-                        <div class="item">
-                            <img src="../../../assets/images/t-shirts/models/4.png" alt="model">
-                        </div>
-                        <div class="item">
-                            <img src="../../../assets/images/t-shirts/models/5.png" alt="model">
-                        </div>
-                    </div>
-                    <div class="button-area">
-                        <button type="button" class="prev" (click)="prevSlide()" [currentIndex]="currentIndex" appPrev>Prev</button>
-                        <button type="button" class="next" (click)="nextSlide()" [currentIndex]="currentIndex" appNext>Next</button>
-                        
-                    </div>
-                </div>
-                <br>
-                <div class="slider-dots">
-                    <span *ngFor="let image of images; let i = index" class="dot" [class.active]="i === currentIndex" (click)="goToSlide(i)"></span>
-                </div>
-            </div>
-       </section>
-    </div>
+        <section class="product">
+             <div class="container-fluid">
+                 <div class="slider-wrap">
+                     <div class="slider-main">
+                         <div class="item">
+                             <img src="../../../assets/images/t-shirts/models/1.png" alt="model">
+                         </div>
+                         <div class="item">
+                             <img src="../../../assets/images/t-shirts/models/2.png" alt="model">
+                         </div>
+                         <div class="item">
+                             <img src="../../../assets/images/t-shirts/models/3.png" alt="model">
+                         </div>
+                         <div class="item">
+                             <img src="../../../assets/images/t-shirts/models/4.png" alt="model">
+                         </div>
+                         <div class="item">
+                             <img src="../../../assets/images/t-shirts/models/5.png" alt="model">
+                         </div>
+                     </div>
+                     <div class="button-area">
+                         <button type="button" class="prev" (click)="prevSlide()" [currentIndex]="currentIndex" appPrev></button>
+                         <button type="button" class="next" (click)="nextSlide()" [currentIndex]="currentIndex" appNext></button>
+                     </div>
+                 </div>
+                 <br>
+                 <div class="slider-dots">
+                     <span *ngFor="let image of images; let i = index" class="dot" [class.active]="i === currentIndex" (click)="goToSlide(i)"></span>
+                 </div>
+             </div>
+        </section>
+     </div>
 </div>

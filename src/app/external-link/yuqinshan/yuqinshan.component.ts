@@ -22,6 +22,7 @@ export class YuqinshanComponent {
   ];
   opacityLogos = 1;
   currentIndex = 0;
+  @ViewChild('sliderMain') sliderMain: ElementRef;
 
   constructor(private el: ElementRef) {
     setInterval(() => {
