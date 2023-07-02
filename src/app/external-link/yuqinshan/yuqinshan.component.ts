@@ -23,6 +23,11 @@ export class YuqinshanComponent {
   opacityLogos = 1;
   currentIndex = 0;
 
+  opacitySection1 = 1;
+  opacitySection2 = 1;
+  opacitySection3 = 1;
+  opacitySection4 = 1;
+
   @ViewChild('sliderMain') sliderMain: ElementRef;
 
   constructor(private el: ElementRef) {
@@ -49,5 +54,37 @@ export class YuqinshanComponent {
 
   goToSlide(index: number) {
     this.currentIndex = index;
+  }
+
+  @HostListener('window:scroll', ['$event'])
+  onScroll() {
+    const section1 = document.querySelector('.section1');
+    const section2 = document.querySelector('.section2');
+    const section3 = document.querySelector('.section3');
+    const section4 = document.querySelector('.section4');
+
+    if (section1 && section1.getBoundingClientRect().top <= window.innerHeight) {
+      this.opacitySection1 = 1;
+    }else{
+      this.opacitySection1 = 0;
+    }
+
+    if (section2 && section2.getBoundingClientRect().top <= window.innerHeight) {
+      this.opacitySection2 = 1;
+    }else{
+      this.opacitySection2 = 0;
+    }
+
+    if (section3 && section3.getBoundingClientRect().top <= window.innerHeight) {
+      this.opacitySection3 = 1;
+    }else{
+      this.opacitySection3 = 0;
+    }
+
+    if (section4 && section4.getBoundingClientRect().top <= window.innerHeight) {
+      this.opacitySection4 = 1;
+    }else{
+      this.opacitySection4 = 0;
+    }
   }
 }

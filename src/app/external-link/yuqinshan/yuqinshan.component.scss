@@ -7,6 +7,71 @@
     font-family: 'PingFang', sans-serif;
 }
 
+@keyframes first {
+    0% {
+      opacity: 0;
+      margin-top: 75px;
+    }
+    100% {
+      opacity: 1;
+      margin-top: 0;
+    }
+}
+
+.section1.first {
+    animation: first 1s ease-in-out;
+}
+
+@keyframes second {
+    0% {
+      opacity: 0;
+      margin-left: 75px;
+    }
+    100% {
+      opacity: 1;
+      margin-left: 0;
+    }
+}
+
+@keyframes third {
+    0% {
+      opacity: 0;
+      margin-right: 75px;
+    }
+    100% {
+      opacity: 1;
+      margin-right: 0;
+    }
+}
+
+.section2.second {
+    animation: second 1s ease-in-out;
+}
+
+.section2.secondTwo {
+    animation: first 1s ease-in-out;
+}
+
+.section2.secondThree {
+    animation: first 1s ease-in-out;
+}
+
+.section3.secondFourth {
+    animation: third 1s ease-in-out;
+}
+
+.section3.secondFifth {
+    animation: second 1s ease-in-out;
+}
+
+.section3.secondSixth {
+    animation: first 1s ease-in-out;
+}
+
+.section4.secondSeventh {
+    animation: first 1s ease-in-out;
+}
+
 #banner {
     text-align: center;
     background-color: #EFEFEF;
