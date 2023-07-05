@@ -8,6 +8,8 @@ import { GraphicsComponent } from './home/graphics/graphics.component';
 import { LogoDesignComponent } from './home/logo-design/logo-design.component';
 import { YuqinshanComponent } from './external-link/yuqinshan/yuqinshan.component';
 import { MarketingComponent } from './home/marketing/marketing.component';
+import { PackagingWorkComponent } from './external-link/packaging-work/packaging-work.component';
+import { KaryoosiComponent } from './external-link/karyoosi/karyoosi.component';
 
 const routes: Routes = [
   {path: "home", component: HomeComponent},
@@ -16,8 +18,10 @@ const routes: Routes = [
   {path: "UI/UX", component: UiUxComponent},
   {path: "graphics", component: GraphicsComponent},
   {path: "logo-design", component: LogoDesignComponent},
+  {path: "marketing", component: MarketingComponent},
   {path: "yuqinshan", component: YuqinshanComponent},
-  {path: "marketing", component: MarketingComponent}
+  {path: "packaging-work", component: PackagingWorkComponent},
+  {path: "karyoosi", component: KaryoosiComponent}
 ];
 
 @NgModule({
