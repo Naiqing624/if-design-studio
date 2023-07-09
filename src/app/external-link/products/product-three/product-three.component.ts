@@ -1,11 +1,11 @@
 import { Component, HostListener } from '@angular/core';
 
 @Component({
-  selector: 'app-karyoosi',
-  templateUrl: './karyoosi.component.html',
-  styleUrls: ['./karyoosi.component.scss']
+  selector: 'app-product-three',
+  templateUrl: './product-three.component.html',
+  styleUrls: ['./product-three.component.scss']
 })
-export class KaryoosiComponent {
+export class ProductThreeComponent {
   opacitySection2 = 1;
 
   @HostListener('window:scroll', ['$event'])

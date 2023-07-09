@@ -4,9 +4,10 @@ import { YuqinshanComponent } from './yuqinshan/yuqinshan.component';
 import { PrevDirective } from './yuqinshan/prev.directive';
 import { NextDirective } from './yuqinshan/next.directive';
 import { PackagingWorkComponent } from './packaging-work/packaging-work.component';
-import { KaryoosiComponent } from './karyoosi/karyoosi.component';
-
-
+import { ProductOneComponent } from './products/product-one/product-one.component';
+import { ProductTwoComponent } from './products/product-two/product-two.component';
+import { ProductThreeComponent } from './products/product-three/product-three.component';
+import { ProductFourComponent } from './products/product-four/product-four.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,10 @@ import { KaryoosiComponent } from './karyoosi/karyoosi.component';
     PrevDirective,
     NextDirective,
     PackagingWorkComponent,
-    KaryoosiComponent
+    ProductOneComponent,
+    ProductTwoComponent,
+    ProductThreeComponent,
+    ProductFourComponent
   ],
   imports: [
     CommonModule
