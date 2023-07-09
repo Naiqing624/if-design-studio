@@ -26,8 +26,10 @@
     <div class="card-container" [ngClass]="{'cards': opacitySection2 === 1}">
         <div class="card-row">
           <div class="card" *ngFor="let item of items">
-            <img class="card-image" [src]="item.image" alt="Image">
-            <div class="card-text">{{ item.text }}</div>
+            <a [routerLink]="'/'+item.link">
+              <img class="card-image" [src]="item.image" alt="Image">
+              <div class="card-text">{{ item.text }}</div>
+            </a>
           </div>
         </div>
     </div>      

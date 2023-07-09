@@ -1,11 +1,11 @@
 import { Component, HostListener } from '@angular/core';
 
 @Component({
-  selector: 'app-packaging-work',
-  templateUrl: './packaging-work.component.html',
-  styleUrls: ['./packaging-work.component.scss']
+  selector: 'app-marketing-three',
+  templateUrl: './marketing-three.component.html',
+  styleUrls: ['./marketing-three.component.scss']
 })
-export class PackagingWorkComponent {
+export class MarketingThreeComponent {
   isExpanded = false;
   opacitySection2 = 1;
 

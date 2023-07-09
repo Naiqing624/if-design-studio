@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { YuqinshanComponent } from './yuqinshan.component';
+import { LogoOneComponent } from './logo-one.component';
 
-describe('YuqinshanComponent', () => {
-  let component: YuqinshanComponent;
-  let fixture: ComponentFixture<YuqinshanComponent>;
+describe('LogoOneComponent', () => {
+  let component: LogoOneComponent;
+  let fixture: ComponentFixture<LogoOneComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [YuqinshanComponent]
+      declarations: [LogoOneComponent]
     });
-    fixture = TestBed.createComponent(YuqinshanComponent);
+    fixture = TestBed.createComponent(LogoOneComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
