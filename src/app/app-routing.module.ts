@@ -20,6 +20,18 @@ import { ProductFiveComponent } from './external-link/products/product-five/prod
 import { ProductNineComponent } from './external-link/products/product-nine/product-nine.component';
 import { ProductSevenComponent } from './external-link/products/product-seven/product-seven.component';
 import { ProductSixComponent } from './external-link/products/product-six/product-six.component';
+import { MarketingEightComponent } from './external-link/marketing/marketing-eight/marketing-eight.component';
+import { MarketingFiveComponent } from './external-link/marketing/marketing-five/marketing-five.component';
+import { MarketingFourComponent } from './external-link/marketing/marketing-four/marketing-four.component';
+import { MarketingNineComponent } from './external-link/marketing/marketing-nine/marketing-nine.component';
+import { MarketingSevenComponent } from './external-link/marketing/marketing-seven/marketing-seven.component';
+import { MarketingSixComponent } from './external-link/marketing/marketing-six/marketing-six.component';
+import { ECommerceOneComponent } from './external-link/e-commerce/e-commerce-one/e-commerce-one.component';
+import { ECommerceFiveComponent } from './external-link/e-commerce/e-commerce-five/e-commerce-five.component';
+import { ECommerceFourComponent } from './external-link/e-commerce/e-commerce-four/e-commerce-four.component';
+import { ECommerceThreeComponent } from './external-link/e-commerce/e-commerce-three/e-commerce-three.component';
+import { ECommerceTwoComponent } from './external-link/e-commerce/e-commerce-two/e-commerce-two.component';
+import { ECommerceSixComponent } from './external-link/e-commerce/e-commerce-six/e-commerce-six.component';
 
 const routes: Routes = [
   {path: "home", component: HomeComponent},
@@ -33,6 +45,12 @@ const routes: Routes = [
   {path: "marketing-one", component: MarketingOneComponent},
   {path: "marketing-two", component: MarketingTwoComponent},
   {path: "marketing-three", component: MarketingThreeComponent},
+  {path: "marketing-four", component: MarketingFourComponent},
+  {path: "marketing-five", component: MarketingFiveComponent},
+  {path: "marketing-six", component: MarketingSixComponent},
+  {path: "marketing-seven", component: MarketingSevenComponent},
+  {path: "marketing-eight", component: MarketingEightComponent},
+  {path: "marketing-nine", component: MarketingNineComponent},
   {path: "product-one", component: ProductOneComponent},
   {path: "product-two", component: ProductTwoComponent},
   {path: "product-three", component: ProductThreeComponent},
@@ -41,7 +59,13 @@ const routes: Routes = [
   {path: "product-six", component: ProductSixComponent},
   {path: "product-seven", component: ProductSevenComponent},
   {path: "product-eight", component: ProductEightComponent},
-  {path: "product-nine", component: ProductNineComponent}
+  {path: "product-nine", component: ProductNineComponent},
+  {path: "e-commerce-one", component: ECommerceOneComponent},
+  {path: "e-commerce-two", component: ECommerceTwoComponent},
+  {path: "e-commerce-three", component: ECommerceThreeComponent},
+  {path: "e-commerce-four", component: ECommerceFourComponent},
+  {path: "e-commerce-five", component: ECommerceFiveComponent},
+  {path: "e-commerce-six", component: ECommerceSixComponent}
 ];
 
 @NgModule({

@@ -17,6 +17,18 @@ import { ProductSixComponent } from './products/product-six/product-six.componen
 import { ProductSevenComponent } from './products/product-seven/product-seven.component';
 import { ProductEightComponent } from './products/product-eight/product-eight.component';
 import { ProductNineComponent } from './products/product-nine/product-nine.component';
+import { MarketingFourComponent } from './marketing/marketing-four/marketing-four.component';
+import { MarketingFiveComponent } from './marketing/marketing-five/marketing-five.component';
+import { MarketingSixComponent } from './marketing/marketing-six/marketing-six.component';
+import { MarketingSevenComponent } from './marketing/marketing-seven/marketing-seven.component';
+import { MarketingEightComponent } from './marketing/marketing-eight/marketing-eight.component';
+import { MarketingNineComponent } from './marketing/marketing-nine/marketing-nine.component';
+import { ECommerceOneComponent } from './e-commerce/e-commerce-one/e-commerce-one.component';
+import { ECommerceTwoComponent } from './e-commerce/e-commerce-two/e-commerce-two.component';
+import { ECommerceThreeComponent } from './e-commerce/e-commerce-three/e-commerce-three.component';
+import { ECommerceFourComponent } from './e-commerce/e-commerce-four/e-commerce-four.component';
+import { ECommerceFiveComponent } from './e-commerce/e-commerce-five/e-commerce-five.component';
+import { ECommerceSixComponent } from './e-commerce/e-commerce-six/e-commerce-six.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +46,19 @@ import { ProductNineComponent } from './products/product-nine/product-nine.compo
     ProductSixComponent,
     ProductSevenComponent,
     ProductEightComponent,
-    ProductNineComponent
+    ProductNineComponent,
+    MarketingFourComponent,
+    MarketingFiveComponent,
+    MarketingSixComponent,
+    MarketingSevenComponent,
+    MarketingEightComponent,
+    MarketingNineComponent,
+    ECommerceOneComponent,
+    ECommerceTwoComponent,
+    ECommerceThreeComponent,
+    ECommerceFourComponent,
+    ECommerceFiveComponent,
+    ECommerceSixComponent
   ],
   imports: [
     CommonModule,
