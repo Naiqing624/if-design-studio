@@ -22,7 +22,6 @@ h2 {
 }
 
 .breadcrumb {
-    background-color: #f2f2f2;
     padding: 10px;
 }
   
@@ -174,6 +173,11 @@ h3{
 .boxSection2 {
     display: flex;
 } 
+
+.boxSection2 a {
+    pointer-events: auto;
+    cursor: pointer;
+}
 
 .image {
     width: 320px;

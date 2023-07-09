@@ -7,6 +7,7 @@ import { HomeModule } from './home/home.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { InternationalizationModule } from './internationalization/internationalization.module';
+import { ExternalLinkModule } from './external-link/external-link.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { InternationalizationModule } from './internationalization/international
     MenuModule,
     HomeModule,
     HttpClientModule,
-    InternationalizationModule
+    InternationalizationModule,
+    ExternalLinkModule
   ],
   providers: [],
   bootstrap: [AppComponent]

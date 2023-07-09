@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'PingFang';
+    src: url('../../../../assets/font/PingFang.woff') format('woff');
+} 
+  
+* {
+    font-family: 'PingFang', sans-serif;
+}
+
+#ariane {
+    background-color: #FBF3EF;
+    padding-top: 60px;
+    margin-top: 65px;
+    padding-bottom: 65px;
+    text-align: center;
+}
+
+#section1 {
+    display: flex;
+    padding-left: 260px;
+    padding-right: 260px;
+    justify-content: center;
+    padding-top: 99px;
+    padding-bottom: 117px;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+  
+#description {
+    padding-right: 450px;
+}
+  
+#description h1 {
+    font-size: 32px;
+    font-weight: 400;
+}
+  
+#description p {
+    font-size: 20px;
+    line-height: 30px;
+}
+  
+.content {
+    transition: max-height 0.3s ease-in-out;
+}
+  
+.read-more {
+    padding-top: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+  
+#imageSection1 {
+    width: 496px;
+    height: 372px;
+}
+
+#section2 {
+    text-align: center;
+}
+
+.images {
+    padding-bottom: 50px;
+}
+
+@keyframes section2 {
+    0% {
+      opacity: 0;
+      margin-right: 75px;
+    }
+    100% {
+      opacity: 1;
+      margin-right: 0;
+    }
+}
+
+.section2.imagesSection2 {
+    animation: section2 1s ease-in-out;
+}
+
+@media screen and (max-width: 1850px) {
+    #section1 {
+        padding-top: 153px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    #section1 {
+        padding-top: 153px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    #description {
+        padding-right: 320px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #description p{
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    #description {
+        padding-right: 220px;
+    }
+
+    #imageSection1{
+        width: 475px;
+        height: 325px;
+    }
+}
+
+@media screen and (max-width: 1300px) {  
+    h2{
+        font-size: 30px;
+    }
+
+    .content {
+        max-height: none;
+        overflow: visible;
+    }
+
+    .read-more {
+        display: none;
+    }
+    
+    #descriptionImage {
+        padding-top: 50px;
+        text-align: center;
+    }
+    
+    #section1 {
+        display: table;
+        margin: 0 auto;
+        padding-top: 75px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    #description{
+        padding-right: 0;
+    }
+
+    #description h3, h1 {
+        text-align: center;
+    }
+
+    .content {
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+    .images {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1050px) { 
+    .images {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 750px) { 
+    .images {
+        width: 475px;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    #section1 {
+        padding-top: 25px;
+    }
+
+    #description h1{
+        font-size: 20px;
+    }
+
+    #imageSection1{
+        width: 280px;
+        height: 210px;
+    }
+
+    .content {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #ariane img {
+        width: 250px;
+    }
+
+    .images {
+        width: 280px;
+    }
+}
