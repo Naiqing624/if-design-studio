@@ -196,6 +196,11 @@ h3{
     padding-bottom: 100px;
 }
 
+svg {
+    width: 156px;
+    height: 156px;
+}
+
 #color {
     display: flex;
     justify-content: center;
@@ -246,42 +251,72 @@ h3{
   
 //section4
 #section4{
-    max-width: 1300px;
-    height: 2000px;
+    max-width: 1291px;
+    height: 19950px;
     background-color: #EDE5D8;
     margin: 0 auto;
 }
 
+.product-name {
+    padding-left: 150px;
+    margin-top: -250px
+}
+
+.product-name-two {
+    padding-left: 150px;
+}
+
+.product-master{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.product-master-sub {
+    color: #FFF;
+    font-family: PingFang SC;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: -50px;
+}
+
+hr {
+    border: none;
+    height: 0.5px;
+    background-color: white;
+    width: 991px;
+    margin-top: -50px;
+}
+
 .image-container {
-    display: flex;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 200px;
 }
 
-.image-container-two {
-    position: relative;
-    right: 430px;
+.image-six {
+    max-width: 1000px;
 }
 
-.image-container-three {
-    position: relative;
-    right: 855px;
-    top: 0;
-}
-
-.image-container-four {
-    position: relative;
-    right: 1460px;
-    top: 355px;
-}
-
-.image-container-five {
-    position: relative;
-    right: 1736px;
-    top: -215px;
+.product-three {
+    text-align: center;
 }
 
 @media screen and (max-width: 1850px) {
     #section1 {
         padding-top: 153px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    #section2{
         padding-left: 200px;
         padding-right: 200px;
     }
@@ -293,6 +328,11 @@ h3{
         padding-left: 100px;
         padding-right: 100px;
     }
+
+    #section2{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
 
 @media screen and (max-width: 1550px) {
@@ -301,7 +341,27 @@ h3{
     }
 }
 
+@media screen and (max-width: 1500px) {
+    #section1 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #section2{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
 @media screen and (max-width: 1400px) {
+    #section2 {
+        padding-bottom: 550px;
+    }
+
+    #section4{
+        height: 14350px;
+    }
+
     #description p{
         font-size: 17px;
         line-height: 20px;
@@ -314,6 +374,92 @@ h3{
     #imageSection1{
         width: 475px;
         height: 325px;
+    }
+
+    .horizontal-image {
+        width: 1000px;
+    }
+    
+    .vertical-image {
+        width: 400px;
+    }
+
+    .vertical-bar-container {
+        top: 120%;
+        left: 12%;
+    }
+    
+    .vertical-hamburger-container {
+        top: 195%;
+        left: 12%;
+    }
+
+    svg {
+        width: 106px;
+        height: 106px;
+    }
+
+    .color {
+        font-size: 50px;
+        font-weight: 900;
+    }
+    
+    .color-padding {
+        font-size: 25px;
+        font-weight: 400;
+        top: -60px;
+        left: 5px;
+    }
+    
+    .ellipse-container {
+        padding-top: 140px;
+        padding-right: 100px;
+    }
+    
+    .ellipse-text {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    #section4{
+        max-width: 1000px;
+    }
+    
+    .image-four {
+        max-width: 1000px;
+    }
+
+    .image-five {
+        max-width: 800px;
+    }
+
+    .image-six {
+        max-width: 700px;
+    }
+
+    .product-name {
+        padding-left: 150px;
+        margin-top: -200px
+    }
+    
+    .product-name-two {
+        padding-left: 150px;
+    }
+    
+    .product-master{
+        font-size: 50px;
+        font-weight: 900;
+    }
+    
+    .product-master-sub {
+        font-size: 40px;
+        font-weight: 400;
+        top: -50px;
+    }
+    
+    hr {
+        width: 701px;
+        margin-top: -50px;
     }
 }
 
@@ -363,6 +509,112 @@ h3{
     }
 }
 
+@media screen and (max-width: 1150px) { 
+    #section2 {
+        padding-bottom: 300px;
+    }
+
+    #section4{
+        height: 9750px;
+    }
+
+    .image-container {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .horizontal-image {
+        width: 600px;
+    }
+    
+    .vertical-image {
+        width: 200px;
+    }
+
+    .vertical-bar-container {
+        top: 120%;
+        left: 12%;
+    }
+
+    .vertical-bar {
+        border-top: 134px solid #000;
+    }
+    
+    .vertical-hamburger-container {
+        top: 185%;
+        left: 12%;
+    }
+
+    .vertical-hamburger {
+        width: 70%;
+    }
+
+    svg {
+        width: 56px;
+        height: 56px;
+    }
+
+    .color {
+        font-size: 30px;
+        padding-right: 50px;
+    }
+    
+    .color-padding {
+        font-size: 15px;
+        top: -35px;
+        left: 2px;
+    }
+    
+    .ellipse-container {
+        padding-top: 100px;
+        padding-right: 50px;
+    }
+    
+    .ellipse-text {
+        font-size: 15px;
+    }
+
+    #section4{
+        max-width: 600px;
+    }
+    
+    .image-four {
+        max-width: 600px;
+    }
+
+    .image-five {
+        max-width: 400px;
+    }
+
+    .image-six {
+        max-width: 500px;
+    }
+
+    .product-name {
+        padding-left: 50px;
+        margin-top: -100px
+    }
+    
+    .product-name-two {
+        padding-left: 50px;
+    }
+    
+    .product-master{
+        font-size: 25px;
+    }
+    
+    .product-master-sub {
+        font-size: 15px;
+        font-weight: 400;
+        top: -20px;
+    }
+    
+    hr {
+        width: 501px;
+        margin-top: -20px;
+    }
+}
+
 @media screen and (max-width: 1050px) { 
     .images {
         width: 700px;
@@ -370,14 +622,144 @@ h3{
 }
 
 @media screen and (max-width: 750px) { 
+    #section2 {
+        padding-bottom: 250px;
+    }
+
+    #section3 {
+        padding-bottom: 50px;
+    }
+
+    #section4{
+        height: 6150px;
+    }
+
+    #imageSection1{
+        width: 375px;
+        height: 225px;
+    }
+
     .images {
         width: 475px;
     }
+
+    .horizontal-image {
+        width: 400px;
+    }
+    
+    .vertical-image {
+        width: 150px;
+    }
+
+    .text-container {
+        left: 50px;
+    }
+      
+    .text {
+        font-size: 20px;
+    }
+
+    .vertical-bar-container {
+        top: 120%;
+        left: 12%;
+    }
+
+    .vertical-bar {
+        border-top: 84px solid #000;
+    }
+    
+    .vertical-hamburger-container {
+        top: 185%;
+        left: 12%;
+    }
+
+    .vertical-hamburger {
+        width: 50%;
+    }
+
+    svg {
+        width: 36px;
+        height: 36px;
+    }
+
+    .color {
+        font-size: 20px;
+        padding-right: 20px;
+    }
+    
+    .color-padding {
+        font-size: 10px;
+        top: -25px;
+    }
+    
+    .ellipse-container {
+        padding-top: 70px;
+        padding-right: 40px;
+    }
+    
+    .ellipse-text {
+        font-size: 10px;
+    }
+
+    #section4{
+        max-width: 400px;
+    }
+    
+    .image-four {
+        max-width: 400px;
+    }
+
+    .image-five {
+        max-width: 300px;
+    }
+
+    .image-six {
+        max-width: 300px;
+    }
+
+    .product-name {
+        padding-left: 25px;
+        margin-top: -100px
+    }
+    
+    .product-name-two {
+        padding-left: 25px;
+    }
+    
+    .product-master{
+        font-size: 20px;
+    }
+    
+    .product-master-sub {
+        font-size: 10px;
+        top: -20px;
+    }
+    
+    hr {
+        width: 351px;
+        margin-top: -20px;
+    }
 }
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 550px) { 
     #section1 {
         padding-top: 25px;
+    }
+
+    #section2 {
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 150px;
+    }
+
+    #section4{
+        height: 4150px;
+        max-width: 250px;
+    }
+
+    .image-container {
+        padding-top: 30px;
+        padding-bottom: 70px;
     }
 
     #description h1{
@@ -385,8 +767,8 @@ h3{
     }
 
     #imageSection1{
-        width: 280px;
-        height: 210px;
+        width: 250px;
+        height: 180px;
     }
 
     .content {
@@ -394,11 +776,100 @@ h3{
         padding-right: 25px;
     }
 
-    #ariane img {
+    .images {
         width: 250px;
     }
 
-    .images {
-        width: 280px;
+    .horizontal-image {
+        width: 250px;
+    }
+    
+    .vertical-image {
+        width: 80px;
+    }
+
+    .text-container {
+        left: 35px;
+    }
+      
+    .text {
+        font-size: 15px;
+    }
+
+    .vertical-bar-container {
+        top: 120%;
+        left: 12%;
+    }
+
+    .vertical-bar {
+        border-top: 34px solid #000;
+    }
+    
+    .vertical-hamburger-container {
+        top: 165%;
+        left: 12%;
+    }
+
+    .vertical-hamburger {
+        width: 30%;
+    }
+
+    svg {
+        width: 26px;
+        height: 26px;
+    }
+
+    .color {
+        font-size: 15px;
+        padding-right: 0;
+    }
+    
+    .color-padding {
+        font-size: 10px;
+        top: -20px;
+    }
+    
+    .ellipse-container {
+        padding-top: 50px;
+        padding-right: 10px;
+    }
+    
+    .ellipse-text {
+        font-size: 7px;
+    }
+    
+    .image-four {
+        max-width: 250px;
+    }
+
+    .image-five {
+        max-width: 180px;
+    }
+
+    .image-six {
+        max-width: 180px;
+    }
+
+    .product-name {
+        padding-left: 15px;
+        margin-top: -50px
+    }
+    
+    .product-name-two {
+        padding-left: 25px;
+    }
+    
+    .product-master{
+        font-size: 10px;
+    }
+    
+    .product-master-sub {
+        font-size: 10px;
+        top: -10px;
+    }
+    
+    hr {
+        width: 221px;
+        margin-top: -10px;
     }
 }
