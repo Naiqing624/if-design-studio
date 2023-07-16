@@ -31,7 +31,6 @@ import { ECommerceFiveComponent } from './external-link/e-commerce/e-commerce-fi
 import { ECommerceFourComponent } from './external-link/e-commerce/e-commerce-four/e-commerce-four.component';
 import { ECommerceThreeComponent } from './external-link/e-commerce/e-commerce-three/e-commerce-three.component';
 import { ECommerceTwoComponent } from './external-link/e-commerce/e-commerce-two/e-commerce-two.component';
-import { ECommerceSixComponent } from './external-link/e-commerce/e-commerce-six/e-commerce-six.component';
 
 const routes: Routes = [
   {path: "home", component: HomeComponent},
@@ -64,8 +63,7 @@ const routes: Routes = [
   {path: "e-commerce-two", component: ECommerceTwoComponent},
   {path: "e-commerce-three", component: ECommerceThreeComponent},
   {path: "e-commerce-four", component: ECommerceFourComponent},
-  {path: "e-commerce-five", component: ECommerceFiveComponent},
-  {path: "e-commerce-six", component: ECommerceSixComponent}
+  {path: "e-commerce-five", component: ECommerceFiveComponent}
 ];
 
 @NgModule({

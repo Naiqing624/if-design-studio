@@ -28,7 +28,6 @@ import { ECommerceTwoComponent } from './e-commerce/e-commerce-two/e-commerce-tw
 import { ECommerceThreeComponent } from './e-commerce/e-commerce-three/e-commerce-three.component';
 import { ECommerceFourComponent } from './e-commerce/e-commerce-four/e-commerce-four.component';
 import { ECommerceFiveComponent } from './e-commerce/e-commerce-five/e-commerce-five.component';
-import { ECommerceSixComponent } from './e-commerce/e-commerce-six/e-commerce-six.component';
 
 @NgModule({
   declarations: [
@@ -57,8 +56,7 @@ import { ECommerceSixComponent } from './e-commerce/e-commerce-six/e-commerce-si
     ECommerceTwoComponent,
     ECommerceThreeComponent,
     ECommerceFourComponent,
-    ECommerceFiveComponent,
-    ECommerceSixComponent
+    ECommerceFiveComponent
   ],
   imports: [
     CommonModule,
