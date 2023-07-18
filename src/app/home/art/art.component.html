@@ -1,0 +1,82 @@
+<div id="ariane">
+    <h2>插画设计</h2>
+    <nav class="breadcrumb">
+      <ul>
+          <li><a href="home"><img id="home" src="../../../../assets/images/home.png" alt="home" width="26px" height="24px"></a></li>
+          <li>/插画</li>
+      </ul>
+    </nav>  
+ </div>
+ <div id="section1">
+    <div id="description">
+        <h3>Illustration</h3>
+        <h1>品牌认知 - LOGO</h1>
+        <div class="content" [ngStyle]="{ 'max-height': isExpanded ? 'none' : '200px', 'overflow': isExpanded ? 'visible' : 'hidden' }">
+            <p id="text">插画在文学作品、儿童书籍、漫画、广告和品牌推广等方面发挥着重要的角色。它能够为文字内容增添生动性和可视化的呈现，帮助读者更好地理解故事或概念。插画还能够吸引目标受众，提高品牌的辨识度，并传递品牌的特点和价值观。
+                此外，插画也是一种有趣和具有娱乐性的艺术形式。它可以用于游戏、卡片、海报和社交媒体等媒介中，为人们带来愉悦和享受。</p>
+        </div>
+        <p class="read-more" (click)="toggleExpansion()">{{ isExpanded ? '查看少' : '查看更多' }}</p>
+    </div>
+    <div id="descriptionImage">
+       <img id="imageSection1" src="../../../../assets/images/art/1.png" alt="scene">
+    </div>
+</div>
+<div class="section2">
+    <div class="tuilesSection2" [ngClass]="{'tuiles2': opacitySection2 === 1}">
+        <div class="boxSection2">
+            <a routerLink="/art-one">
+                <div class="container">
+                    <img src="../../../../assets/images/art/2.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                    
+                </div>
+            </a>
+            <a routerLink="/art-two">
+                <div class="container">
+                    <img src="../../../../assets/images/art/3.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+            <a routerLink="/art-three">
+                <div class="container">
+                    <img src="../../../../assets/images/art/4.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="tuilesSection2" [ngClass]="{'tuiles3': opacitySection2 === 1}">
+        <div class="boxSection2">
+            <a routerLink="/art-four">
+                <div class="container">
+                    <img src="../../../../assets/images/art/5.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+            <a routerLink="/art-five">
+                <div class="container">
+                    <img src="../../../../assets/images/art/6.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+            <a routerLink="/art-six">
+                <div class="container">
+                    <img src="../../../../assets/images/art/7.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+        </div>     
+    </div>
+  </div>

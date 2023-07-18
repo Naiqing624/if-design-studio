@@ -9,6 +9,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { GraphicsComponent } from './graphics/graphics.component';
 import { LogoDesignComponent } from './logo-design/logo-design.component';
 import { MarketingComponent } from './marketing/marketing.component';
+import { ArtComponent } from './art/art.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MarketingComponent } from './marketing/marketing.component';
     UiUxComponent,
     GraphicsComponent,
     LogoDesignComponent,
-    MarketingComponent
+    MarketingComponent,
+    ArtComponent
   ],
   imports: [
     RouterModule.forChild([{ path: "", component: HomeComponent }]),

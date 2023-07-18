@@ -24,9 +24,9 @@
         </ul>        
       </nav>
       <a [routerLink]="'UI/UX'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">UI/UX</a>
-      <a [routerLink]="'插画'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">插画</a>
-      <a [routerLink]="'关于我们'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">关于我们</a>
-      <a [routerLink]="'联系我们'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footerContact')">联系我们</a>
+      <a [routerLink]="'art'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">插画</a>
+      <a [routerLink]="'about'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">关于我们</a>
+      <a [routerLink]="'contact'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footerContact')">联系我们</a>
     </div>
     <div id="hamburger-container" *ngIf="!linksDisplay">
       <i id="hamburger" class="ri-menu-line" (click)="toggleSidebar()"></i>
@@ -53,9 +53,9 @@
           </ul>
         </ul>
         <a [routerLink]="'UI/UX'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">UI/UX</a>
-        <a [routerLink]="'插画'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">插画</a>
-        <a [routerLink]="'关于我们'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">关于我们</a>
-        <a [routerLink]="'联系我们'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footerContact')">联系我们</a>
+        <a [routerLink]="'art'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">插画</a>
+        <a [routerLink]="'about'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">关于我们</a>
+        <a [routerLink]="'contact'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footerContact')">联系我们</a>
       </div>
     </div>
   </div>

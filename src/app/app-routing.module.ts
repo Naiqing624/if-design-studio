@@ -43,12 +43,14 @@ import { MarketingFlyerFourComponent } from './external-link/marketing/marketing
 import { MarketingFlyerOneComponent } from './external-link/marketing/marketing-two/flyer/marketing-flyer-one/marketing-flyer-one.component';
 import { MarketingFlyerThreeComponent } from './external-link/marketing/marketing-two/flyer/marketing-flyer-three/marketing-flyer-three.component';
 import { MarketingFlyerTwoComponent } from './external-link/marketing/marketing-two/flyer/marketing-flyer-two/marketing-flyer-two.component';
+import { ArtComponent } from './home/art/art.component';
 
 const routes: Routes = [
   {path: "home", component: HomeComponent},
-  {path: "关于我们", component: AboutComponent},
-  {path: "联系我们", component: ContactComponent},
+  {path: "about", component: AboutComponent},
+  {path: "contact", component: ContactComponent},
   {path: "UI/UX", component: UiUxComponent},
+  {path: "art", component: ArtComponent},
   {path: "graphics", component: GraphicsComponent},
   {path: "logo-design", component: LogoDesignComponent},
   {path: "marketing", component: MarketingComponent},
