@@ -1,1 +1,81 @@
-<p>marketing-four works!</p>
+<div id="ariane">
+    <h2>折页作品</h2>
+    <nav class="breadcrumb">
+      <ul>
+          <li><a href="home"><img id="home" src="../../../../assets/images/home.png" alt="home" width="26px" height="24px"></a></li>
+          <li>宣传折页</li>
+      </ul>
+    </nav>  
+ </div>
+ <div id="section1">
+    <div id="description">
+        <h3>Porfolio packaging</h3>
+        <h1>线上电商设计</h1>
+        <div class="content" [ngStyle]="{ 'max-height': isExpanded ? 'none' : '200px', 'overflow': isExpanded ? 'visible' : 'hidden' }">
+            <p id="text">折页是一种常见的宣传工具，具有多重作用。它可以用来传达信息和宣传产品或服务。它提供了一个有限的空间，可以将关键信息、特点和优势以简明扼要的方式呈现给目标受众。折页通常包括引人注目的标题、吸引人的图像和简洁的文字，以吸引读者的注意并激发兴趣。</p>
+        </div>
+        <p class="read-more" (click)="toggleExpansion()">{{ isExpanded ? '查看少' : '查看更多' }}</p>
+    </div>
+    <div id="descriptionImage">
+       <img id="imageSection1" src="../../../../assets/images/marketing/marketing-four/1.png" alt="scene">
+    </div>
+</div>
+<div class="section2">
+    <div class="tuilesSection2" [ngClass]="{'tuiles2': opacitySection2 === 1}">
+        <div class="boxSection2">
+            <a routerLink="/flyer-one">
+                <div class="container">
+                    <img src="../../../../assets/images/marketing/marketing-four/2.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                    
+                </div>
+            </a>
+            <a routerLink="/flyer-two">
+                <div class="container">
+                    <img src="../../../../assets/images/marketing/marketing-four/3.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+            <a routerLink="/flyer-three">
+                <div class="container">
+                    <img src="../../../../assets/images/marketing/marketing-four/4.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="tuilesSection2" [ngClass]="{'tuiles3': opacitySection2 === 1}">
+        <div class="boxSection2">
+            <a routerLink="/flyer-four">
+                <div class="container">
+                    <img src="../../../../assets/images/marketing/marketing-four/5.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+            <a routerLink="/flyer-five">
+                <div class="container">
+                    <img src="../../../../assets/images/marketing/marketing-four/6.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+            <a routerLink="/flyer-six">
+                <div class="container">
+                    <img src="../../../../assets/images/marketing/marketing-four/7.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+        </div>     
+    </div>
+  </div>

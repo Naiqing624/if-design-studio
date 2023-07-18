@@ -28,6 +28,18 @@ import { ECommerceTwoComponent } from './e-commerce/e-commerce-two/e-commerce-tw
 import { ECommerceThreeComponent } from './e-commerce/e-commerce-three/e-commerce-three.component';
 import { ECommerceFourComponent } from './e-commerce/e-commerce-four/e-commerce-four.component';
 import { ECommerceFiveComponent } from './e-commerce/e-commerce-five/e-commerce-five.component';
+import { MarketingFlyerSixComponent } from './marketing/marketing-two/flyer/marketing-flyer-six/marketing-flyer-six.component';
+import { MarketingFlyerFiveComponent } from './marketing/marketing-two/flyer/marketing-flyer-five/marketing-flyer-five.component';
+import { MarketingFlyerFourComponent } from './marketing/marketing-two/flyer/marketing-flyer-four/marketing-flyer-four.component';
+import { MarketingFlyerThreeComponent } from './marketing/marketing-two/flyer/marketing-flyer-three/marketing-flyer-three.component';
+import { MarketingFlyerTwoComponent } from './marketing/marketing-two/flyer/marketing-flyer-two/marketing-flyer-two.component';
+import { MarketingFlyerOneComponent } from './marketing/marketing-two/flyer/marketing-flyer-one/marketing-flyer-one.component';
+import { FlyerOneComponent } from './flyer/flyer-one/flyer-one.component';
+import { FlyerTwoComponent } from './flyer/flyer-two/flyer-two.component';
+import { FlyerThreeComponent } from './flyer/flyer-three/flyer-three.component';
+import { FlyerFourComponent } from './flyer/flyer-four/flyer-four.component';
+import { FlyerSixComponent } from './flyer/flyer-six/flyer-six.component';
+import { FlyerFiveComponent } from './flyer/flyer-five/flyer-five.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +68,19 @@ import { ECommerceFiveComponent } from './e-commerce/e-commerce-five/e-commerce-
     ECommerceTwoComponent,
     ECommerceThreeComponent,
     ECommerceFourComponent,
-    ECommerceFiveComponent
+    ECommerceFiveComponent,
+    MarketingFlyerSixComponent,
+    MarketingFlyerFiveComponent,
+    MarketingFlyerFourComponent,
+    MarketingFlyerThreeComponent,
+    MarketingFlyerTwoComponent,
+    MarketingFlyerOneComponent,
+    FlyerOneComponent,
+    FlyerTwoComponent,
+    FlyerThreeComponent,
+    FlyerFourComponent,
+    FlyerFiveComponent,
+    FlyerSixComponent
   ],
   imports: [
     CommonModule,

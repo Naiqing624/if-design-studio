@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'PingFang';
+    src: url('../../../../assets/font/PingFang.woff') format('woff');
+} 
+  
+* {
+    font-family: 'PingFang', sans-serif;
+}
+
+#ariane {
+    background-color: #EFEFEF;
+    padding-top: 60px;
+    margin-top: 65px;
+    padding-bottom: 65px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.breadcrumb {
+    padding: 10px;
+}
+  
+.breadcrumb ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.breadcrumb li {
+    display: inline;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: "/";
+    margin: 0 5px;
+    color: #999;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #333;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+#home{
+    position: relative;
+    top: 2px;
+}
+
+#section1 {
+    display: flex;
+    padding-top: 99px;
+    padding-left: 260px;
+    padding-right: 260px;
+    padding-bottom: 117px;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+  
+#description {
+    padding-right: 138px;
+}
+  
+#description h1 {
+    font-size: 32px;
+    font-weight: 400;
+}
+  
+#description p {
+    font-size: 20px;
+    line-height: 30px;
+}
+  
+.content {
+    transition: max-height 0.3s ease-in-out;
+}
+  
+.read-more {
+    padding-top: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+  
+#imageSection1 {
+    width: 689px;
+    height: 497px;
+}
+
+//Section2
+@keyframes tuiles2 {
+    0% {
+      opacity: 0;
+      margin-right: 75px;
+    }
+    100% {
+      opacity: 1;
+      margin-right: 0;
+    }
+}
+
+.tuilesSection2.tuiles2 {
+    animation: tuiles2 1s ease-in-out;
+}
+
+@keyframes tuiles3 {
+    0% {
+      opacity: 0;
+      margin-left: 75px;
+    }
+    100% {
+      opacity: 1;
+      margin-left: 0;
+    }
+}
+
+.tuilesSection2.tuiles3 {
+    animation: tuiles3 1s ease-in-out;
+}
+
+@keyframes tuiles4 {
+    0% {
+      opacity: 0;
+      margin-right: 75px;
+    }
+    100% {
+      opacity: 1;
+      margin-right: 0;
+    }
+}
+
+.tuilesSection2.tuiles4 {
+    animation: tuiles4 1s ease-in-out;
+}
+
+.tuiles {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+/* Second section */
+.section2 {
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.tuilesSection2 {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.boxSection2 {
+    display: flex;
+} 
+
+.boxSection2 a {
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.image {
+    width: 350px;
+    height: 350px;
+}
+
+.container {
+    position: relative;
+    padding: 50px;
+    padding-bottom: 25px;
+}
+
+@media screen and (max-width: 1850px) {
+    #section1 {
+        padding-top: 153px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    #section1 {
+        padding-top: 153px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #description p{
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    #imageSection1{
+        width: 475px;
+        height: 325px;
+    }
+}
+
+@media screen and (max-width: 1300px) {  
+    h2{
+        font-size: 30px;
+    }
+
+    .content {
+        max-height: none;
+        overflow: visible;
+    }
+
+    .read-more {
+        display: none;
+    }
+    
+    #descriptionImage {
+        padding-top: 50px;
+        text-align: center;
+    }
+    
+    #section1 {
+        display: table;
+        padding-top: 75px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    #description{
+        padding-right: 0;
+    }
+
+    #description h3, h1 {
+        text-align: center;
+    }
+
+    .content {
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+     //section 2
+     .container{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .tuiles {
+        display: table;
+        margin: 0 auto;
+    }
+
+    .tuilesSection2 {
+        display: table;
+        margin: 0 auto;
+    }
+
+    .boxSection2 {
+        display: table;
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section2 {
+        padding-top: 50px;
+    }
+
+    @keyframes tuiles2Mobile {
+        0% {
+          opacity: 0;
+          padding-left: 150px;
+        }
+        100% {
+          opacity: 1;
+          padding-left: 0;
+        }
+    }
+    
+    .tuilesSection2.tuiles2 {
+        animation: tuiles2Mobile 1s ease-in-out;
+    }
+    
+    @keyframes tuiles3Mobile {
+        0% {
+          opacity: 0;
+          padding-right: 150px;
+        }
+        100% {
+          opacity: 1;
+          padding-right: 0;
+        }
+    }
+    
+    .tuilesSection2.tuiles3 {
+        animation: tuiles3Mobile 1s ease-in-out;
+    }
+
+    @keyframes tuiles4Mobile {
+        0% {
+          opacity: 0;
+          padding-right: 150px;
+        }
+        100% {
+          opacity: 1;
+          padding-right: 0;
+        }
+    }
+    
+    .tuilesSection2.tuiles4 {
+        animation: tuiles4Mobile 1s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    #section1 {
+        padding-top: 25px;
+    }
+
+    #description h1{
+        font-size: 20px;
+    }
+
+    #imageSection1{
+        width: 280px;
+        height: 210px;
+    }
+
+    .content {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

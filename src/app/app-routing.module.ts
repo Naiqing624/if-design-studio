@@ -31,6 +31,18 @@ import { ECommerceFiveComponent } from './external-link/e-commerce/e-commerce-fi
 import { ECommerceFourComponent } from './external-link/e-commerce/e-commerce-four/e-commerce-four.component';
 import { ECommerceThreeComponent } from './external-link/e-commerce/e-commerce-three/e-commerce-three.component';
 import { ECommerceTwoComponent } from './external-link/e-commerce/e-commerce-two/e-commerce-two.component';
+import { FlyerOneComponent } from './external-link/flyer/flyer-one/flyer-one.component';
+import { FlyerFiveComponent } from './external-link/flyer/flyer-five/flyer-five.component';
+import { FlyerFourComponent } from './external-link/flyer/flyer-four/flyer-four.component';
+import { FlyerSixComponent } from './external-link/flyer/flyer-six/flyer-six.component';
+import { FlyerThreeComponent } from './external-link/flyer/flyer-three/flyer-three.component';
+import { FlyerTwoComponent } from './external-link/flyer/flyer-two/flyer-two.component';
+import { MarketingFlyerSixComponent } from './external-link/marketing/marketing-two/flyer/marketing-flyer-six/marketing-flyer-six.component';
+import { MarketingFlyerFiveComponent } from './external-link/marketing/marketing-two/flyer/marketing-flyer-five/marketing-flyer-five.component';
+import { MarketingFlyerFourComponent } from './external-link/marketing/marketing-two/flyer/marketing-flyer-four/marketing-flyer-four.component';
+import { MarketingFlyerOneComponent } from './external-link/marketing/marketing-two/flyer/marketing-flyer-one/marketing-flyer-one.component';
+import { MarketingFlyerThreeComponent } from './external-link/marketing/marketing-two/flyer/marketing-flyer-three/marketing-flyer-three.component';
+import { MarketingFlyerTwoComponent } from './external-link/marketing/marketing-two/flyer/marketing-flyer-two/marketing-flyer-two.component';
 
 const routes: Routes = [
   {path: "home", component: HomeComponent},
@@ -63,7 +75,19 @@ const routes: Routes = [
   {path: "e-commerce-two", component: ECommerceTwoComponent},
   {path: "e-commerce-three", component: ECommerceThreeComponent},
   {path: "e-commerce-four", component: ECommerceFourComponent},
-  {path: "e-commerce-five", component: ECommerceFiveComponent}
+  {path: "e-commerce-five", component: ECommerceFiveComponent},
+  {path: "flyer-one", component: FlyerOneComponent},
+  {path: "flyer-two", component: FlyerTwoComponent},
+  {path: "flyer-three", component: FlyerThreeComponent},
+  {path: "flyer-four", component: FlyerFourComponent},
+  {path: "flyer-five", component: FlyerFiveComponent},
+  {path: "flyer-six", component: FlyerSixComponent},
+  {path: "marketing-flyer-one", component: MarketingFlyerOneComponent},
+  {path: "marketing-flyer-two", component: MarketingFlyerTwoComponent},
+  {path: "marketing-flyer-three", component: MarketingFlyerThreeComponent},
+  {path: "marketing-flyer-four", component: MarketingFlyerFourComponent},
+  {path: "marketing-flyer-five", component: MarketingFlyerFiveComponent},
+  {path: "marketing-flyer-six", component: MarketingFlyerSixComponent}
 ];
 
 @NgModule({
