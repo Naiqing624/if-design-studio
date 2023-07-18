@@ -44,6 +44,12 @@ import { MarketingFlyerOneComponent } from './external-link/marketing/marketing-
 import { MarketingFlyerThreeComponent } from './external-link/marketing/marketing-two/flyer/marketing-flyer-three/marketing-flyer-three.component';
 import { MarketingFlyerTwoComponent } from './external-link/marketing/marketing-two/flyer/marketing-flyer-two/marketing-flyer-two.component';
 import { ArtComponent } from './home/art/art.component';
+import { ArtOneComponent } from './external-link/art/art-one/art-one.component';
+import { ArtFiveComponent } from './external-link/art/art-five/art-five.component';
+import { ArtFourComponent } from './external-link/art/art-four/art-four.component';
+import { ArtSixComponent } from './external-link/art/art-six/art-six.component';
+import { ArtThreeComponent } from './external-link/art/art-three/art-three.component';
+import { ArtTwoComponent } from './external-link/art/art-two/art-two.component';
 
 const routes: Routes = [
   {path: "home", component: HomeComponent},
@@ -89,7 +95,13 @@ const routes: Routes = [
   {path: "marketing-flyer-three", component: MarketingFlyerThreeComponent},
   {path: "marketing-flyer-four", component: MarketingFlyerFourComponent},
   {path: "marketing-flyer-five", component: MarketingFlyerFiveComponent},
-  {path: "marketing-flyer-six", component: MarketingFlyerSixComponent}
+  {path: "marketing-flyer-six", component: MarketingFlyerSixComponent},
+  {path: "art-one", component: ArtOneComponent},
+  {path: "art-two", component: ArtTwoComponent},
+  {path: "art-three", component: ArtThreeComponent},
+  {path: "art-four", component: ArtFourComponent},
+  {path: "art-five", component: ArtFiveComponent},
+  {path: "art-six", component: ArtSixComponent}
 ];
 
 @NgModule({

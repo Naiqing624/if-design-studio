@@ -40,6 +40,12 @@ import { FlyerThreeComponent } from './flyer/flyer-three/flyer-three.component';
 import { FlyerFourComponent } from './flyer/flyer-four/flyer-four.component';
 import { FlyerSixComponent } from './flyer/flyer-six/flyer-six.component';
 import { FlyerFiveComponent } from './flyer/flyer-five/flyer-five.component';
+import { ArtOneComponent } from './art/art-one/art-one.component';
+import { ArtTwoComponent } from './art/art-two/art-two.component';
+import { ArtThreeComponent } from './art/art-three/art-three.component';
+import { ArtFourComponent } from './art/art-four/art-four.component';
+import { ArtFiveComponent } from './art/art-five/art-five.component';
+import { ArtSixComponent } from './art/art-six/art-six.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +86,13 @@ import { FlyerFiveComponent } from './flyer/flyer-five/flyer-five.component';
     FlyerThreeComponent,
     FlyerFourComponent,
     FlyerFiveComponent,
-    FlyerSixComponent
+    FlyerSixComponent,
+    ArtOneComponent,
+    ArtTwoComponent,
+    ArtThreeComponent,
+    ArtFourComponent,
+    ArtFiveComponent,
+    ArtSixComponent
   ],
   imports: [
     CommonModule,
