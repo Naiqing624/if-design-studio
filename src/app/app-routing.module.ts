@@ -50,6 +50,11 @@ import { ArtFourComponent } from './external-link/art/art-four/art-four.componen
 import { ArtSixComponent } from './external-link/art/art-six/art-six.component';
 import { ArtThreeComponent } from './external-link/art/art-three/art-three.component';
 import { ArtTwoComponent } from './external-link/art/art-two/art-two.component';
+import { BookPrintingComponent } from './home/book-printing/book-printing.component';
+import { LogoFiveComponent } from './external-link/logos/logo-five/logo-five.component';
+import { LogoFourComponent } from './external-link/logos/logo-four/logo-four.component';
+import { LogoThreeComponent } from './external-link/logos/logo-three/logo-three.component';
+import { LogoTwoComponent } from './external-link/logos/logo-two/logo-two.component';
 
 const routes: Routes = [
   {path: "home", component: HomeComponent},
@@ -57,10 +62,15 @@ const routes: Routes = [
   {path: "contact", component: ContactComponent},
   {path: "UI/UX", component: UiUxComponent},
   {path: "art", component: ArtComponent},
+  {path: "book-printing", component: BookPrintingComponent},
   {path: "graphics", component: GraphicsComponent},
   {path: "logo-design", component: LogoDesignComponent},
   {path: "marketing", component: MarketingComponent},
   {path: "logo-one", component: LogoOneComponent},
+  {path: "logo-two", component: LogoTwoComponent},
+  {path: "logo-three", component: LogoThreeComponent},
+  {path: "logo-four", component: LogoFourComponent},
+  {path: "logo-five", component: LogoFiveComponent},
   {path: "marketing-one", component: MarketingOneComponent},
   {path: "marketing-two", component: MarketingTwoComponent},
   {path: "marketing-three", component: MarketingThreeComponent},

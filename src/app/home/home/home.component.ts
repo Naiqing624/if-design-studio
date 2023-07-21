@@ -18,11 +18,11 @@ export class HomeComponent implements OnInit {
   opacityLogos = 1;
 
   logos: Logo[] = [
-    { src: '../../../assets/images/logos/hairsalon.png', alt: 'hairsalon' },
-    { src: '../../../assets/images/logos/lemon.png', alt: 'lemon' },
-    { src: '../../../assets/images/logos/baiweiyixuan.png', alt: 'baiweiyixuan' },
-    { src: '../../../assets/images/logos/bajiajiu.png', alt: 'bajiajiu' },
-    { src: '../../../assets/images/logos/elephant.png', alt: 'elephant' }
+    { src: '../../../assets/images/home/logos/1.png', alt: '1' },
+    { src: '../../../assets/images/home/logos/2.png', alt: '2' },
+    { src: '../../../assets/images/home/logos/3.png', alt: '3' },
+    { src: '../../../assets/images/home/logos/4.png', alt: '4' },
+    { src: '../../../assets/images/home/logos/5.png', alt: '5' }
   ];
 
   constructor(private readonly footerService: FooterService) {

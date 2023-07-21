@@ -46,6 +46,10 @@ import { ArtThreeComponent } from './art/art-three/art-three.component';
 import { ArtFourComponent } from './art/art-four/art-four.component';
 import { ArtFiveComponent } from './art/art-five/art-five.component';
 import { ArtSixComponent } from './art/art-six/art-six.component';
+import { LogoTwoComponent } from './logos/logo-two/logo-two.component';
+import { LogoThreeComponent } from './logos/logo-three/logo-three.component';
+import { LogoFourComponent } from './logos/logo-four/logo-four.component';
+import { LogoFiveComponent } from './logos/logo-five/logo-five.component';
 
 @NgModule({
   declarations: [
@@ -92,7 +96,11 @@ import { ArtSixComponent } from './art/art-six/art-six.component';
     ArtThreeComponent,
     ArtFourComponent,
     ArtFiveComponent,
-    ArtSixComponent
+    ArtSixComponent,
+    LogoTwoComponent,
+    LogoThreeComponent,
+    LogoFourComponent,
+    LogoFiveComponent
   ],
   imports: [
     CommonModule,

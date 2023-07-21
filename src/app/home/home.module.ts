@@ -10,6 +10,7 @@ import { GraphicsComponent } from './graphics/graphics.component';
 import { LogoDesignComponent } from './logo-design/logo-design.component';
 import { MarketingComponent } from './marketing/marketing.component';
 import { ArtComponent } from './art/art.component';
+import { BookPrintingComponent } from './book-printing/book-printing.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ArtComponent } from './art/art.component';
     GraphicsComponent,
     LogoDesignComponent,
     MarketingComponent,
-    ArtComponent
+    ArtComponent,
+    BookPrintingComponent
   ],
   imports: [
     RouterModule.forChild([{ path: "", component: HomeComponent }]),

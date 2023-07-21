@@ -125,21 +125,6 @@ h1{
     animation: tuiles3 1s ease-in-out;
 }
 
-@keyframes tuiles4 {
-    0% {
-      opacity: 0;
-      margin-left: 75px;
-    }
-    100% {
-      opacity: 1;
-      margin-left: 0;
-    }
-}
-
-.tuilesSection2.tuiles4 {
-    animation: tuiles4 1s ease-in-out;
-}
-
 .tuiles {
     display: flex;
     column-gap: 20px;
@@ -395,21 +380,6 @@ h1{
     
     .tuilesSection2.tuiles3 {
         animation: tuiles3Mobile 1s ease-in-out;
-    }
-
-    @keyframes tuiles4Mobile {
-        0% {
-          opacity: 0;
-          padding-right: 150px;
-        }
-        100% {
-          opacity: 1;
-          padding-right: 0;
-        }
-    }
-    
-    .tuilesSection2.tuiles4 {
-        animation: tuiles4Mobile 1s ease-in-out;
     }
 }
 
