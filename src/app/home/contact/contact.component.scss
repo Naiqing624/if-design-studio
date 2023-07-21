@@ -70,7 +70,7 @@ h2 {
 }
 
 .container {
-    max-width: 500px;
+    width: 500px;
     margin: 0 auto;
 }
 
@@ -85,7 +85,7 @@ h2 {
     margin-bottom: 5px;
 }
 
-.form-group input[type="text"],
+.form-group input[type="text"], .form-group input[type="email"],
 .form-group textarea {
     width: 100%;
     padding: 10px;
@@ -119,5 +119,47 @@ h2 {
 @media screen and (max-width: 1300px) {
     h2{
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h2{
+        font-size: 25px;
+    }
+
+    .container {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h2{
+        font-size: 20px;
+    }
+
+    .container {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    h2{
+        font-size: 15px;
+    }
+
+    .container {
+        width: 200px;
     }
 }
