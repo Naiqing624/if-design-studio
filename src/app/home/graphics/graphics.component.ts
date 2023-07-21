@@ -1,4 +1,4 @@
-import { Component, ViewChildren, QueryList } from '@angular/core';
+import { Component, ViewChildren, QueryList, HostListener, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 interface Card {
@@ -15,7 +15,8 @@ interface Card {
   templateUrl: './graphics.component.html',
   styleUrls: ['./graphics.component.scss']
 })
-export class GraphicsComponent {
+export class GraphicsComponent implements OnInit {
+  position = false;
   isExpanded = false;
   cardNumber = 1;
   cards: Card[] = [
@@ -49,6 +50,10 @@ export class GraphicsComponent {
   items!: QueryList<HTMLElement>;
 
   constructor(public translate: TranslateService) {}
+
+  ngOnInit(): void {
+    this.checkScreenSize();
+  }
 
   toggleExpansion() {
     this.isExpanded = !this.isExpanded;
@@ -107,6 +112,15 @@ export class GraphicsComponent {
       if(item.getAttribute('data-position') === '2'){
         this.cardNumber = i;
       }
+    }
+  }
+
+  @HostListener('window:resize', ['$event'])
+  checkScreenSize(): void{
+    if (window.innerWidth < 750) {
+      this.position = true;
+    }else {
+      this.position = false;
     }
   }
 

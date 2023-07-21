@@ -62,8 +62,13 @@
         <div class="text-1" [innerHTML]="cards[cardNumber].title1 | translate"></div>
       </div>
       <div class="position-text-2">
+        <div class="position-ellipse-left" *ngIf="position">
+          <div class="ellipse-exterieure">
+            <div class="ellipse-interieure"></div>
+          </div>
+        </div>
         <div class="text-2" [innerHTML]="cards[cardNumber].title2 | translate"></div>
-        <div class="position-ellipse-right">
+        <div class="position-ellipse-right" *ngIf="!position">
           <div class="ellipse-exterieure">
             <div class="ellipse-interieure"></div>
           </div>
@@ -78,8 +83,13 @@
         <div class="text-3" [innerHTML]="cards[cardNumber].title3 | translate"></div>
       </div>
       <div class="position-text-4">
+        <div class="position-ellipse-left" *ngIf="position">
+          <div class="ellipse-exterieure">
+            <div class="ellipse-interieure"></div>
+          </div>
+        </div>
         <div class="text-4" [innerHTML]="cards[cardNumber].title4 | translate"></div>
-        <div class="position-ellipse-right">
+        <div class="position-ellipse-right" *ngIf="!position">
           <div class="ellipse-exterieure">
             <div class="ellipse-interieure"></div>
           </div>
@@ -94,8 +104,13 @@
         <div class="text-5" [innerHTML]="cards[cardNumber].title5 | translate"></div>
       </div>
       <div class="position-text-6" *ngIf="cards[cardNumber].title6">
+        <div class="position-ellipse-left" *ngIf="position">
+          <div class="ellipse-exterieure">
+            <div class="ellipse-interieure"></div>
+          </div>
+        </div>
         <div class="text-6" [innerHTML]="cards[cardNumber].title6 | translate"></div>
-        <div class="position-ellipse-right">
+        <div class="position-ellipse-right" *ngIf="!position">
           <div class="ellipse-exterieure">
             <div class="ellipse-interieure"></div>
           </div>

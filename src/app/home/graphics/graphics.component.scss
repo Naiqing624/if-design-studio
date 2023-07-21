@@ -132,15 +132,16 @@ h3{
   
     &--left{
       top: 430px;
-      margin-right: 1500px;
+      margin-right: 1470px;
     }
   
     &--right{
-      margin-left: 1700px;
+      margin-left: 1600px;
     }
 }
   
 .carousel {
+    padding: 0;
     padding-top: 118px;
     display: flex;
     justify-content: center;
@@ -328,11 +329,11 @@ h3{
   @media (max-width: 1800px){
     .button {  
       &--left{
-        margin-right: 1400px;
+        margin-right: 1430px;
       }
     
       &--right{
-        margin-left: 1600px;
+        margin-left: 1550px;
       }
     }
   }
@@ -351,7 +352,7 @@ h3{
     
       &--left{
         top: 430px;
-        margin-right: 1300px;
+        margin-right: 1380px;
       }
     
       &--right{
@@ -397,7 +398,7 @@ h3{
     
       &--left{
         top: 390px;
-        margin-right: 1100px;
+        margin-right: 1170px;
       }
     
       &--right{
@@ -477,7 +478,7 @@ h3{
     
       &--left{
         top: 360px;
-        margin-right: 950px;
+        margin-right: 1020px;
       }
     
       &--right{
@@ -617,7 +618,7 @@ h3{
     
       &--left{
         top: 340px;
-        margin-right: 800px;
+        margin-right: 870px;
       }
     
       &--right{
@@ -644,22 +645,22 @@ h3{
     }
     
     .position-text-3  {
-      top: 570px;
+      top: 520px;
       left: 300px;
     }
     
     .position-text-4 {
-      top: 620px;
+      top: 570px;
       right: 300px;
     }
     
     .position-text-5 {
-      top: 670px;
+      top: 620px;
       left: 300px;
     }
     
     .position-text-6 {
-      top: 720px;
+      top: 670px;
       right: 300px;
     }
   }
@@ -696,7 +697,7 @@ h3{
   
     .button {
       &--left{
-        margin-right: 700px;
+        margin-right: 780px;
       }
     
       &--right{
@@ -763,22 +764,22 @@ h3{
     }
     
     .position-text-3  {
-      top: 570px;
+      top: 520px;
       left: 250px;
     }
     
     .position-text-4 {
-      top: 620px;
+      top: 570px;
       right: 250px;
     }
     
     .position-text-5 {
-      top: 670px;
+      top: 620px;
       left: 250px;
     }
     
     .position-text-6 {
-      top: 720px;
+      top: 670px;
       right: 250px;
     }
   }
@@ -800,11 +801,11 @@ h3{
   
     .button {
       &--left{
-        margin-right: 500px;
+        margin-right: 600px;
       }
     
       &--right{
-        margin-left: 700px;
+        margin-left: 730px;
       }
     }
   }
@@ -839,11 +840,11 @@ h3{
   
     .button {
       &--left{
-        margin-right: 370px;
+        margin-right: 470px;
       }
     
       &--right{
-        margin-left: 570px;
+        margin-left: 600px;
       }
     }
   
@@ -898,23 +899,137 @@ h3{
     }
     
     .position-text-3  {
-      top: 570px;
+      top: 520px;
       left: 200px;
     }
     
     .position-text-4 {
-      top: 620px;
+      top: 570px;
       right: 200px;
     }
     
     .position-text-5 {
-      top: 670px;
+      top: 620px;
       left: 200px;
     }
     
     .position-text-6 {
-      top: 720px;
+      top: 670px;
       right: 200px;
+    }
+  }
+
+  @media (max-width: 750px){
+    #description{
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+  
+    [data-position='1'] {
+      transform: translate3d(-100px, 0px, 0px);
+      opacity: 0.8;
+    }
+    
+    [data-position='2'] {
+      transform: scale(1.1) translate3d(0px, 0px, 0px);
+    }
+    
+    [data-position='3'] {
+      transform: translate3d(100px, 0px, 0px);
+      opacity: 0.8;
+    }
+  
+    .bar {
+      display: none;
+    }
+  
+    .barExtended {
+      display: none;
+    }
+  
+    .button {
+      &--left{
+        margin-right: 0px;
+        top: 563px;
+      }
+    
+      &--right{
+        margin-left: 130px;
+        top: 520px
+      }
+    }
+  
+    .position-ellipse-right {
+      top: 22px;
+      left: 35px;
+    }
+    
+    .position-ellipse-left {
+      top: 22px;
+      right: 35px;
+    }
+    
+    .text-1 {
+      width: 220px;
+      font-size: 12px;
+    }
+    
+    .text-2 {
+      width: 220px;
+      font-size: 12px;
+    }
+    
+    .text-3 {
+      width: 220px;
+      font-size: 12px;
+    }
+    
+    .text-4 {
+      width: 220px;
+      font-size: 12px;
+    }
+    
+    .text-5 {
+      width: 220px;
+      font-size: 12px;
+    }
+    
+    .text-6 {
+      width: 220px;
+      font-size: 12px;
+    }
+  
+    .position-text-1 {
+      top: 420px;
+      left: 0;
+    }
+    
+    .position-text-2  {
+      top: 470px;
+      right: 0;
+      text-align: justify;
+    }
+    
+    .position-text-3  {
+      top: 520px;
+      left: 0;
+    }
+    
+    .position-text-4 {
+      top: 570px;
+      right: 0;
+      text-align: justify;
+    }
+    
+    .position-text-5 {
+      top: 620px;
+      left: 0;
+    }
+    
+    .position-text-6 {
+      top: 670px;
+      right: 0;
+      text-align: justify;
     }
   }
   
@@ -935,6 +1050,118 @@ h3{
       width: 389px;
       height: 197px;
     }
+
+    #description{
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+  
+    [data-position='1'] {
+      transform: translate3d(-20px, 0px, 0px);
+      opacity: 0.8;
+    }
+    
+    [data-position='2'] {
+      transform: scale(1.1) translate3d(0px, 0px, 0px);
+    }
+    
+    [data-position='3'] {
+      transform: translate3d(20px, 0px, 0px);
+      opacity: 0.8;
+    }
+  
+    .bar {
+      display: none;
+    }
+  
+    .barExtended {
+      display: none;
+    }
+  
+    .button {
+      &--left{
+        margin-right: 0px;
+        top: 563px;
+      }
+    
+      &--right{
+        margin-left: 130px;
+        top: 520px
+      }
+    }
+  
+    .position-ellipse-right {
+      top: 22px;
+      left: 20px;
+    }
+    
+    .position-ellipse-left {
+      top: 22px;
+      right: 20px;
+    }
+    
+    .text-1 {
+      width: 160px;
+      font-size: 10px;
+    }
+    
+    .text-2 {
+      width: 160px;
+      font-size: 10px;
+    }
+    
+    .text-3 {
+      width: 160px;
+      font-size: 10px;
+    }
+    
+    .text-4 {
+      width: 160px;
+      font-size: 10px;
+    }
+    
+    .text-5 {
+      width: 160px;
+      font-size: 10px;
+    }
+    
+    .text-6 {
+      width: 160px;
+      font-size: 10px;
+    }
+  
+    .position-text-1 {
+      top: 420px;
+      left: 0;
+    }
+    
+    .position-text-2  {
+      top: 470px;
+      right: 0;
+      text-align: justify;
+    }
+    
+    .position-text-3  {
+      top: 520px;
+      left: 0;
+    }
+    
+    .position-text-4 {
+      top: 570px;
+      right: 0;
+      text-align: justify;
+    }
+    
+    .position-text-5 {
+      top: 620px;
+      left: 0;
+    }
+    
+    .position-text-6 {
+      top: 670px;
+      right: 0;
+      text-align: justify;
+    }
   }
   
   
@@ -945,7 +1172,7 @@ h3{
     }
   
     #imageSection1 {
-      width: 289px;
+      width: 250px;
       height: 197px;
     }
   }
