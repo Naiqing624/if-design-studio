@@ -50,6 +50,11 @@ import { LogoTwoComponent } from './logos/logo-two/logo-two.component';
 import { LogoThreeComponent } from './logos/logo-three/logo-three.component';
 import { LogoFourComponent } from './logos/logo-four/logo-four.component';
 import { LogoFiveComponent } from './logos/logo-five/logo-five.component';
+import { CulturalWallOneComponent } from './marketing/marketing-nine/cultural-wall/cultural-wall-one/cultural-wall-one.component';
+import { CulturalWallTwoComponent } from './marketing/marketing-nine/cultural-wall/cultural-wall-two/cultural-wall-two.component';
+import { CulturalWallThreeComponent } from './marketing/marketing-nine/cultural-wall/cultural-wall-three/cultural-wall-three.component';
+import { CulturalWallFourComponent } from './marketing/marketing-nine/cultural-wall/cultural-wall-four/cultural-wall-four.component';
+import { CulturalWallFiveComponent } from './marketing/marketing-nine/cultural-wall/cultural-wall-five/cultural-wall-five.component';
 
 @NgModule({
   declarations: [
@@ -100,7 +105,12 @@ import { LogoFiveComponent } from './logos/logo-five/logo-five.component';
     LogoTwoComponent,
     LogoThreeComponent,
     LogoFourComponent,
-    LogoFiveComponent
+    LogoFiveComponent,
+    CulturalWallOneComponent,
+    CulturalWallTwoComponent,
+    CulturalWallThreeComponent,
+    CulturalWallFourComponent,
+    CulturalWallFiveComponent
   ],
   imports: [
     CommonModule,

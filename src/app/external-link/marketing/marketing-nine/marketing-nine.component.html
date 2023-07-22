@@ -1,1 +1,73 @@
-<p>marketing-nine works!</p>
+<div id="ariane">
+    <h2>文化墙作品</h2>
+    <nav class="breadcrumb">
+      <ul>
+          <li><a href="home"><img id="home" src="../../../../assets/images/home.png" alt="home" width="26px" height="24px"></a></li>
+          <li>平面设计</li>
+      </ul>
+    </nav>  
+ </div>
+ <div id="section1">
+    <div id="description">
+        <h3>PORTFOLIO E-COMMERCE</h3>
+        <h1>文化墙面设计</h1>
+        <div class="content" [ngStyle]="{ 'max-height': isExpanded ? 'none' : '200px', 'overflow': isExpanded ? 'visible' : 'hidden' }">
+            <p id="text">文化墙设计通过展示图像、文字和艺术元素，传递组织或学校的核心价值观、使命和愿景，帮助员工或学生理解和认同组织文化，形成共同的文化认同感。同时，文化墙设计还能够强化员工或学生对组织或学校的身份认同，激发归属感和自豪感。通过展示组织或学校的历史、成就和文化符号，文化墙设计增强了员工或学生对组织或学校的忠诚度和参与度。</p>
+        </div>
+        <p class="read-more" (click)="toggleExpansion()">{{ isExpanded ? '查看少' : '查看更多' }}</p>
+    </div>
+    <div id="descriptionImage">
+       <img id="imageSection1" src="../../../../assets/images/marketing/marketing-nine/1.png" alt="scene">
+    </div>
+</div>
+<div class="section2">
+    <div class="tuilesSection2" [ngClass]="{'tuiles2': opacitySection2 === 1}">
+        <div class="boxSection2">
+            <a routerLink="/cultural-wall-one">
+                <div class="container">
+                    <img src="../../../../assets/images/marketing/marketing-nine/2.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                    
+                </div>
+            </a>
+            <a routerLink="/cultural-wall-two">
+                <div class="container">
+                    <img src="../../../../assets/images/marketing/marketing-nine/3.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+            <a routerLink="/cultural-wall-three">
+                <div class="container">
+                    <img src="../../../../assets/images/marketing/marketing-nine/4.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="tuilesSection2" [ngClass]="{'tuiles3': opacitySection2 === 1}">
+        <div class="boxSection2">
+            <a routerLink="/cultural-wall-four">
+                <div class="container">
+                    <img src="../../../../assets/images/marketing/marketing-nine/5.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+            <a routerLink="/cultural-wall-five">
+                <div class="container">
+                    <img src="../../../../assets/images/marketing/marketing-nine/6.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+        </div>     
+    </div>
+  </div>

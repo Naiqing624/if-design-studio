@@ -93,7 +93,8 @@ h1{
 }
 
 .about{
-    padding-right: 350px;
+    padding-left: 50px;
+    padding-right: 450px;
 }
 
 .about p{
@@ -111,6 +112,13 @@ h1{
     height: 413px;
 }
 
+#section3 {
+    display: flex;
+    padding-top: 93px;
+    width: 1400px;
+    margin: 0 auto;
+}
+
 //Section2
 @keyframes tuiles2 {
     0% {
@@ -125,6 +133,21 @@ h1{
 
 .tuilesSection2.tuiles2 {
     animation: tuiles2 1s ease-in-out;
+}
+
+@keyframes tuiles3 {
+    0% {
+      opacity: 0;
+      margin-left: 75px;
+    }
+    100% {
+      opacity: 1;
+      margin-left: 0;
+    }
+}
+
+.tuilesSection2.tuiles3 {
+    animation: tuiles3 1s ease-in-out;
 }
 
 .tuiles {
@@ -178,6 +201,10 @@ h1{
         width: 1000px;
     }
 
+    #section3 {
+        width: 1000px;
+    }
+
     .about{
         padding-right: 150px;
     }
@@ -214,6 +241,10 @@ h1{
 
 @media (max-width: 1150px){
     #section1 {
+        width: 800px;
+    }
+
+    #section3 {
         width: 800px;
     }
 
@@ -278,10 +309,30 @@ h1{
     .tuilesSection2.tuiles2 {
         animation: tuiles2Mobile 1s ease-in-out;
     }
+    
+    @keyframes tuiles3Mobile {
+        0% {
+          opacity: 0;
+          padding-right: 150px;
+        }
+        100% {
+          opacity: 1;
+          padding-right: 0;
+        }
+    }
+    
+    .tuilesSection2.tuiles3 {
+        animation: tuiles3Mobile 1s ease-in-out;
+    }
 }
 
 @media (max-width: 1000px){
     #section1 {
+        display: table;
+        text-align: center;
+    }
+
+    #section3 {
         display: table;
         text-align: center;
     }
@@ -297,6 +348,10 @@ h1{
 
 @media (max-width: 810px){
     #section1 {
+        width: auto;
+    }
+
+    #section3 {
         width: auto;
     }
 

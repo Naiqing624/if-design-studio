@@ -55,6 +55,11 @@ import { LogoFiveComponent } from './external-link/logos/logo-five/logo-five.com
 import { LogoFourComponent } from './external-link/logos/logo-four/logo-four.component';
 import { LogoThreeComponent } from './external-link/logos/logo-three/logo-three.component';
 import { LogoTwoComponent } from './external-link/logos/logo-two/logo-two.component';
+import { CulturalWallOneComponent } from './external-link/marketing/marketing-nine/cultural-wall/cultural-wall-one/cultural-wall-one.component';
+import { CulturalWallFiveComponent } from './external-link/marketing/marketing-nine/cultural-wall/cultural-wall-five/cultural-wall-five.component';
+import { CulturalWallFourComponent } from './external-link/marketing/marketing-nine/cultural-wall/cultural-wall-four/cultural-wall-four.component';
+import { CulturalWallThreeComponent } from './external-link/marketing/marketing-nine/cultural-wall/cultural-wall-three/cultural-wall-three.component';
+import { CulturalWallTwoComponent } from './external-link/marketing/marketing-nine/cultural-wall/cultural-wall-two/cultural-wall-two.component';
 
 const routes: Routes = [
   {path: "home", component: HomeComponent},
@@ -111,7 +116,12 @@ const routes: Routes = [
   {path: "art-three", component: ArtThreeComponent},
   {path: "art-four", component: ArtFourComponent},
   {path: "art-five", component: ArtFiveComponent},
-  {path: "art-six", component: ArtSixComponent}
+  {path: "art-six", component: ArtSixComponent},
+  {path: "cultural-wall-one", component: CulturalWallOneComponent},
+  {path: "cultural-wall-two", component: CulturalWallTwoComponent},
+  {path: "cultural-wall-three", component: CulturalWallThreeComponent},
+  {path: "cultural-wall-four", component: CulturalWallFourComponent},
+  {path: "cultural-wall-five", component: CulturalWallFiveComponent}
 ];
 
 @NgModule({

@@ -1,1 +1,45 @@
-<p>marketing-eight works!</p>
+<div id="ariane">
+    <h2>门头作品</h2>
+    <nav class="breadcrumb">
+      <ul>
+          <li><a href="home"><img id="home" src="../../../../assets/images/home.png" alt="home" width="26px" height="24px"></a></li>
+          <li>平面设计</li>
+      </ul>
+    </nav>  
+ </div>
+ <div id="section1">
+    <div id="description">
+        <h3>PORTFOLIO SHOP SIGN</h3>
+        <h1>门头设计</h1>
+        <div class="content" [ngStyle]="{ 'max-height': isExpanded ? 'none' : '200px', 'overflow': isExpanded ? 'visible' : 'hidden' }">
+            <p id="text">门头设计是商铺、公司或机构门口的标识和装饰，具有重要的视觉和品牌传达作用。通过精心设计和布置门头，可以实现以下关键作用：首先，门头设计是展示品牌形象和标识的重要方式。通过运用品牌的颜色、字体、图形和标志，门头设计能够突出品牌的独特性和个性，增强品牌的识别度和记忆力。</p>
+        </div>
+        <p class="read-more" (click)="toggleExpansion()">{{ isExpanded ? '查看少' : '查看更多' }}</p>
+    </div>
+    <div id="descriptionImage">
+       <img id="imageSection1" src="../../../../assets/images/marketing/marketing-eight/1.png" alt="scene">
+    </div>
+</div>
+<div class="section2">
+    <div class="tuilesSection2" [ngClass]="{'tuiles2': opacitySection2 === 1}">
+        <div class="boxSection2">
+            <a routerLink="/logo-four">
+                <div class="container">
+                    <img src="../../../../assets/images/marketing/marketing-eight/2.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                    
+                </div>
+            </a>
+            <a routerLink="/logo-three">
+                <div class="container">
+                    <img src="../../../../assets/images/marketing/marketing-eight/3.png" alt="icone" class="image">
+                        <div class="overlay">
+                            <div class="textSection2">Hello World</div>
+                        </div>
+                </div>
+            </a>
+        </div>
+    </div>
+  </div>
