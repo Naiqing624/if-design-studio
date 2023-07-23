@@ -136,6 +136,11 @@ h3{
     align-items: center;
     margin-bottom: 75px;
 }
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
   
 .card-image {
     width: 347px;
@@ -149,6 +154,10 @@ h3{
     font-weight: 400;
     line-height: 33.6px;
     text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.1) translate3d(0px, 0px, 0px);
 }
 
 @keyframes container {

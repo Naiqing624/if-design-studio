@@ -55,6 +55,7 @@ import { CulturalWallTwoComponent } from './marketing/marketing-nine/cultural-wa
 import { CulturalWallThreeComponent } from './marketing/marketing-nine/cultural-wall/cultural-wall-three/cultural-wall-three.component';
 import { CulturalWallFourComponent } from './marketing/marketing-nine/cultural-wall/cultural-wall-four/cultural-wall-four.component';
 import { CulturalWallFiveComponent } from './marketing/marketing-nine/cultural-wall/cultural-wall-five/cultural-wall-five.component';
+import { NewestWorkOneComponent } from './newest-works/newest-work-one/newest-work-one.component';
 
 @NgModule({
   declarations: [
@@ -110,7 +111,8 @@ import { CulturalWallFiveComponent } from './marketing/marketing-nine/cultural-w
     CulturalWallTwoComponent,
     CulturalWallThreeComponent,
     CulturalWallFourComponent,
-    CulturalWallFiveComponent
+    CulturalWallFiveComponent,
+    NewestWorkOneComponent
   ],
   imports: [
     CommonModule,
