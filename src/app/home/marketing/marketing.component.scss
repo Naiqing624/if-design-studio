@@ -62,9 +62,9 @@ h2 {
 #section1 {
     display: flex;
     padding-top: 99px;
-    padding-left: 260px;
-    padding-right: 260px;
     padding-bottom: 117px;
+    max-width: 1350px;
+    margin: 0 auto;
 }
 
 h3{
@@ -101,8 +101,8 @@ h3{
 }
   
 #imageSection1 {
-    width: 689px;
-    height: 497px;
+    width: 572px;
+    height: 429px;
 }
 
 #title {
@@ -176,26 +176,15 @@ h3{
     animation: container 1s ease-in-out;
 }
 
-@media screen and (max-width: 1850px) {
+@media screen and (max-width: 1600px) {
     #section1 {
-        padding-top: 153px;
-        padding-left: 200px;
-        padding-right: 200px;
+        max-width: 990px;
     }
-}
 
-@media screen and (max-width: 1650px) {
-    #section1 {
-        padding-top: 153px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    #description p{
-        font-size: 17px;
-        line-height: 20px;
+    .card-row {
+        width: 100%;
+        max-width: 1150px;
+        justify-content: space-around;
     }
 
     #imageSection1{
@@ -203,12 +192,14 @@ h3{
         height: 325px;
     }
 
-    .card {
-        width: 32%;
+    #description p{
+        font-size: 17px;
+        line-height: 20px;
+        max-width: 500px;
     }
 }
 
-@media screen and (max-width: 1300px) {  
+@media screen and (max-width: 1200px) {  
     h2{
         font-size: 30px;
     }
@@ -230,8 +221,6 @@ h3{
     #section1 {
         display: table;
         padding-top: 75px;
-        padding-left: 0;
-        padding-right: 0;
     }
     
     #description{
@@ -251,12 +240,6 @@ h3{
     .container::after {
         top: 126px;
         left: 170px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .card {
-      width: 48%;
     }
 }
 
@@ -285,35 +268,36 @@ h3{
     }
 }
 
-@media (max-width: 800px) {
-    .card {
-      width: 60%;
-      margin: auto;
-      margin-bottom: 50px;
+@media (max-width: 900px) {
+    .card-row {
+        width: 100%;
+        max-width: 650px;
+        justify-content: center;
     }
 
+    #imageSection1{
+        width: 400px;
+        height: 275px;
+    }
+
+    #description p{
+        max-width: 400px;
+    }
+
+    #description {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    #descriptionImage{
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 800px) {
     .card-row {
         text-align: center;
     }
-}
-
-@media (max-width: 700px) {
-    .card-image {
-        width: 300px;
-        height: 380px;
-    }
-}
-
- @media (max-width: 600px) {
-    .card-image {
-        width: 250px;
-        height: 330px;
-    }
-
-    .card {
-        width: 355px;
-        height: 500px;
-      }
 }
 
 @media screen and (max-width: 500px) { 
@@ -325,8 +309,12 @@ h3{
         font-size: 20px;
     }
 
+    #description {
+        max-width: 260px;
+    }
+
     #imageSection1{
-        width: 280px;
+        width: 260px;
         height: 210px;
     }
 
@@ -341,14 +329,26 @@ h3{
     }
 
     .card {
-        width: 305px;
-        height: 420px;
+        width: 260px;
+        height: 410px;
     }
-}
 
-@media (max-width: 400px) {
-    .card {
-        width: 255px;
-        height: 430px;
+    #ariane {
+        padding-top: 30px;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    .breadcrumb li {
+        font-size: 15px;
+    }
+    
+    #home{
+        width: 15px;
+        height: 15px;
     }
 }

@@ -1,11 +1,11 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-marketing',
   templateUrl: './marketing.component.html',
   styleUrls: ['./marketing.component.scss']
 })
-export class MarketingComponent {
+export class MarketingComponent implements OnInit {
   isExpanded = false;
   opacitySection2 = 1;
 
@@ -53,6 +53,10 @@ export class MarketingComponent {
   }
 ];
 
+  ngOnInit(): void {
+    this.checkScreenSize();
+  }
+
   toggleExpansion() {
     this.isExpanded = !this.isExpanded;
   }
@@ -70,7 +74,7 @@ export class MarketingComponent {
 
   @HostListener('window:resize', ['$event'])
   checkScreenSize(): void{
-    if (window.innerWidth < 700) {
+    if (window.innerWidth < 900) {
       this.isExpanded = true;
     }else {
       this.isExpanded = false;
