@@ -73,8 +73,8 @@ h1{
 #section1 {
     display: flex;
     padding-top: 93px;
-    padding-left: 260px;
-    padding-right: 260px;
+    max-width: 1120px;
+    margin: 0 auto;
 }
 
 #about{
@@ -82,17 +82,17 @@ h1{
 }
 
 #about p{
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+#imageSection1{
+    width: 475px;
+    height: 325px;
 }
 
 .content {
     transition: max-height 0.3s ease-in-out;
-}
-
-#imageSection1{
-    width: 572px;
-    height: 413px;
 }
 
 @keyframes tuiles2 {
@@ -286,44 +286,10 @@ h1{
     animation: logos 1s ease-in-out;
 }
 
-.logo {
-    width: auto;
-    height: 150px;
-    padding-right: 70px;
-}
-
 #buttonPortfolio{
     display: flex;
     padding-top: 75px;
     justify-content: center;
-}
-
-@media screen and (max-width: 1850px) {
-    #section1 {
-        padding-top: 153px;
-        padding-left: 200px;
-        padding-right: 200px;
-    }
-}
-
-@media screen and (max-width: 1650px) {
-    #section1 {
-        padding-top: 153px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    #about p{
-        font-size: 17px;
-        line-height: 20px;
-    }
-
-    #imageSection1{
-        width: 475px;
-        height: 325px;
-    }
 }
 
 @media screen and (max-width: 1300px) {  
@@ -335,12 +301,14 @@ h1{
     #section1 {
         display: table;
         padding-top: 75px;
-        padding-left: 0;
-        padding-right: 0;
     }
     
     #about{
         padding-right: 0;
+    }
+
+    #about p {
+        max-width: 475px;
     }
 
     #about h3, h1 {
@@ -355,6 +323,7 @@ h1{
 
     #aboutImage {
         text-align: center;
+        padding-top: 50px;
     }
 
     //section 2
@@ -373,6 +342,28 @@ h1{
 }
 
 @media screen and (max-width: 1100px) {
+    #section1 {
+        padding-top: 25px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    #imageSection1{
+        width: 345px;
+        height: 210px;
+    }
+
+    .content {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #about p {
+        max-width: 345px;
+    }
+
     .tuiles {
         display: table;
         margin: 0 auto;
@@ -513,12 +504,40 @@ h1{
     }
 
     #imageSection1{
-        width: 280px;
-        height: 210px;
+        width: 230px;
+        height: 160px;
     }
 
     .content {
         padding-left: 25px;
         padding-right: 25px;
+    }
+
+    #about p {
+        max-width: 230px;
+    }
+
+    .image {
+        width: 260px;
+        height: 190px;
+    }
+
+    #ariane {
+        padding-top: 30px;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    .breadcrumb li {
+        font-size: 15px;
+    }
+    
+    #home{
+        width: 15px;
+        height: 15px;
     }
 }
