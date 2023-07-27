@@ -32,14 +32,31 @@
 }
 
 #contact{
-    padding-left: 97px;
+    position: relative;
+    left: 90px;
 }
 
 #useful_links{
+    position: relative;
+    left: 180px;
     padding-left: 111px;
     padding-top: 50px;
     font-size: 18px;
     line-height: 40px;
+}
+
+#useful_links a {
+    text-decoration: none;
+    color: white;
+}
+
+#useful_links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+#useful_links p {
+    padding-bottom: 10px;
 }
 
 .align-right {
@@ -93,21 +110,6 @@
 
 @media (max-width: 1100px){ 
     #contact img {
-        width: 170px;
-        height: 170px;
-    }
-
-    #useful_links{
-        padding-left: 50px;
-    }
-
-    #contact{
-        padding-left: 30px;
-    }
-} 
-
-@media (max-width: 1000px){ 
-    #contact img {
         width: 130px;
         height: 130px;
     }
@@ -116,18 +118,15 @@
         padding-left: 40px;
         font-size: 11px;
     }
-
-    #contact{
-        padding-left: 10px;
-    }
 } 
 
-@media (max-width: 800px){ 
+@media (max-width: 900px){ 
     #useful_links{
         padding-left: 0;
         padding-top: 25px;
         font-size: 18px;
         text-align: center;
+        left: 0;
     }
 
     #container{
@@ -136,8 +135,8 @@
         justify-content: center;
     }
 
-    #contact{
-        padding-left: 0;
+    #contact {
+        left: 0;
     }
 
     #contact img {

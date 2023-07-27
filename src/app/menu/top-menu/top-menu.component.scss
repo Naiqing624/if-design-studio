@@ -78,9 +78,6 @@ p,a{
 
 #link-container a:hover {
     color: #b3b3b3;
-    text-decoration: underline;
-    text-underline-offset: 8px;
-    text-decoration-color: #b3b3b3;
 }
 
 #link-container .active-link {
@@ -90,7 +87,7 @@ p,a{
 
 #link-container .underline {
     text-decoration: underline;
-    text-underline-offset: 8px;
+    text-underline-offset: 18px;
     text-decoration-color: #525252;
 }
 
@@ -113,6 +110,8 @@ nav ul {
     right: 665px;
     width: auto;
     display: none;
+    padding-top: 15px;
+    height: 205px;
 }
 
 #submenu:hover + ul,

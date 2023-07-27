@@ -22,7 +22,12 @@ export class HomeComponent implements OnInit {
     { src: '../../../assets/images/home/logos/2.png', alt: '2' },
     { src: '../../../assets/images/home/logos/3.png', alt: '3' },
     { src: '../../../assets/images/home/logos/4.png', alt: '4' },
-    { src: '../../../assets/images/home/logos/5.png', alt: '5' }
+    { src: '../../../assets/images/home/logos/5.png', alt: '5' },
+    { src: '../../../assets/images/home/logos/6.png', alt: '6' },
+    { src: '../../../assets/images/home/logos/7.png', alt: '7' },
+    { src: '../../../assets/images/home/logos/8.png', alt: '8' },
+    { src: '../../../assets/images/home/logos/9.png', alt: '9' },
+    { src: '../../../assets/images/home/logos/10.png', alt: '10' }
   ];
 
   constructor(private readonly footerService: FooterService) {
