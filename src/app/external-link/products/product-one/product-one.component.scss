@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'PingFang';
+    src: url('../../../../assets/font/PingFang.woff') format('woff');
+} 
+  
+* {
+    font-family: 'PingFang', sans-serif;
+}
+
+#ariane {
+    background: #FFD275;
+    padding-top: 60px;
+    padding-bottom: 65px;
+    text-align: center;
+}
+
+#ariane img {
+    width: 266px;
+    height: 96px;
+}
+
+#section1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1296px;
+    padding-top: 99px;
+    padding-bottom: 117px;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+  
+#description h1 {
+    font-size: 32px;
+    font-weight: 400;
+}
+  
+#description p {
+    font-size: 20px;
+    line-height: 30px;
+}
+  
+.content {
+    transition: max-height 0.3s ease-in-out;
+}
+  
+.read-more {
+    padding-top: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+  
+#imageSection1 {
+    width: 496px;
+    height: 372px;
+}
+
+#section2 {
+    text-align: center;
+}
+
+.images {
+    padding-bottom: 50px;
+    width: 1296px;
+    height: 1833px;
+    flex-shrink: 0;
+}
+
+@keyframes section2 {
+    0% {
+      opacity: 0;
+      margin-right: 75px;
+    }
+    100% {
+      opacity: 1;
+      margin-right: 0;
+    }
+}
+
+.section2.imagesSection2 {
+    animation: section2 1s ease-in-out;
+}
+
+@media screen and (max-width: 1400px) {  
+    h2{
+        font-size: 30px;
+    }
+
+    .content {
+        max-height: none;
+        overflow: visible;
+    }
+
+    .read-more {
+        display: none;
+    }
+    
+    #descriptionImage {
+        text-align: center;
+    }
+    
+    #section1 {
+        display: table;
+        margin: 0 auto;
+        padding-top: 75px;
+    }
+    
+    #description h3, h1 {
+        text-align: center;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .images {
+        width: 1000px;
+        height: 1533px;
+    }
+
+    #section1 {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1050px) { 
+    .images {
+        width: 700px;
+        height: 1233px;
+    }
+
+    #section1 {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 750px) { 
+    .images {
+        width: 450px;
+        height: 933px;
+    }
+
+    #section1 {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    #section1 {
+        padding-top: 25px;
+    }
+
+    #description h1{
+        font-size: 20px;
+    }
+
+    #imageSection1{
+        width: 280px;
+        height: 210px;
+    }
+
+    .images {
+        width: 260px;
+        height: 733px;
+    }
+
+    #section1 {
+        width: 260px;
+    }
+}

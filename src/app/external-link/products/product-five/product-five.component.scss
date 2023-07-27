@@ -9,17 +9,21 @@
 
 #ariane {
     background: #1F3C3C;
-    padding-top: 60px;
-    margin-top: 65px;
-    padding-bottom: 65px;
+    padding-top: 120px;
+    padding-bottom: 30px;
     text-align: center;
+}
+
+#ariane img {
+    width: 266px;
+    height: 136px;
 }
 
 #section1 {
     display: flex;
-    padding-left: 260px;
-    padding-right: 260px;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1296px;
     padding-top: 99px;
     padding-bottom: 117px;
 }
@@ -27,10 +31,6 @@
 h3{
     font-size: 14px;
     font-weight: 400;
-}
-  
-#description {
-    padding-right: 450px;
 }
   
 #description h1 {
@@ -68,6 +68,9 @@ h3{
 
 .images {
     padding-bottom: 50px;
+    width: 1296px;
+    height: 729px;
+    flex-shrink: 0;
 }
 
 @keyframes section2 {
@@ -85,45 +88,7 @@ h3{
     animation: section2 1s ease-in-out;
 }
 
-@media screen and (max-width: 1850px) {
-    #section1 {
-        padding-top: 153px;
-        padding-left: 200px;
-        padding-right: 200px;
-    }
-}
-
-@media screen and (max-width: 1650px) {
-    #section1 {
-        padding-top: 153px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-}
-
-@media screen and (max-width: 1550px) {
-    #description {
-        padding-right: 320px;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    #description p{
-        font-size: 17px;
-        line-height: 20px;
-    }
-
-    #description {
-        padding-right: 220px;
-    }
-
-    #imageSection1{
-        width: 475px;
-        height: 325px;
-    }
-}
-
-@media screen and (max-width: 1300px) {  
+@media screen and (max-width: 1400px) {  
     h2{
         font-size: 30px;
     }
@@ -138,7 +103,6 @@ h3{
     }
     
     #descriptionImage {
-        padding-top: 50px;
         text-align: center;
     }
     
@@ -146,38 +110,45 @@ h3{
         display: table;
         margin: 0 auto;
         padding-top: 75px;
-        padding-left: 0;
-        padding-right: 0;
     }
     
-    #description{
-        padding-right: 0;
-    }
-
     #description h3, h1 {
         text-align: center;
     }
 
     .content {
-        padding-left: 50px;
-        padding-right: 50px;
         text-align: center;
     }
 
     .images {
+        width: 996px;
+        height: 529px;
+    }
+
+    #section1 {
         width: 1000px;
     }
 }
 
 @media screen and (max-width: 1050px) { 
     .images {
+        width: 696px;
+        height: 429px;
+    }
+
+    #section1 {
         width: 700px;
     }
 }
 
 @media screen and (max-width: 750px) { 
     .images {
-        width: 475px;
+        width: 496px;
+        height: 329px;
+    }
+
+    #section1 {
+        width: 450px;
     }
 }
 
@@ -191,16 +162,16 @@ h3{
     }
 
     #imageSection1{
-        width: 280px;
-        height: 210px;
-    }
-
-    .content {
-        padding-left: 25px;
-        padding-right: 25px;
+        width: 260px;
+        height: 200px;
     }
 
     .images {
-        width: 280px;
+        width: 266px;
+        height: 179px;
+    }
+
+    #section1 {
+        width: 260px;
     }
 }

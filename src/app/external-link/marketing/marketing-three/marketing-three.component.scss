@@ -62,8 +62,8 @@ h2 {
 #section1 {
     display: flex;
     padding-top: 99px;
-    padding-left: 260px;
-    padding-right: 260px;
+    max-width: 1300px;
+    margin: 0 auto;
     padding-bottom: 117px;
 }
 
