@@ -90,11 +90,7 @@ h1{
     padding-top: 93px;
     width: 1400px;
     margin: 0 auto;
-}
-
-.about{
-    padding-left: 50px;
-    padding-right: 450px;
+    justify-content: space-between;
 }
 
 .about p{
@@ -117,6 +113,7 @@ h1{
     padding-top: 93px;
     width: 1400px;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 #section4 {
@@ -124,6 +121,7 @@ h1{
     padding-top: 93px;
     width: 1400px;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 #section5 {
@@ -131,6 +129,7 @@ h1{
     padding-top: 93px;
     width: 1400px;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 //Section2
@@ -227,10 +226,6 @@ h1{
         width: 1000px;
     }
 
-    .about{
-        padding-right: 150px;
-    }
-
     h3{
         font-size: 13px;
     }
@@ -273,13 +268,9 @@ h1{
     #section4 {
         width: 800px;
     }
-    
+
     #section5 {
         width: 800px;
-    }
-
-    .about{
-        padding-right: 100px;
     }
 
     h3{
@@ -379,10 +370,6 @@ h1{
 
     .about p {
         text-align: center;
-    }
-
-    .about{
-        padding-right: 0;
     }
 }
 

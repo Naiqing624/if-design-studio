@@ -9,14 +9,13 @@
 
 #ariane {
     background: #43B863;
-    padding-top: 120px;
-    padding-bottom: 30px;
+    padding-top: 90px;
     text-align: center;
 }
 
 #ariane img {
     width: 266px;
-    height: 126px;
+    height: 150px;
 }
 
 #section1 {
@@ -173,5 +172,9 @@ h3{
 
     #section1 {
         width: 260px;
+    }
+
+    #ariane {
+        padding-top: 50px;
     }
 }

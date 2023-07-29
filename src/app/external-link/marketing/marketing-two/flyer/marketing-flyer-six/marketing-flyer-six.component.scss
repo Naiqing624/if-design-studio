@@ -90,11 +90,7 @@ h1{
     padding-top: 93px;
     width: 1400px;
     margin: 0 auto;
-}
-
-.about{
-    padding-left: 50px;
-    padding-right: 450px;
+    justify-content: space-between;
 }
 
 .about p{
@@ -179,10 +175,6 @@ h1{
         width: 1000px;
     }
 
-    .about{
-        padding-right: 150px;
-    }
-
     h3{
         font-size: 13px;
     }
@@ -216,10 +208,6 @@ h1{
 @media (max-width: 1150px){
     #section1 {
         width: 800px;
-    }
-
-    .about{
-        padding-right: 100px;
     }
 
     h3{
@@ -279,21 +267,6 @@ h1{
     .tuilesSection2.tuiles2 {
         animation: tuiles2Mobile 1s ease-in-out;
     }
-    
-    @keyframes tuiles3Mobile {
-        0% {
-          opacity: 0;
-          padding-right: 150px;
-        }
-        100% {
-          opacity: 1;
-          padding-right: 0;
-        }
-    }
-    
-    .tuilesSection2.tuiles3 {
-        animation: tuiles3Mobile 1s ease-in-out;
-    }
 }
 
 @media (max-width: 1000px){
@@ -304,10 +277,6 @@ h1{
 
     .about p {
         text-align: center;
-    }
-
-    .about{
-        padding-right: 0;
     }
 }
 
@@ -344,5 +313,24 @@ h1{
     .content {
         padding-left: 25px;
         padding-right: 25px;
+    }
+
+    #ariane {
+        padding-top: 30px;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    .breadcrumb li {
+        font-size: 15px;
+    }
+    
+    #home{
+        width: 15px;
+        height: 15px;
     }
 }
