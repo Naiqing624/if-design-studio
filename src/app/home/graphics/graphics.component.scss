@@ -72,6 +72,12 @@ h3{
     font-weight: 400;
 }
 
+li h3 {
+  position: relative;
+  top: 10px;
+  font-size: 32px;
+}
+
 #description {
     padding-right: 138px;
 }
@@ -150,7 +156,7 @@ h3{
     width: 352px;
     height: 460px;
     background: #ffffff;
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.541);
+    box-shadow: 0 1px 20px rgba(209, 209, 209, 0.541);
     list-style: none;
     justify-content: center;
     position: absolute;
@@ -207,7 +213,7 @@ h3{
 .bar {
     width: 15px;
     height: 1472px;
-    background-color: #979797;
+    background-color: #c0c0c0;
     position: absolute;
     margin-top: 480px;
 }
@@ -215,7 +221,7 @@ h3{
 .barExtended {
     width: 15px;
     height: 1772px;
-    background-color: #979797;
+    background-color: #c0c0c0;
     position: absolute;
     margin-top: 480px;
 }
@@ -1161,8 +1167,26 @@ h3{
       right: 0;
       text-align: justify;
     }
-  }
-  
+
+    #ariane {
+        padding-top: 30px;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    .breadcrumb li {
+        font-size: 15px;
+    }
+    
+    #home{
+        width: 15px;
+        height: 15px;
+    }
+}
   
   @media (max-width: 450px){
     #description{

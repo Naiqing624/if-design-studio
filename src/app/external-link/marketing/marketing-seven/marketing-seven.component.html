@@ -1,1 +1,31 @@
-<p>marketing-seven works!</p>
+<div id="ariane">
+    <h2><b>PPT作品</b></h2>
+    <nav class="breadcrumb">
+      <ul>
+          <li><a href="home"><img id="home" src="../../../../assets/images/home.png" alt="home" width="26px" height="24px"></a></li>
+          <li>平面设计</li>
+      </ul>
+    </nav>  
+ </div>
+ <div id="section1">
+    <div id="description">
+        <h3>PORTFOLIO POWER POINT</h3>
+        <h1><b>幻灯片PPT设计</b></h1>
+        <div class="content" [ngStyle]="{ 'max-height': isExpanded ? 'none' : '200px', 'overflow': isExpanded ? 'visible' : 'hidden' }">
+            <p id="text">PPT设计在演示和展示中，不仅是将信息传递给观众的有效方式，还可以通过视觉引导、内容组织、图表和图像展示以及品牌展示等方面起到关键作用。通过合理的布局、清晰的文字和引人注目的视觉元素，PPT设计可以帮助演讲者将复杂的概念和信息以简洁明了的方式呈现，使观众更好地理解和记忆演讲内容。设计通过选择适当的颜色、字体和布局，引导观众的注意力，突出重点内容，使演示更具吸引力和引人入胜。同时，PPT设计可以帮助演讲者组织演讲内容，使其具有逻辑性和连贯性。通过插入图表、图像和图形，设计可以以视觉化的方式支持演讲内容，使观众更直观地理解和记忆信息。此外，PPT设计还提供了展示品牌形象和标识的机会，通过运用品牌的视觉元素，强化品牌形象，增强观众对品牌的识别度和记忆力。综上所述，通过精心设计和优化PPT，可以提升演讲效果，使演示更具有吸引力、清晰度和影响力，帮助演讲者与观众更好地沟通和交流。</p>
+        </div>
+        <p class="read-more" (click)="toggleExpansion()">{{ isExpanded ? '取消' : '查看更多' }}</p>
+    </div>
+    <div id="descriptionImage">
+       <img id="imageSection1" src="../../../../assets/images/marketing/marketing-seven/1.png" alt="scene">
+    </div>
+</div>
+<!-- <div class="section2">
+    <div class="tuilesSection2" [ngClass]="{'tuiles2': opacitySection2 === 1}">
+        <div class="boxSection2">
+            <div class="container">
+                <img src="../../../../assets/images/marketing/marketing-seven/2.png" alt="icone" class="image">
+            </div>
+        </div>
+    </div>
+  </div> -->

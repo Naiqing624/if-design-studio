@@ -61,6 +61,8 @@ import { CulturalWallFourComponent } from './external-link/marketing/marketing-n
 import { CulturalWallThreeComponent } from './external-link/marketing/marketing-nine/cultural-wall/cultural-wall-three/cultural-wall-three.component';
 import { CulturalWallTwoComponent } from './external-link/marketing/marketing-nine/cultural-wall/cultural-wall-two/cultural-wall-two.component';
 import { NewestWorkOneComponent } from './external-link/newest-works/newest-work-one/newest-work-one.component';
+import { ConfidentialComponent } from './external-link/confidential/confidential.component';
+import { LegalNoticeComponent } from './external-link/legal-notice/legal-notice.component';
 
 const routes: Routes = [
   {path: "home", component: HomeComponent},
@@ -123,7 +125,9 @@ const routes: Routes = [
   {path: "cultural-wall-three", component: CulturalWallThreeComponent},
   {path: "cultural-wall-four", component: CulturalWallFourComponent},
   {path: "cultural-wall-five", component: CulturalWallFiveComponent},
-  {path: "newest-work-one", component: NewestWorkOneComponent}
+  {path: "newest-work-one", component: NewestWorkOneComponent},
+  {path: "confidential", component: ConfidentialComponent},
+  {path: "legal-notice", component: LegalNoticeComponent}
 ];
 
 @NgModule({

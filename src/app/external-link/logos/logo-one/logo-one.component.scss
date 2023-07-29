@@ -39,6 +39,10 @@ h2 {
     line-height: 28px;
 }
 
+.breadcrumb li a{
+    text-decoration: none;
+}
+
 .breadcrumb li:not(:last-child)::after {
     content: "/";
     margin: 0 5px;
@@ -213,5 +217,24 @@ h3{
 
     #section1 {
         width: 260px;
+    }
+
+    #ariane {
+        padding-top: 30px;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    .breadcrumb li {
+        font-size: 15px;
+    }
+    
+    #home{
+        width: 15px;
+        height: 15px;
     }
 }

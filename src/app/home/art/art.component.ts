@@ -6,7 +6,6 @@ import { Component, HostListener } from '@angular/core';
   styleUrls: ['./art.component.scss']
 })
 export class ArtComponent {
-  isExpanded = false;
   opacitySection2 = 1;
 
   @HostListener('window:scroll', ['$event'])
@@ -17,19 +16,6 @@ export class ArtComponent {
       this.opacitySection2 = 1;
     }else{
       this.opacitySection2 = 0;
-    }
-  }
-
-  toggleExpansion() {
-    this.isExpanded = !this.isExpanded;
-  }
-
-  @HostListener('window:resize', ['$event'])
-  checkScreenSize(): void{
-    if (window.innerWidth < 700) {
-      this.isExpanded = true;
-    }else {
-      this.isExpanded = false;
     }
   }
 }
