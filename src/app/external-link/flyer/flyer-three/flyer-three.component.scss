@@ -62,7 +62,7 @@ h2 {
     display: flex;
     padding-left: 260px;
     padding-right: 260px;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 99px;
     padding-bottom: 117px;
 }
@@ -70,10 +70,6 @@ h2 {
 h3{
     font-size: 14px;
     font-weight: 400;
-}
-  
-#description {
-    padding-right: 450px;
 }
   
 #description h1 {
@@ -144,20 +140,10 @@ h3{
     }
 }
 
-@media screen and (max-width: 1550px) {
-    #description {
-        padding-right: 320px;
-    }
-}
-
 @media screen and (max-width: 1400px) {
     #description p{
         font-size: 17px;
         line-height: 20px;
-    }
-
-    #description {
-        padding-right: 220px;
     }
 
     #imageSection1{
@@ -190,10 +176,6 @@ h3{
         margin: 0 auto;
         padding-top: 75px;
         padding-left: 0;
-        padding-right: 0;
-    }
-    
-    #description{
         padding-right: 0;
     }
 

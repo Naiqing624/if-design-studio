@@ -228,8 +228,8 @@ h3{
     left: 224px;
     transform: translate(-50%, -50%);
     border: 1px solid #fff;
-    width: 280px;
-    height: 215px;
+    width: 270px;
+    height: 180px;
     padding: 10px;
     text-align: center;
     opacity: 0;
@@ -238,8 +238,8 @@ h3{
     
 .container:hover::after {
     opacity: 1;
-    width: 250px;
-    height: 185px;
+    width: 240px;
+    height: 170px;
     transition: opacity 0.3s ease-in-out, width 0.3s ease-in-out, height 0.3s ease-in-out;
 }
 
@@ -317,24 +317,15 @@ h3{
     }
     
     .overlay {
-        bottom: 37px;
-        left: 30px;
-    }
-    
-    .container:hover::before {
-        bottom: 37px;
+        top:33.5px;
+        left: 32px;
+        width: 307px;
+        height: 243px;
     }
     
     .container::after {
-        top: 150px;
-        left: 184px;
-        width: 250px;
-        height: 185px;
-    }
-        
-    .container:hover::after {
-        width: 250px;
-        height: 185px;
+        top: 155px;
+        left: 186px;
     }
 }
 

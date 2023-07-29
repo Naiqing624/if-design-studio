@@ -149,8 +149,8 @@ h1{
 } 
 
 .image {
-    width: 320px;
-    height: 230px;
+    width: 350px;
+    height: 280px;
 }
 
 .container {
@@ -161,9 +161,10 @@ h1{
 
 .overlay {
     position: absolute;
-    bottom: 29px;
-    width: 320px;
-    height: 230px;
+    bottom: 52px;
+    left: 70px;
+    width: 308px;
+    height: 236px;
     opacity: 0;
     transition: 0.3s ease;
     background-color: #000000;
@@ -183,32 +184,32 @@ h1{
 
 .container:hover::before {
     position: absolute;
-    bottom: 15px;
-    width: 320px;
-    height: 230px;
+    bottom: 52px;
+    width: 308px;
+    height: 236px;
     opacity: 1;
 }
 
 .container::after {
     content: attr(data-title);
     position: absolute;
-    top: 165px;
-    left: 210px;
+    top: 190px;
+    left: 224px;
     transform: translate(-50%, -50%);
     border: 1px solid #fff;
-    width: 320px;
-    height: 230px;
+    width: 270px;
+    height: 180px;
     padding: 10px;
     text-align: center;
     opacity: 0;
-    transition: opacity 0.4s ease-in-out, width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transition: opacity 0.3s ease-in-out, width 0.3s ease-in-out, height 0.3s ease-in-out;
 }
     
 .container:hover::after {
     opacity: 1;
-    width: 245px;
-    height: 165px;
-    transition: opacity 0.4s ease-in-out, width 0.4s ease-in-out, height 0.4s ease-in-out;
+    width: 240px;
+    height: 170px;
+    transition: opacity 0.3s ease-in-out, width 0.3s ease-in-out, height 0.3s ease-in-out;
 }
 
 @keyframes logos {
@@ -303,12 +304,15 @@ h1{
     }
 
     .overlay {
-        bottom: 14px;
+        top:33.5px;
+        left: 32px;
+        width: 307px;
+        height: 243px;
     }
     
     .container::after {
-        top: 126px;
-        left: 170px;
+        top: 155px;
+        left: 186px;
     }
 }
 
