@@ -1,23 +1,20 @@
 <div id="ariane">
-    <h2><b>海报作品</b></h2>
+    <h2><b>{{ 'MARKETING.ARIANE-H2' | translate }}</b></h2>
     <nav class="breadcrumb">
       <ul>
           <li><a href="home"><img id="home" src="../../../../assets/images/home.png" alt="home" width="26px" height="24px"></a></li>
-          <li>宣传物料</li>
+          <li>{{ 'MARKETING.ARIANE-LI' | translate }}</li>
       </ul>
     </nav>  
  </div>
- <div id="section1">
+<div id="section1">
     <div id="description">
-        <h3>PORTFOLIO BUSINESS CARD</h3>
-        <h1><b>名片设计</b></h1>
+        <h3>{{ 'MARKETING.SECTION1-DESCRIPTION-H3' | translate }}</h3>
+        <h1 [innerHTML]="descriptionH1 | translate"></h1>
         <div class="content" [ngStyle]="{ 'max-height': isExpanded ? 'none' : '200px', 'overflow': isExpanded ? 'visible' : 'hidden' }">
-            <p id="text">名片是一种小巧而强大的工具，具有多重作用。首先，名片是一种商务交流的工具，它能够在商业活动中传递个人或公司的联系信息。通过交换名片，人们可以轻松地获取对方的姓名、职位、公司名称、电话号码和电子邮件地址等关键信息，方便日后的联系和合作。<br>
-                其次，名片是一种个人或公司形象的展示方式。一个精心设计的名片可以突出个人或公司的专业性、创意和独特性，给人留下深刻的印象。名片上的设计、标志、颜色和字体等元素可以传达出品牌的特点和价值观，增强品牌形象。<br>
-                此外，名片还可以在社交场合中起到社交纽带的作用。通过交换名片，人们可以建立起联系和关系，扩大社交圈子，并为将来的合作和机会铺平道路。名片不仅是一种工具，还是一种展示个人或公司身份、信任和专业性的方式。<br>
-                总之，名片是一种小巧而重要的工具，它能够传递联系信息、展示个人或公司形象，并在商务和社交场合中发挥重要的作用。一个精心设计和有效利用的名片可以为个人或公司带来更多的商机、合作伙伴和社交关系。</p>
+            <p [innerHTML]="contentP | translate"></p>
         </div>
-        <p class="read-more" (click)="toggleExpansion()">{{ isExpanded ? '取消' : '查看更多' }}</p>
+        <p class="read-more" (click)="toggleExpansion()">{{ isExpanded ? ('EXPAND.IS-EXPANDED'| translate)  : ('EXPAND.NOT-EXPANDED' | translate) }}</p>
     </div>
     <div id="descriptionImage">
        <img id="imageSection1" src="../../../../assets/images/marketing/marketing-one/1.png" alt="scene">

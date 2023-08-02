@@ -1,21 +1,18 @@
 <div id="ariane">
-    <h2><b>海报设计</b></h2>
+    <h2><b>{{ 'MARKETING-FLYER.ARIANE-H2' | translate }}</b></h2>
     <nav class="breadcrumb">
       <ul>
           <li><a href="home"><img id="home" src="../../../../assets/images/home.png" alt="home" width="26px" height="24px"></a></li>
-          <li>平面设计</li>
+          <li>{{ 'MARKETING-FLYER.ARIANE-LI' | translate }}</li>
       </ul>
     </nav>  
  </div>
 <div id="section1" class="section1" [ngClass]="{'first': opacitySection1 === 1}">
     <div class="about">
-        <h3>PORTFOLIO POSTER</h3>
-        <h1><b>传承汉字 - 包装设计</b></h1>
+        <h3>{{ 'MARKETING-FLYER.SECTION1-DESCRIPTION-H3' | translate }}</h3>
+        <h1 [innerHTML]="descriptionH1 | translate"></h1>
         <div class="content">
-            <p><strong>2022作品 - </strong>海报设计
-                <br>
-                <strong>设计师：</strong>地球村
-            </p>
+            <p [innerHTML]="contentP | translate"></p>
         </div>
     </div>
     <div class="aboutImage">
@@ -40,13 +37,10 @@
   </div>
 <div id="section3" class="section1" [ngClass]="{'first': opacitySection1 === 1}">
     <div class="about">
-        <h3>PORTFOLIO POSTER</h3>
-        <h1><b>青花瓷 - 海报设计</b></h1>
+        <h3>{{ 'MARKETING-FLYER.SECTION1-DESCRIPTION-H3' | translate }}</h3>
+        <h1 [innerHTML]="descriptionH1Two | translate"></h1>
         <div class="content">
-            <p><strong>2022作品 - </strong>海报设计
-                <br>
-                <strong>设计师：</strong>土豆
-            </p>
+            <p [innerHTML]="contentPTwo | translate"></p>
         </div>
     </div>
     <div class="aboutImage">

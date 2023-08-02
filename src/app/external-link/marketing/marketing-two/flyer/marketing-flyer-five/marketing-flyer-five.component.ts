@@ -9,6 +9,15 @@ export class MarketingFlyerFiveComponent {
   opacitySection1 = 1;
   opacitySection2 = 1;
 
+  descriptionH1 = 'MARKETING-FLYER.FLYER-FIVE.H1';
+  contentP = 'MARKETING-FLYER.FLYER-FIVE.CONTENT-P';
+  descriptionH1Two = 'MARKETING-FLYER.FLYER-FIVE.H1-TWO';
+  contentPTwo = 'MARKETING-FLYER.FLYER-FIVE.CONTENT-P-TWO';
+  descriptionH1Three = 'MARKETING-FLYER.FLYER-FIVE.H1-THREE';
+  contentPThree = 'MARKETING-FLYER.FLYER-FIVE.CONTENT-P-THREE';
+  descriptionH1Four = 'MARKETING-FLYER.FLYER-FIVE.H1-FOUR';
+  contentPFour = 'MARKETING-FLYER.FLYER-FIVE.CONTENT-P-FOUR';
+
   @HostListener('window:scroll', ['$event'])
   onScroll() {
     const section1 = document.querySelector('.section1');

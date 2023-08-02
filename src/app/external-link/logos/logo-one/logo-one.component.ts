@@ -27,6 +27,9 @@ export class LogoOneComponent {
   opacitySection3 = 1;
   opacitySection4 = 1;
 
+  descriptionH1 = 'LOGO.LOGO-ONE.H1';
+  contentP = 'LOGO.LOGO-ONE.CONTENT-P';
+
   @ViewChild('sliderMain') sliderMain: ElementRef;
 
   constructor(private el: ElementRef) {

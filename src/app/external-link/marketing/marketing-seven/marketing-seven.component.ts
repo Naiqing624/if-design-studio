@@ -9,6 +9,9 @@ export class MarketingSevenComponent {
   isExpanded = false;
   opacitySection2 = 1;
 
+  descriptionH1 = 'MARKETING.MARKETING-SEVEN.H1';
+  contentP = 'MARKETING.MARKETING-SEVEN.CONTENT-P';
+
   @HostListener('window:scroll', ['$event'])
   onScroll() {
     const tuilesSection2 = document.querySelector('.tuilesSection2');

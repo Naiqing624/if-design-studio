@@ -8,6 +8,8 @@ import { Component, HostListener } from '@angular/core';
 export class MarketingOneComponent {
   isExpanded = false;
   opacitySection2 = 1;
+  descriptionH1 = 'MARKETING.MARKETING-ONE.H1';
+  contentP = 'MARKETING.MARKETING-ONE.CONTENT-P';
 
   @HostListener('window:scroll', ['$event'])
   onScroll() {

@@ -1,18 +1,18 @@
 <div id="ariane">
-    <h2><b>海报作品</b></h2>
+    <h2><b>{{ 'MARKETING.ARIANE-H2' | translate }}</b></h2>
     <nav class="breadcrumb">
       <ul>
           <li><a href="home"><img id="home" src="../../../../assets/images/home.png" alt="home" width="26px" height="24px"></a></li>
-          <li>宣传物料</li>
+          <li>{{ 'MARKETING.ARIANE-LI' | translate }}</li>
       </ul>
     </nav>  
  </div>
- <div id="section1">
+<div id="section1">
     <div id="description">
-        <h3>PORTFOLIO PACKAGING</h3>
-        <h1><b>海报宣传</b></h1>
+        <h3>{{ 'MARKETING.SECTION1-DESCRIPTION-TWO-H3' | translate }}</h3>
+        <h1 [innerHTML]="descriptionH1 | translate"></h1>
         <div class="content">
-            <p id="text">包装在产品设计和销售中扮演着多重角色。它不仅保护产品免受损坏，还吸引消费者的目光并传达关键信息。通过独特的设计和品牌元素，包装建立起产品的形象和价值观，激发购买欲望。最终，优质的包装设计能够促进销售，使产品在竞争激烈的市场中脱颖而出，实现商业成功。</p>
+            <p [innerHTML]="contentP | translate"></p>
         </div>
     </div>
     <div id="descriptionImage">

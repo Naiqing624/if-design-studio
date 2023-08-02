@@ -7,6 +7,8 @@ import { Component, HostListener } from '@angular/core';
 })
 export class LogoThreeComponent {
   opacitySection2 = 1;
+  descriptionH1 = 'LOGO.LOGO-THREE.H1';
+  contentP = 'LOGO.LOGO-THREE.CONTENT-P';
 
   @HostListener('window:scroll', ['$event'])
   onScroll() {

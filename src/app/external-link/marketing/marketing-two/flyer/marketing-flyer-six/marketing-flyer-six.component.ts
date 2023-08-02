@@ -9,6 +9,9 @@ export class MarketingFlyerSixComponent {
   opacitySection1 = 1;
   opacitySection2 = 1;
 
+  descriptionH1 = 'MARKETING-FLYER.FLYER-SIX.H1';
+  contentP = 'MARKETING-FLYER.FLYER-SIX.CONTENT-P';
+
   @HostListener('window:scroll', ['$event'])
   onScroll() {
     const section1 = document.querySelector('.section1');

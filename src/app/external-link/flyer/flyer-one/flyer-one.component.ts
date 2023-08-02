@@ -7,6 +7,8 @@ import { Component, HostListener } from '@angular/core';
 })
 export class FlyerOneComponent {
   opacitySection2 = 1;
+  descriptionH1 = 'FLYER.FLYER-ONE.H1';
+  contentP = 'FLYER.FLYER-ONE.CONTENT-P';
 
   @HostListener('window:scroll', ['$event'])
   onScroll() {

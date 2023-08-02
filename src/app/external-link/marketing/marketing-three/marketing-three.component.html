@@ -1,20 +1,20 @@
 <div id="ariane">
-    <h2><b>包装作品</b></h2>
+    <h2><b>{{ 'MARKETING.ARIANE-H2-THREE' | translate }}</b></h2>
     <nav class="breadcrumb">
       <ul>
           <li><a href="home"><img id="home" src="../../../../assets/images/home.png" alt="home" width="26px" height="24px"></a></li>
-          <li>宣传物料</li>
+          <li>{{ 'MARKETING.ARIANE-LI' | translate }}</li>
       </ul>
     </nav>  
  </div>
- <div id="section1">
+<div id="section1">
     <div id="description">
-        <h3>PORTFOLIO PACKAGING</h3>
-        <h1><b>产品设计包装</b></h1>
+        <h3>{{ 'MARKETING.SECTION1-DESCRIPTION-THREE-H3' | translate }}</h3>
+        <h1 [innerHTML]="descriptionH1 | translate"></h1>
         <div class="content" [ngStyle]="{ 'max-height': isExpanded ? 'none' : '200px', 'overflow': isExpanded ? 'visible' : 'hidden' }">
-            <p id="text">包装在产品设计和销售中扮演着多重角色。它不仅保护产品免受损坏，还吸引消费者的目光并传达关键信息。通过独特的设计和品牌元素，包装建立起产品的形象和价值观，激发购买欲望。最终，优质的包装设计能够促进销售，使产品在竞争激烈的市场中脱颖而出，实现商业成功。</p>
+            <p [innerHTML]="contentP | translate"></p>
         </div>
-        <p class="read-more" (click)="toggleExpansion()">{{ isExpanded ? '取消' : '查看更多' }}</p>
+        <p class="read-more" (click)="toggleExpansion()">{{ isExpanded ? ('EXPAND.IS-EXPANDED'| translate)  : ('EXPAND.NOT-EXPANDED' | translate) }}</p>
     </div>
     <div id="descriptionImage">
        <img id="imageSection1" src="../../../../assets/images/marketing/marketing-three/1.png" alt="scene">
@@ -27,7 +27,7 @@
                 <div class="container">
                     <img src="../../../../assets/images/marketing/marketing-three/2.png" alt="icone" class="image">
                         <div class="overlay">
-                            <div class="textSection2">Zipper</div>
+                            <div class="textSection2">{{ 'MARKETING.MARKETING-THREE.OVERLAY-ONE' | translate }}</div>
                         </div>
                     
                 </div>
@@ -36,7 +36,7 @@
                 <div class="container">
                     <img src="../../../../assets/images/marketing/marketing-three/3.png" alt="icone" class="image">
                         <div class="overlay">
-                            <div class="textSection2">觅糖</div>
+                            <div class="textSection2">{{ 'MARKETING.MARKETING-THREE.OVERLAY-TWO' | translate }}</div>
                         </div>
                 </div>
             </a>
@@ -44,7 +44,7 @@
                 <div class="container">
                     <img src="../../../../assets/images/marketing/marketing-three/4.png" alt="icone" class="image">
                         <div class="overlay">
-                            <div class="textSection2">KARYOOSI</div>
+                            <div class="textSection2">{{ 'MARKETING.MARKETING-THREE.OVERLAY-THREE' | translate }}</div>
                         </div>
                 </div>
             </a>
@@ -56,7 +56,7 @@
                 <div class="container">
                     <img src="../../../../assets/images/marketing/marketing-three/5.png" alt="icone" class="image">
                         <div class="overlay">
-                            <div class="textSection2">鲜肉蒸饺</div>
+                            <div class="textSection2">{{ 'MARKETING.MARKETING-THREE.OVERLAY-FOUR' | translate }}</div>
                         </div>
                 </div>
             </a>
@@ -64,7 +64,7 @@
                 <div class="container">
                     <img src="../../../../assets/images/marketing/marketing-three/6.png" alt="icone" class="image">
                         <div class="overlay">
-                            <div class="textSection2">觅糖</div>
+                            <div class="textSection2">{{ 'MARKETING.MARKETING-THREE.OVERLAY-FIVE' | translate }}</div>
                         </div>
                 </div>
             </a>
@@ -72,7 +72,7 @@
                 <div class="container">
                     <img src="../../../../assets/images/marketing/marketing-three/7.png" alt="icone" class="image">
                         <div class="overlay">
-                            <div class="textSection2">觅糖</div>
+                            <div class="textSection2">{{ 'MARKETING.MARKETING-THREE.OVERLAY-SIX' | translate }}</div>
                         </div>
                 </div>
             </a>
@@ -84,7 +84,7 @@
               <div class="container">
                   <img src="../../../../assets/images/marketing/marketing-three/8.png" alt="icone" class="image">
                       <div class="overlay">
-                          <div class="textSection2">觅糖</div>
+                          <div class="textSection2">{{ 'MARKETING.MARKETING-THREE.OVERLAY-SEVEN' | translate }}</div>
                       </div>
               </div>
           </a>
@@ -92,7 +92,7 @@
               <div class="container">
                   <img src="../../../../assets/images/marketing/marketing-three/9.png" alt="icone" class="image">
                       <div class="overlay">
-                          <div class="textSection2">灵果</div>
+                          <div class="textSection2">{{ 'MARKETING.MARKETING-THREE.OVERLAY-EIGHT' | translate }}</div>
                       </div>
               </div>
           </a>
@@ -100,7 +100,7 @@
               <div class="container">
                   <img src="../../../../assets/images/marketing/marketing-three/10.png" alt="icone" class="image">
                       <div class="overlay">
-                          <div class="textSection2">APP</div>
+                          <div class="textSection2">{{ 'MARKETING.MARKETING-THREE.OVERLAY-NINE' | translate }}</div>
                       </div>
               </div>
           </a>

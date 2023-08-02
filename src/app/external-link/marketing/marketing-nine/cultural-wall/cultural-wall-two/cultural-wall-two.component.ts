@@ -8,6 +8,9 @@ import { Component, HostListener } from '@angular/core';
 export class CulturalWallTwoComponent {
   opacitySection2 = 1;
 
+  descriptionH1 = 'CULTURAL-WALL.CULTURAL-WALL-TWO.H1';
+  contentP = 'CULTURAL-WALL.CULTURAL-WALL-TWO.CONTENT-P';
+
   @HostListener('window:scroll', ['$event'])
   onScroll() {
     const section2 = document.querySelector('.section2');
