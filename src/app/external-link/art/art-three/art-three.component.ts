@@ -7,6 +7,7 @@ import { Component, HostListener } from '@angular/core';
 })
 export class ArtThreeComponent {
   opacitySection2 = 1;
+  contentP = 'ART.ART-THREE.SECTION1-DESCRIPTION-P';
 
   @HostListener('window:scroll', ['$event'])
   onScroll() {

@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./confidential.component.scss']
 })
 export class ConfidentialComponent {
-
+  contentP = 'CONFIDENTIAL.TEXT-CONTAINER-P';
 }

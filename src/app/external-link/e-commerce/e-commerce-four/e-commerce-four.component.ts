@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./e-commerce-four.component.scss']
 })
 export class ECommerceFourComponent {
-
+  descriptionH1 = 'E-COMMERCE.E-COMMERCE-FOUR.H1';
+  contentP = 'E-COMMERCE.E-COMMERCE-FOUR.CONTENT-P';
+  textContainerP = 'E-COMMERCE.E-COMMERCE-FOUR.SECTION2-TEXT-CONTAINER';
 }

@@ -19,5 +19,84 @@
     "TITLE4": "<h1>社交媒体广告 投放</h1><br>社交媒体已成为品牌推广的重要渠道之一。考虑与适合品牌定位的社交媒体平台合作，进行品牌宣传和互动活动。此外，与合适的影响者（KOL）或品牌大使合作，通过他们的影响力和粉丝基础，扩大品牌的曝光度和影响力。",
     "TITLE5": "<h1>数据分析和优化</h1><br>建立适当的数据分析体系，收集和分析推广活动的数据，包括品牌曝光、用户互动、转化率等指标。根据数据分析结果，及时调整和优化推广策略，以提升推广效果和ROI。",
     "TITLE6": "<h1>社交媒体广告 投放</h1><br>注重口碑营销，通过提供卓越的用户体验和优质的客户服务，获得用户口碑传播。激励用户分享和推荐品牌，建立品牌口碑和忠诚度。"
+  },
+  "HOME": {
+    "HOME": "首页"
+  },
+  "ART": {
+    "ILLUSTRATION": "Illustration",
+    "ARIANE-H2": "插画设计",
+    "ARIANE-LI": "插画",
+    "CONTENT-P": "插画在文学作品、儿童书籍、漫画、广告和品牌推广等方面发挥着重要的角色。它能够为文字内容增添生动性和可视化的呈现，帮助读者更好地理解故事或概念。插画还能够吸引目标受众，提高品牌的辨识度，并传递品牌的特点和价值观。此外，插画也是一种有趣和具有娱乐性的艺术形式。它可以用于游戏、卡片、海报和社交媒体等媒介中，为人们带来愉悦和享受。",
+    "OVERLAY-ONE": "爱华仕箱包",
+    "OVERLAY-TWO": "VITAMIN C",
+    "OVERLAY-THREE": "健康生活",
+    "OVERLAY-FOUR": "共享单车拟人",
+    "OVERLAY-FIVE": "天线宝宝拟人",
+    "OVERLAY-SIX": "城市剪影",
+    "SECTION1-DESCRIPTION-H3": "PORTFOLIO ILLUSTRATION",
+    "ART-ONE": {
+      "SECTION1-DESCRIPTION-H1": "爱华仕箱包 - 宣传插画设计",
+      "SECTION1-DESCRIPTION-P": "<strong>2023作品</strong><br><strong>设计师：</strong> 南竹"
+    },
+    "ART-TWO": {
+      "SECTION1-DESCRIPTION-H1": "VC产品 - 插画设计",
+      "SECTION1-DESCRIPTION-P": "<strong>2023作品</strong><br><strong>设计师：</strong> 阿咩"
+    },
+    "ART-THREE": {
+      "SECTION1-DESCRIPTION-H1": "健康生活 - 插画设计",
+      "SECTION1-DESCRIPTION-P": "<strong>2023作品</strong><br><strong>设计师：</strong> 南竹"
+    },
+    "ART-FOUR": {
+      "SECTION1-DESCRIPTION-H1": "共享单车拟人 - 插画设计",
+      "SECTION1-DESCRIPTION-P": "<strong>2023作品</strong><br><strong>设计师：</strong> 大羊"
+    },
+    "ART-FIVE": {
+      "SECTION1-DESCRIPTION-H1": "天线宝宝拟人 - 插画设计",
+      "SECTION1-DESCRIPTION-P": "<strong>2023作品</strong><br><strong>设计师：</strong> 大羊"
+    },
+    "ART-SIX": {
+      "SECTION1-DESCRIPTION-H1": "城市风景 - 扁平插画",
+      "SECTION1-DESCRIPTION-P": "<strong>2023作品</strong><br><strong>设计师：</strong> 南竹"
+    }
+  },
+  "CONFIDENTIAL": {
+    "H2": "隐私政策",
+    "TEXT-CONTAINER-P": "欢迎您访问我们的设计工作室！我们十分重视您的隐私保护，并承诺保护您的个人信息安全。我们仅在您主动联系我们时，收集您的个人信息，目的是为了更好地回应您的咨询和服务需求<br>个人信息收集<br>您可通过电子邮件、电话或其他联系方式主动向我们提供个人信息。这些信息可能包括您的姓名、电子邮件地址、联系电话等。在您与我们联系时，您的信息将被收集用于更好地了解您的需求和意向，以便向您提供量身定制的设计服务<br>信息使用 <br>我们仅会使用您提供的个人信息来回应您的咨询、需求或项目要求。在我们提供设计服务过程中，我们可能会与您沟通以确保我们全面了解您的需求，并为您量身定制最合适的设计解决方案。<br>信息共享 <br>我们郑重承诺，绝不会未经您的明确同意将您的个人信息共享给任何第三方。您提供给我们的个人信息将仅在设计服务和相关业务处理过程中使用。<br>信息保护 <br>我们采取各种技术和安全措施来保护您的个人信息，防止未经授权的访问、泄露、篡改或损坏。我们的团队都受到严格的保密义务，确保您的个人信息得到妥善保护。<br>隐私权政策变更 <br>我们可能会根据需要对隐私政策进行更新和修改，并在我们的网站上及时发布更新的版本。在使用我们的服务之前，请查看最新版本的隐私政策。<br>如果您对我们的隐私政策有任何疑问或需要了解更多信息，请随时联系我们。再次感谢您选择我们的设计工作室，我们期待与您合作！"
+  },
+  "E-COMMERCE": {
+    "ARIANE-H2": "电商设计",
+    "ARIANE-LI": "LOGO设计案例",
+    "SECTION1-DESCRIPTION-H3": "PORTFOLIO ECOMMERCE",
+    "SECTION3-COLOR": "Color",
+    "SECTION3-COLOR-PADDING": "颜色",
+    "SECTION4-PRODUCT-MASTER": "PRODUCT MASTER PLAN",
+    "SECTION4-PRODUCT-MASTER-SUB": "主图设计",
+    "E-COMMERCE-ONE": {
+      "H1": "<b>FATESKY 香氛沐浴露</b>",
+      "CONTENT-P": "<strong>2022作品 -</strong> 电商设计、主图设计、详情页设计<br><strong>设计师：</strong> 听",
+      "SECTION2-TEXT-CONTAINER": "FATESKY<br>香氛沐浴露<br>电商设计"
+    },
+    "E-COMMERCE-TWO": {
+      "H1": "<b>CAN CAR小程序</b>",
+      "CONTENT-P": "<strong>2022作品 -</strong> 电商设计、主图设计、详情页设计<br><strong>设计师：</strong> 乃青",
+      "SECTION2-TEXT-CONTAINER": "CAR CAR<br>租车服务<br>小程序设计"
+    },
+    "E-COMMERCE-THREE": {
+      "H1": "<b>南甸家政小程序</b>",
+      "CONTENT-P": "<strong>2022作品 -</strong> 电商设计、主图设计、详情页设计<br><strong>设计师：</strong> 南竹&乃青",
+      "SECTION2-TEXT-CONTAINER": "南甸家政<br>小甸铺<br>小程序设计",
+      "SECTION2-TEXT-CONTAINER-TWO": "南甸家政<br>小甸铺<br>小程序设计"
+    },
+    "E-COMMERCE-FOUR": {
+      "H1": "<b>俞沁衫淘宝店铺</b>",
+      "CONTENT-P": "<strong>2022作品 -</strong> 电商设计、主图设计、详情页设计、轮播图设计<br><strong>设计师：</strong> 大羊",
+      "SECTION2-TEXT-CONTAINER": "俞沁衫淘宝店铺<br>香氛沐浴露<br>电商设计"
+    },
+    "E-COMMERCE-FIVE": {
+      "H1": "<b>除醛服务 - 美团</b>",
+      "CONTENT-P": "<strong>2022作品 -</strong> 电商设计、主图设计、详情页设计<br><strong>设计师：</strong> 大羊",
+      "SECTION2-TEXT-CONTAINER": "除醛服务 - 美团<br>电商设计"
+    }
   }
 }

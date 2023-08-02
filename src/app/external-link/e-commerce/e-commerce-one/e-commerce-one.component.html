@@ -1,21 +1,18 @@
 <div id="ariane">
-    <h2><b>电商设计</b></h2>
+    <h2><b>{{ 'E-COMMERCE.ARIANE-H2' | translate }}</b></h2>
     <nav class="breadcrumb">
       <ul>
           <li><a href="home"><img id="home" src="../../../../assets/images/home.png" alt="home" width="26px" height="24px"></a></li>
-          <li>LOGO设计案例</li>
+          <li>{{ 'E-COMMERCE.ARIANE-LI' | translate }}</li>
       </ul>
     </nav>  
   </div>
 <div id="section1">
     <div id="description">
-        <h3>PORTFOLIO ECOMMERCE</h3>
-        <h1><b>FATESKY 香氛沐浴露</b></h1>
+        <h3>{{ 'E-COMMERCE.SECTION1-DESCRIPTION-H3' | translate }}</h3>
+        <h1 [innerHTML]="descriptionH1 | translate"></h1>
         <div class="content">
-            <p><strong>2022作品 -</strong> 电商设计、主图设计、详情页设计
-                <br>
-                <strong>设计师：</strong> 听
-            </p>
+            <p [innerHTML]="contentP | translate"></p>
         </div>
     </div>
     <div id="descriptionImage">
@@ -26,7 +23,7 @@
     <div class="horizontal-image-container">
         <div class="effect-overlay"></div>
         <div class="text-container">
-            <p class="text">FATESKY<br>香氛沐浴露<br>电商设计</p>
+            <p class="text" [innerHTML]="textContainerP | translate"></p>
         </div>
         <img src="../../../../assets/images/e-commerces/e-commerce-one/2.png" alt="" class="horizontal-image" />
         <div class="vertical-bar-container">
@@ -43,8 +40,8 @@
 <div id="section3">
     <div id="color">
         <div id="color-container">
-          <p class="color">Color</p>
-          <p class="color-padding">颜色</p>
+          <p class="color">{{ 'E-COMMERCE.SECTION3-COLOR' | translate }}</p>
+          <p class="color-padding">{{ 'E-COMMERCE.SECTION3-COLOR-PADDING' | translate }}</p>
         </div>
         <div class="ellipse-container">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156 156" fill="none">
@@ -115,8 +112,8 @@
     <img src="../../../../assets/images/e-commerces/e-commerce-one/4.png" alt="" class="image-four"/>
   </div>
   <div class="product-name">
-    <p class="product-master">PRODUCT MASTER PLAN</p>
-    <p class="product-master-sub">主图设计</p>
+    <p class="product-master">{{ 'E-COMMERCE.SECTION4-PRODUCT-MASTER' | translate }}</p>
+    <p class="product-master-sub">{{ 'E-COMMERCE.SECTION4-PRODUCT-MASTER-SUB' | translate }}</p>
   </div>
   <hr>
   <div class="image-container">
@@ -124,8 +121,8 @@
   </div>
   <hr>
   <div class="product-name-two">
-    <p class="product-master">PRODUCT MASTER PLAN</p>
-    <p class="product-master-sub">主图设计</p>
+    <p class="product-master">{{ 'E-COMMERCE.SECTION4-PRODUCT-MASTER' | translate }}</p>
+    <p class="product-master-sub">{{ 'E-COMMERCE.SECTION4-PRODUCT-MASTER-SUB' | translate }}</p>
   </div>
   <div class="product-three">
     <img src="../../../../assets/images/e-commerces/e-commerce-one/6.jpg" alt="" class="image-six"/>
