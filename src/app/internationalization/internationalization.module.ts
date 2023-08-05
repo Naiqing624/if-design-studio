@@ -34,8 +34,8 @@ export class InternationalizationModule {
    * @param translate used to manage the translation of the webapp.
    */
   constructor(private readonly translate: TranslateService) {
-    this.translate.addLangs(["en", "fr", "cn"]);
-    this.translate.setDefaultLang("cn");
-    this.translate.use("cn");
+    this.translate.addLangs(["EN", "FR", "CN"]);
+    this.translate.setDefaultLang("FR");
+    this.translate.use("FR");
   }
 }

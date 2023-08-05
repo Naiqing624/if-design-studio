@@ -1,6 +1,511 @@
 {
-    "DESCRIPTION": {
-        "TITLE": "市场研究和分析",
-        "TEXT": "目标市场调研"
-      }
+  "CARD1": {
+    "TITLE1": "<h1>Brand Value Proposition</h1><br><strong>Brand Mission and Vision:</strong> Define your brand's core mission and vision to inspire resonance and create an emotional connection with your target audience .<br><strong>Brand core value:</strong>Define the core value and unique selling point of the brand, emphasizing the advantages and characteristics of the brand in the market.",
+    "TITLE2": "<h1>Brand Identity Design</h1><br><strong>Brand Name:</strong>Choose a brand name that matches the brand positioning and target audience, is easy to remember and communicate<br><strong> Brand Identity:</strong>Design the brand's logotype, logo, and logotype to establish the brand's visual identity and recognition in the marketplace<br><strong>Brand Visual Elements:</strong> Identify the brand's visual elements, such as colour, font, graphics and typography to ensure consistency and recognition across the various branding materials",
+    "TITLE3": "<h1>Target Audience Definition</h1><br><strong>Audience Segmentation:</strong> Segment your target market into audience groups with similar needs and characteristics to more precisely target your brand target audience.<strong>Audience portrait:</strong>Create a persona of the target audience, including their characteristics, preferences, purchase motivation, etc., in order to better understand and meet their needs",
+    "TITLE4": "<h1>Market strategy planning</h1><br><strong>Positioning strategy:</strong> According to the brand positioning and target audience, determine the brand's positioning in the market, so as to stand in the competitive environment Stand out.<br><strong>Market channel selection:</strong> Determine the marketing channels and promotion methods suitable for the target audience, such as online advertising, social media, partnerships, etc., to expand brand exposure and influence.< br><strong>Pricing strategy:</strong> Formulate a reasonable product pricing strategy, considering factors such as market demand, competition and brand positioning, in order to achieve sales goals and maximize profits.<br><strong>Promotion planning: </strong>Design attractive promotions such as discounts, giveaways, promotional packages, etc. to increase sales and brand awareness"
+  },
+  "CARD2": {
+    "TITLE1": "<h1>Market research and analysis</h1><br><strong>Target market research:</strong> Through market research methods, collect data and information related to the target market to understand market size, growth Trends, consumer behavior, etc.<br><strong>Competitor analysis:</strong> Conduct an in-depth analysis of competitors to understand their brand positioning, product features, market share, etc., in order to determine their own brand differentiation strategy. <br><strong>Audience insight:</strong>Through consumer research and market analysis, describe the target audience's demographic characteristics, hobbies, purchasing habits, etc., to provide the basis for brand positioning and communication strategies",
+    "TITLE2": "<h1>Brand Core Value</h1><br><strong>Brand Core Value:</strong> Define the brand's core value and unique selling point, emphasizing the brand's advantages and value proposition in the target market. <br><strong>Brand Personality and Voice:</strong>Create your brand's personality and unique voice to ensure your brand is distinctive and recognizable in your marketplace.",
+    "TITLE3": "<h1>Target Audience Definition</h1><br><strong>Audience Segmentation:</strong> Segment your target market into audience groups with similar needs and characteristics to more precisely target your brand target audience.<br><strong>Audience portrait:</strong> Create a persona of the target audience, including their characteristics, preferences, purchase motivation, etc., in order to better understand and meet their needs<br>",
+    "TITLE4": "<h1>Market strategy planning</h1><br><strong>Positioning strategy:</strong> According to the brand positioning and target audience, determine the brand's positioning in the market, so as to stand in the competitive environment Stand out.<br><strong>Market channel selection:</strong> Determine the marketing channels and promotion methods suitable for the target audience, such as online advertising, social media, partnerships, etc., to expand brand exposure and influence.< br><strong>Pricing strategy:</strong>r>Develop a reasonable product pricing strategy, taking market demand, competition and brand positioning into consideration, in order to achieve sales goals and maximize profits.<br><strong>Promotional activities Planning:</strong> Design attractive promotions for consumers, such as discounts, giveaways, promotional packages, etc., to increase sales and brand awareness"
+
+  },
+  "CARD3": {
+    "TITLE1": "<h1>Target Audience Segmentation</h1><br>According to the brand's positioning and goals, further segment the target audience. Understand their characteristics, preferences and behavior habits in order to formulate promotion strategies more accurately And choose the appropriate promotion channel.",
+    "TITLE2": "<h1>Marketing channels</h1><br>Choose a suitable marketing channel based on the characteristics and behavior of the target audience. Can include online channels, such as search engine optimization (SEO), search engine marketing (SEM), social media advertising, email marketing, etc.; and offline channels, such as TV advertising, outdoor advertising, event marketing, etc. Considering the coverage, cost-effectiveness and audience contact of different channels, formulate corresponding promotion plans. ",
+    "TITLE3": "<h1>Creative and content strategy</h1><br>Design attractive creative and content strategies based on the characteristics and communication needs of the target audience. Create emotionally resonant and engaging content, including text, images, videos, etc. to communicate brand values and stories",
+    "TITLE4": "<h1>Social media advertising</h1><br>Social media has become one of the important channels for brand promotion. Consider cooperating with social media platforms suitable for brand positioning to carry out brand promotion and interactive activities. In addition , work with the right influencers (KOL) or brand ambassadors to expand the brand's exposure and influence through their influence and fan base.",
+    "TITLE5": "<h1>Data analysis and optimization</h1><br>Establish an appropriate data analysis system to collect and analyze data of promotion activities, including brand exposure, user interaction, conversion rate and other indicators. According to the results of data analysis , adjust and optimize the promotion strategy in time to improve the promotion effect and ROI.",
+    "TITLE6": "<h1>Social media advertising</h1><br>Focus on word-of-mouth marketing. By providing excellent user experience and high-quality customer service, win word-of-mouth communication from users. Encourage users to share and recommend brands to build brand reputation and loyalty."
+  },
+  "HOME": {
+    "HOME": "Home"
+  },
+  "ART": {
+    "ILLUSTRATION": "Illustration",
+    "ARIANE-H2": "Illustration Design",
+    "ARIANE-LI": "Illustration",
+    "CONTENT-P": "Illustration plays an important role in literature, children's books, comics, advertising, and branding. It can add vividness and visual presentation to text content, helping readers better understand stories or Concept.Illustration can also attract the target audience, increase brand recognition, and communicate the characteristics and values ​​of the brand. In addition, illustration is a fun and entertaining art form. It can be used in games, cards, posters and social media and other media, to bring pleasure and enjoyment to people.",
+    "OVERLAY-ONE": "Hermes bags",
+    "OVERLAY-TWO": "VITAMIN C",
+    "OVERLAY-THREE": "Healthy Living",
+    "OVERLAY-FOUR": "Shared bicycle anthropomorphism",
+    "OVERLAY-FIVE": "Teletubbies <br> Anthropomorphic",
+    "OVERLAY-SIX": "City Silhouette",
+    "SECTION1-DESCRIPTION-H3": "PORTFOLIO ILLUSTRATION",
+    "ART-ONE": {
+      "SECTION1-DESCRIPTION-H1": "Heiwas Luggage - Promotional Illustration Design",
+      "SECTION1-DESCRIPTION-P": "<strong>2023 works</strong><br><strong>Designer:</strong> Nanzhu"
+    },
+    "ART-TWO": {
+      "SECTION1-DESCRIPTION-H1": "VC Products - Illustration Design",
+      "SECTION1-DESCRIPTION-P": "<strong>2023 works</strong><br><strong>Designer: </strong> Ah Baa"
+    },
+    "ART-THREE": {
+      "SECTION1-DESCRIPTION-H1": "Healthy Living - Illustration Design",
+      "SECTION1-DESCRIPTION-P": "<strong>2023 works</strong><br><strong>Designer:</strong> Nanzhu"
+    },
+    "ART-FOUR": {
+      "SECTION1-DESCRIPTION-H1": "Shared bicycle anthropomorphism - illustration design",
+      "SECTION1-DESCRIPTION-P": "<strong>2023 works</strong><br><strong>Designer:</strong> Dayang"
+    },
+    "ART-FIVE": {
+      "SECTION1-DESCRIPTION-H1": "Teletubbies Anthropomorphic - Illustration Design",
+      "SECTION1-DESCRIPTION-P": "<strong>2023 works</strong><br><strong>Designer:</strong> Dayang"
+    },
+    "ART-SIX": {
+      "SECTION1-DESCRIPTION-H1": "Cityscapes - Flat Illustration",
+      "SECTION1-DESCRIPTION-P": "<strong>2023 works</strong><br><strong>Designer:</strong> Nanzhu"
+    }
+  },
+  "CONFIDENTIAL": {
+    "H2": "Privacy Policy",
+    "TEXT-CONTAINER-P": "Welcome to visit our design studio! We attach great importance to your privacy protection and promise to protect the security of your personal information. We only collect your personal information when you actively contact us, The purpose is to better respond to your consultation and service needs<br>collection of personal information<br>You can actively provide us with personal information by email, phone or other contact methods. This information may include your name, email Address, contact number, etc. When you contact us, your information will be collected to better understand your needs and intentions, so as to provide you with tailor-made design services<br>Information usage<br>We We will only use the personal information you provide to respond to your inquiries, needs or project requirements. In the process of providing design services, we may communicate with you to ensure that we fully understand your needs and tailor the most suitable for you Design solutions.<br>Information sharing<br>We solemnly promise that we will never share your personal information with any third party without your explicit consent. The personal information you provide to us will only be used in design services and Used in related business processing.<br>Information Protection<br>We take various technical and security measures to protect your personal information from unauthorized access, disclosure, tampering or damage. Our team is subject to strict Confidentiality obligations to ensure that your personal information is properly protected.<br>Privacy Policy Changes<br>We may update and modify the Privacy Policy as needed, and publish updated versions on our website in a timely manner. When using our Please review the latest version of the Privacy Policy before using our services.<br>If you have any questions about our Privacy Policy or need more information, please feel free to contact us. Thank you again for choosing our design studio and we look forward to working with you You cooperate!"
+  },
+  "E-COMMERCE": {
+    "ARIANE-H2": "E-commerce Design",
+    "ARIANE-LI": "LOGO Design Case",
+    "SECTION1-DESCRIPTION-H3": "PORTFOLIO ECOMMERCE",
+    "SECTION3-COLOR": "Color",
+    "SECTION3-COLOR-PADDING": "Color",
+    "SECTION4-PRODUCT-MASTER": "PRODUCT MASTER PLAN",
+    "SECTION4-PRODUCT-MASTER-SUB": "Main Graphic Design",
+    "E-COMMERCE-ONE": {
+      "H1": "<b>FATESKY Fragrance Body Wash</b>",
+      "CONTENT-P": "<strong>2022 works -</strong> e-commerce design, main image design, detail page design<br><strong>Designer:</strong> Listen",
+      "SECTION2-TEXT-CONTAINER": "FATESKY<br>Scented Shower Gel<br>E-Commerce Design"
+    },
+    "E-COMMERCE-TWO": {
+      "H1": "<b>CAN CAR applet</b>",
+      "CONTENT-P": "<strong>2022 works -</strong> E-commerce design, main image design, detail page design<br><strong>Designer: </strong> Nai Qing",
+      "SECTION2-TEXT-CONTAINER": "CAR CAR<br>Car rental service<br>mini program design"
+    },
+    "E-COMMERCE-THREE": {
+      "H1": "<b>Nandian housekeeping applet</b>",
+      "CONTENT-P": "<strong>2022 works -</strong> e-commerce design, main picture design, detail page design<br><strong>Designer: </strong> Nan Zhu & Nai Qing",
+      "SECTION2-TEXT-CONTAINER": "Nandian Housekeeping<br>Xiaodianpu<br>Mini Program Design",
+      "SECTION2-TEXT-CONTAINER-TWO": "Nandian Housekeeping<br>Xiaodianpu<br>Mini Program Design"
+    },
+    "E-COMMERCE-FOUR": {
+      "H1": "<b>Yu Qinshan Taobao store</b>",
+      "CONTENT-P": "<strong>2022 works -</strong> e-commerce design, main image design, detail page design, carousel image design<br><strong>Designer:</strong> Dayang",
+      "SECTION2-TEXT-CONTAINER": "Yu Qinshan Taobao Store<br>Fragrance Shower Gel<br>E-commerce Design"
+    },
+    "E-COMMERCE-FIVE": {
+      "H1": "<b>Aldehyde removal service - Meituan</b>",
+      "CONTENT-P": "<strong>2022 works -</strong> E-commerce design, main image design, detail page design<br><strong>Designer:</strong> Dayang",
+      "SECTION2-TEXT-CONTAINER": "Aldehyde Removal Service - Meituan<br>E-Commerce Design"
+    }
+  },
+  "FLYER": {
+    "ARIANE-H2": "Folding Page Design",
+    "ARIANE-LI": "Graphic Design",
+    "SECTION1-DESCRIPTION-H3": "PORTFOLIO BROCHURE",
+    "FLYER-ONE": {
+      "H1": "<b>Xianqiao Middle School in Rongcheng District, Jieyang City - Folding Design</b>",
+      "CONTENT-P": "<strong>2022 Works -</strong>Typesetting, Printing<br><strong>Designer:</strong> Dayang"
+    },
+    "FLYER-TWO": {
+      "H1": "<b>Shangjia Famous Tea Studio - Folding Design</b>",
+      "CONTENT-P": "<strong>2022 Works -</strong>Typesetting, Printing<br><strong>Designer:</strong> New"
+    },
+    "FLYER-THREE": {
+      "H1": "<b>Fisherman's Mansion - Accordion Folding Design</b>",
+      "CONTENT-P": "<strong>2021 Works -</strong>Typesetting, Printing<br><strong>Designer:</strong> Dayang"
+    },
+    "FLYER-FOUR": {
+      "H1": "<b>L’étape du Tour de France - Folding design</b>",
+      "CONTENT-P": "<strong>2022 Works -</strong>Typesetting, Printing<br><strong>Designer:</strong> Nai Qing"
+    },
+    "FLYER-FIVE": {
+      "H1": "<b>New Huasha Roya - Folding Design</b>",
+      "CONTENT-P": "<strong>2022 Works -</strong>Typesetting, Printing<br><strong>Designer:</strong> Yangyang"
+    },
+    "FLYER-SIX": {
+      "H1": "<b>Mingbang Human Resources - Folding Design</b>",
+      "CONTENT-P": "<strong>2022 Works -</strong>Typesetting, Printing<br><strong>Designer:</strong> Yangyang"
+    }
+  },
+  "LEGAL-NOTICE": {
+    "ARIANE-H2": "Legal Notice",
+    "TEXT-CONTAINER-P": "Welcome to our design studio website. Please read the following legal notice carefully before using this website. By accessing and using this website, you agree and accept the following terms and conditions: <br>Intellectual Property Rights<br>All content on this website, including but not limited to text, images, logos, icons, buttons, audio and video clips, etc., are protected by copyright and trademark laws. Without our prior written consent, Any use, reproduction, dissemination or modification of these contents in any medium or channel is prohibited.<br>Disclaimer<br>All content on this website is provided for general information purposes only and does not constitute professional advice or opinion of any kind. We Efforts are made to ensure that the information on the website is accurate, complete and up-to-date, but no guarantee is made as to its accuracy or completeness.<br>Third-Party Links<br>This website may contain links to third-party websites which are provided as a convenience to users only Visit. We are not responsible for the content or privacy policies of these third-party websites, and access to these links is at the user's own risk.<br>Changes to Disclaimer<br>We reserve the right to modify or update this Legal Notice at any time. You When using this website, you should regularly check the latest version of the legal statement.<br>Applicable law<br>This legal statement is governed by the laws of the location. Any disputes arising during the use of this website should first be resolved through friendly negotiation between the two parties. If no agreement can be reached, any dispute should be submitted to the court with jurisdiction in the place where it is located.<br>Again, please read and understand the above legal statement carefully before using this website. If you have any questions or need more information, Please feel free to contact us. Thank you for visiting our website, we will do our best to provide you with quality service!"
+  },
+  "LOGO": {
+    "ARIANE-H2": "Brand Complete Case",
+    "ARIANE-LI": "Graphic Design",
+    "SECTION1-DESCRIPTION-H3": "PORTFOLIO BRANDING",
+    "SECTION1-DESCRIPTION-TWO-H3": "PORTFOLIO VI",
+    "SECTION1-DESCRIPTION-THREE-H3": "PORTFOLIO LOGO",
+    "LOGO-ONE": {
+      "H1": "<b>Yu Qinshan - Full Brand Case</b>",
+      "CONTENT-P": "<strong>2023 works -</strong> LOGO design, VI design, basic specification interpretation, product design, illustration design<br><strong>Designer:</strong> Dayang"
+    },
+    "LOGO-TWO": {
+      "H1": "<b>Between Lemons - VI Manual Design</b>",
+      "CONTENT-P": "<strong>2023 works -</strong> VI design, basic specification interpretation, application scenario setting<br><strong>Designer:</strong> Dayang"
+    },
+    "LOGO-THREE": {
+      "H1": "<b>Golomei - Brand Case</b>",
+      "CONTENT-P": "<strong>2018 works -</strong> LOGO design, VI design, basic specification interpretation, application scene setting<br><strong>Designer:</strong> Li Di"
+    },
+    "LOGO-FOUR": {
+      "H1": "<b>Kirin Pavilion - Brand Case</b>",
+      "CONTENT-P": "<strong>2020 works-</strong> Brand LOGO, VI design, basic specification interpretation, application scene setting, interior design, poster design, packaging design, beauty design<br><strong>design Teacher:</strong> Li Di"
+    },
+    "LOGO-FIVE": {
+      "H1": "<b>Lufeng Hotel - LOGO Design</b>",
+      "CONTENT-P": "<strong>2020 works -</strong> LOGO design, VI design, basic specification interpretation, application scene setting<br><strong>Designer:</strong> Li Di"
+    }
+  },
+  "MARKETING": {
+    "ARIANE-H2": "Poster Work",
+    "ARIANE-H2-THREE": "Packaging works",
+    "ARIANE-H2-FIVE": "E-commerce works",
+    "ARIANE-H2-SEVEN": "PPT works",
+    "ARIANE-H2-EIGHT": "Door Head Works",
+    "ARIANE-H2-NINE": "Cultural Wall Works",
+    "ARIANE-LI": "Promotional Materials",
+    "SECTION1-DESCRIPTION-H3": "PORTFOLIO BUSINESS CARD",
+    "SECTION1-DESCRIPTION-TWO-H3": "PORTFOLIO PACKAGING",
+    "SECTION1-DESCRIPTION-THREE-H3": "PORTFOLIO LOGO",
+    "SECTION1-DESCRIPTION-FOUR-H3": "PORTFOLIO POWER POINT",
+    "SECTION1-DESCRIPTION-FIVE-H3": "PORTFOLIO SHOP SIGN",
+    "SECTION1-DESCRIPTION-SIX-H3": "PORTFOLIO E-COMMERCE",
+    "MARKETING-ONE": {
+      "H1": "<b>Business card design</b>",
+      "CONTENT-P": "Business card is a small but powerful tool with multiple functions. First of all, business card is a tool for business communication, which can convey personal or company contact information in business activities. By exchanging business cards, People can easily obtain key information such as the other party's name, position, company name, phone number and email address, which is convenient for future contact and cooperation.<br>Secondly, business cards are a way of displaying personal or company images. An elaborate A designed business card can highlight the professionalism, creativity and uniqueness of an individual or company and leave a deep impression on people. Elements such as design, logo, color and font on the business card can convey the characteristics and values of the brand and enhance the brand image. <br>In addition, business cards can also play the role of social bonds in social occasions. By exchanging business cards, people can establish connections and relationships, expand social circles, and pave the way for future cooperation and opportunities. Business cards are not only a A tool, or a way to demonstrate personal or company identity, trust and professionalism.<br>In conclusion, a business card is a small but important tool that conveys contact information, presents a personal or company image, and It plays an important role in social occasions. A well-designed and effectively used business card can bring more business opportunities, partners and social connections to a person or company."
+    },
+    "MARKETING-TWO": {
+      "H1": "<b>Poster Promotion</b>",
+      "CONTENT-P": "Packaging plays multiple roles in product design and merchandising. It not only protects products from damage, but also catches the consumer's eye and communicates key messages. Through unique design and branding elements, packaging establishes the product The image and values of the company can stimulate the desire to buy. Ultimately, high-quality packaging design can promote sales, make products stand out in the highly competitive market, and achieve commercial success."
+    },
+    "MARKETING-THREE": {
+      "H1": "<b>Product design and packaging</b>",
+      "CONTENT-P": "Packaging plays multiple roles in product design and merchandising. It not only protects products from damage, but also catches the consumer's eye and communicates key messages. Through unique design and branding elements, packaging establishes the product The image and values of the company stimulate the desire to buy. Ultimately, high-quality packaging design can promote sales, make products stand out in the highly competitive market, and achieve commercial success.",
+      "OVERLAY-ONE": "Zipper",
+      "OVERLAY-TWO": "Seeking Sugar",
+      "OVERLAY-THREE": "KARYOOSI",
+      "OVERLAY-FOUR": "Fresh Meat Steamed Dumplings",
+      "OVERLAY-FIVE": "Seeking Sugar",
+      "OVERLAY-SIX": "Seeking Sugar",
+      "OVERLAY-SEVEN": "Seeking Sugar",
+      "OVERLAY-EIGHT": "Spirit Fruit",
+      "OVERLAY-NINE": "APP"
+    },
+    "MARKETING-FOUR": {
+      "H1": "<b>Online e-commerce design</b>",
+      "CONTENT-P": "A foldout is a common promotional tool that serves multiple purposes. First, a foldout can be used to convey information and promote a product or service. It provides a limited space where key information, features and advantages are presented to the target audience in a concise manner.Folds usually include catchy headlines, appealing images, and concise text to grab the reader's attention and spark interest.<br>Secondly, a foldout is a Effective marketing tool.By providing information about special offers, promotions or discounts in the foldout, you can attract potential customers and encourage them to take action such as buying a product, attending an event or contacting you for further enquiries.Foldouts can also Demonstrates the professionalism and trust of the company, thereby building brand image and confidence of customers.<br>Furthermore, foldouts have the advantage of being portable and easy to distribute. They can be easily put into envelopes, attached to mail, displayed On the exhibition stand or directly to potential customers.The compact design of the folding leaf makes it easy to carry, enabling you to convey information in various occasions, such as business meetings, exhibitions, Internet marketing activities, etc.<br>In a word, folding A foldout is a versatile communication tool that communicates information, promotes products, promotes events, and builds your brand image.Through careful design and effective use of foldouts, you can capture the attention, interest, and action of your target audience , bringing more opportunities and success to your business.",
+      "OVERLAY-ONE": "Xianqiao Middle School, Rongcheng District, Jieyang City",
+      "OVERLAY-TWO": "Shangjia Famous Tea Studio",
+      "OVERLAY-THREE": "Fisherman's Mansion",
+      "OVERLAY-FOUR": "L'étape du Tour de France",
+      "OVERLAY-FIVE": "New Huasa Roya",
+      "OVERLAY-SIX": "Mingbang Human Resources"
+    },
+    "MARKETING-FIVE": {
+      "H1": "<b>Online e-commerce design</b>",
+      "CONTENT-P": "The decoration of Taobao store covers Banner, main picture and detail page design, these three aspects play an important role in e-commerce operations. Banner is the banner advertisement on the homepage of the store, usually at the top of the page .Excellent Banner design can attract users' attention and convey store features and promotional information. Through carefully selected pictures, eye-catching titles and eye-catching text, Banner can attract users to enter the store, increase page stay time, and promote browsing and promotion. Purchasing behavior.<br>The main image is an important element to display the product, located in the product list and detail pages. The main image design needs to focus on the clarity, color matching and attractiveness of the product. Through carefully photographed or edited product images, and effective The main picture can attract users to click into the details page and generate interest in purchasing.<br>Detail page design is a key link in displaying product details and promoting purchase decisions. Excellent detail page design needs to be combined with clear pictures , Rich text descriptions, specification parameters, customer evaluations and other elements, provide users with a comprehensive understanding and purchase reference. By highlighting product features, guiding users' attention and answering questions, the detail page design can enhance users' purchase determination and improve conversion rate.<br>To sum up, the design of Banner, main picture and detail page in the decoration of Taobao store is an important link to enhance the store image, attract users and promote sales. Through careful design and optimization of these elements, the store can attract More target users, increase purchase conversion rate, and achieve good business results.",
+      "OVERLAY-ONE": "FATESKY Fragranced Body Wash",
+      "OVERLAY-TWO": "CAN CAR applet",
+      "OVERLAY-THREE": "Nandian housekeeping applet",
+      "OVERLAY-FOUR": "Yu Qinshan Taobao shop",
+      "OVERLAY-FIVE": "Aldehyde removal service",
+      "OVERLAY-SIX": "Light Fixtures"
+    },
+    "MARKETING-SIX": {
+      "H1": "<b>Business card design</b>",
+      "CONTENT-P": "Exhibition and exhibition hall design is not only a key channel to convey information to the audience in exhibitions and events, but also an important way to display brand image and value. Through well-designed exhibition reports and exhibition halls, you can effectively Present the theme of the exhibition, product features and corporate information, arouse the interest of the audience and leave a deep impression. In addition, the exhibition report and exhibition hall design can also create a unique exhibition experience, attracting customers through creative layout, interactive elements and attractive display methods The attention of the audience. They can also guide the flow of the audience, and through clever guidance and instructions, the audience can browse the exhibition content according to the predetermined route. At the same time, the design of the exhibition report and exhibition hall can be achieved by choosing the lighting, color and decoration suitable for the theme of the exhibition. elements, create an atmosphere that echoes the content of the exhibition, and make the audience more deeply involved in the exhibition experience. To sum up, the design of exhibition newspapers and exhibition halls plays an important role in exhibitions and activities, and they can effectively convey information and display brands Image, create a unique experience, guide the audience and create an atmosphere, enhance the exhibition effect and bring more business opportunities for exhibitors."
+    },
+    "MARKETING-SEVEN": {
+      "H1": "<b>Slide PPT design</b>",
+      "CONTENT-P": "PPT design is not only an effective way to convey information to the audience in presentations and displays, but also plays a key role in visual guidance, content organization, chart and image presentation, and brand presentation. Through Reasonable layout, clear text and eye-catching visual elements, PPT design can help the speaker present complex concepts and information in a concise and clear way, so that the audience can better understand and remember the content of the speech. Design by choosing the appropriate Colors, fonts, and layouts that direct the viewer's attention,Highlight key points to make presentations more engaging and engaging. At the same time, PPT design can help the speaker organize the speech content to make it logical and coherent. By inserting charts, images, and graphics, the design can support the content of the presentation in a visual way, so that the audience can understand and remember the information more intuitively. In addition, the PPT design also provides an opportunity to display the brand image and logo. By using the brand's visual elements, it can strengthen the brand image and enhance the audience's recognition and memory of the brand. To sum up, through the careful design and optimization of PPT, the speech effect can be improved, the presentation can be more attractive, clear and influential, and the speaker can better communicate and communicate with the audience. "
+    },
+    "MARKETING-EIGHT": {
+      "H1": "<b>Door design</b>",
+      "CONTENT-P": "The door design is the sign and decoration of the entrance of a store, company or institution, and plays an important role in visual and brand communication. Through the careful design and arrangement of the door, the following key functions can be achieved: First, the door design It is an important way to display the brand image and logo. By using the brand's color, font, graphics and logo, the door design can highlight the brand's uniqueness and personality, and enhance the brand's recognition and memory. Secondly, the door design can enhance the store's or the visibility and appeal of an institution. Through the choice of eye-catching materials, lighting effects and design elements, the door can attract the eyes of passers-by, arouse their interest, and stimulate the desire to explore further. Creating uniqueness is another aspect of door design A key role. Through the use of special shapes, materials and decorative elements, a front door design can highlight the personality and style of a shop or institution, distinguish it from competitors, and leave a deep impression. Door design can also establish a professional image. Through With proper design and selection of suitable materials, the door head can convey the professionalism and credibility of the store or institution, and increase customers' trust in services and products. Finally, the door head design can guide customers to enter through directional signs and identification symbols Stores or institutions. Reasonable door design can provide clear guidance and direction, facilitate customers to find the entrance, and improve customer satisfaction and experience. In summary, door design plays an important role in the entrance of shops or institutions. Through Carefully designed and furnished, it can display brand image, enhance visibility, create uniqueness, establish a professional image and guide customers into the store, bringing more exposure and business opportunities to the store or institution.",
+      "OVERLAY-ONE": "Kirin Pavilion",
+      "OVERLAY-TWO": "OVERLAY-TWO"
+    },
+    "MARKETING-NINE": {
+      "H1": "<b>Cultural wall design</b>",
+      "CONTENT-P": "The cultural wall design conveys the core values, mission and vision of the organization or school by displaying images, text and artistic elements, helping employees or students understand and identify with the organizational culture and form a common sense of cultural identity. At the same time, The cultural wall design can also strengthen the identity of employees or students to the organization or school, and stimulate a sense of belonging and pride.By displaying the history, achievements and cultural symbols of the organization or school, the cultural wall design enhances the employee or student's recognition of the organization or school Loyalty and engagement. In addition, the culture wall design also promotes internal communication and exchange, helping employees or students to understand the latest developments and important matters in the organization or school by displaying important information, milestones and achievements. Through the use of vibrant colors , motivating language and images of positive energy, the cultural wall design creates a positive, optimistic and motivating working environment, inspires employees or students to realize their potential, promotes innovation and teamwork. In addition, the cultural wall design also helps to inherit and educate organizations Or the culture of the school, by displaying historical culture, traditional knowledge and important events, it helps employees or students understand and learn the cultural traditions of the organization or school, and inherit and carry forward cultural values. In summary, a well-designed and arranged cultural wall can Organizations, businesses or schools play an important role in promoting cultural transmission, strengthening identity, promoting internal communication, creating a good working environment and inheriting culture and education.",
+      "OVERLAY-ONE": "Police Lounge",
+      "OVERLAY-TWO": "Bamboo Mango Technology",
+      "OVERLAY-THREE": "Douqi Media",
+      "OVERLAY-FOUR": "OVERLAY-FOUR",
+      "OVERLAY-FIVE": "Hunan Advertising Company"
+    }
+  },
+  "EXPAND": {
+    "IS-EXPANDED": "Cancel",
+    "NOT-EXPANDED": "See more"
+  },
+  "CULTURAL-WALL": {
+    "ARIANE-H2": "Cultural Wall Design",
+    "ARIANE-LI": "Graphic Design",
+    "SECTION1-DESCRIPTION-H3": "PORTFOLIO CULTURAL WALL",
+    "CULTURAL-WALL-ONE": {
+      "H1": "<b>Police Lounge - Cultural Wall Design</b>",
+      "CONTENT-P": "<strong>2023 Works -</strong> Typesetting, Printing<br><strong>Designer:</strong> Nai Qing"
+    },
+    "CULTURAL-WALL-TWO": {
+      "H1": "<b>Bamboo Mango Technology - Cultural Wall Design</b>",
+      "CONTENT-P": "<strong>2023 Works -</strong> Typesetting, Printing<br><strong>Designer:</strong> Nai Qing"
+    },
+    "CULTURAL-WALL-THREE": {
+      "H1": "<b>Douqi Media - Front Design</b>",
+      "CONTENT-P": "<strong>2023 Works -</strong> Typesetting, Printing<br><strong>Designer:</strong> Nai Qing"
+    },
+    "CULTURAL-WALL-FOUR": {
+      "H1": "<b>Yafan Valve - Slogan Wall Design</b>",
+      "CONTENT-P": "<strong>2023 Works -</strong> Typesetting, Printing<br><strong>Designer:</strong> Nai Qing"
+    },
+    "CULTURAL-WALL-FIVE": {
+      "H1": "<b>Hunan Advertising Company - Slogan Wall Design</b>",
+      "CONTENT-P": "<strong>2023 Works -</strong> Typesetting, Printing<br><strong>Designer:</strong> Nai Qing"
+    }
+  },
+  "MARKETING-FLYER": {
+    "ARIANE-H2": "Poster Design",
+    "ARIANE-LI": "Graphic Design",
+    "SECTION1-DESCRIPTION-H3": "PORTFOLIO POSTER",
+    "FLYER-ONE": {
+      "H1": "<b>Inheriting Chinese Characters - Packaging Design</b>",
+      "H1-TWO": "<b>Blue and White Porcelain - Poster Design</b>",
+      "CONTENT-P": "<strong>2022 Works - </strong>Poster Design<br><strong>Designer: </strong>Global Village",
+      "CONTENT-P-TWO": "<strong>2022 Works - </strong> Poster Design<br><strong>Designer: </strong> Tudou"
+    },
+    "FLYER-TWO": {
+      "H1": "<b>Shadow puppets - poster design</b>",
+      "H1-TWO": "<b>Leek Rescue Training Camp - Poster Design</b>",
+      "CONTENT-P": "<strong>2022 works - </strong>poster design<br><strong>Designer:</strong>Yang ",
+      "CONTENT-P-TWO": "<strong>2022 Works - </strong>Poster Design<br><strong>Designer:</strong>Dayang"
+    },
+    "FLYER-THREE": {
+      "H1": "<b>Chinese New Year - Poster Design</b>",
+      "H1-TWO": "<b>You Say I Draw - Poster Design</b>",
+      "CONTENT-P": "<strong>2022 works - </strong>poster design<br><strong>Designer:</strong>Yang ",
+      "CONTENT-P-TWO": "<strong>2022 Works - </strong>Poster Design<br><strong>Designer:</strong>Dayang"
+    },
+    "FLYER-FOUR": {
+      "H1": "<b>Subway Gym - Poster Design</b>",
+      "H1-TWO": "<b>Calligraphy Class - Poster Design</b>",
+      "H1-THREE": "<b>Community Recruitment - Poster Design</b>",
+      "CONTENT-P": "<strong>2022 works - </strong>poster design<br><strong>Designer:</strong>Yang ",
+      "CONTENT-P-TWO": "<strong>2022 Works - </strong> Poster Design<br><strong>Designer: </strong> Da Yang ",
+      "CONTENT-P-THREE": "<strong>2022 Works - </strong> Poster Design<br><strong>Designer:</strong> Dayang"
+    },
+    "FLYER-FIVE": {
+      "H1": "<b>May Fourth Youth Day - Poster Design</b>",
+      "H1-TWO": "<b>Heart Energy - Poster Design</b>",
+      "H1-THREE": "<b>Water Resources - Poster Design</b>",
+      "H1-FOUR": "<b>Toothpaste - Poster Design</b>",
+      "CONTENT-P": "<strong>2022 Works - </strong> Poster Design<br><strong>Designer: </strong> Koala",
+      "CONTENT-P-TWO": "<strong>2022 Works - </strong> Poster Design<br><strong>Designer: </strong> Koala",
+      "CONTENT-P-THREE": "<strong>2022 Works - </strong> Poster Design<br><strong>Designer: </strong> Koala",
+      "CONTENT-P-FOUR": "<strong>2022 Works - </strong> Poster Design<br><strong>Designer: </strong>Global Village"
+    },
+    "FLYER-SIX": {
+      "H1": "<b>Anti-Depression - Poster Design</b>",
+      "CONTENT-P": "<strong>2022 Works -</strong> Poster Design<br><strong>Designer:</strong> Dayang"
+    }
+  },
+  "PRODUCT": {
+    "SECTION1-DESCRIPTION-H3": "PORTFOLIO PACKAGING",
+    "PRODUCT-ONE": {
+      "H1": "<b>Zipper- lighter design</b>",
+      "CONTENT-P": "<strong>2023 works -</strong> packaging design, illustration design, product rendering<br><strong>Designer:</strong> Dayang"
+    },
+    "PRODUCT-TWO": {
+      "H1": "<b>Mitang - Kraft Paper Bag Design</b>",
+      "CONTENT-P": "<strong>2022 Works-</strong> Packaging Design, Product Rendering<br><strong>Designer:</strong> Global Village<br><strong>3D Rendering:</strong> green"
+    },
+    "PRODUCT-THREE": {
+      "H1": "<b>KARYOOSI - Aircraft Box Design</b>",
+      "CONTENT-P": "<strong>2023 works -</strong> packaging design, productsRendering<br><strong>Designer:</strong> 27&Naiqing"
+    },
+    "PRODUCT-FOUR": {
+      "H1": "<b>Fresh Meat Dumplings - Airplane Box Design</b>",
+      "CONTENT-P": "<strong>2022 works-</strong> packaging design, knife layout design, product rendering<br><strong>Designer:</strong> Dayang<br><strong>3D rendering: </strong> Nai Qing"
+    },
+    "PRODUCT-FIVE": {
+      "H1": "<b>Mitang - Kraft Paper Bag Design</b>",
+      "CONTENT-P": "<strong>2022 Works-</strong> Packaging Design, Product Rendering<br><strong>Designer:</strong> Global Village<br><strong>3D Rendering:</strong> green"
+    },
+    "PRODUCT-SIX": {
+      "H1": "<b>Mitang - Kraft Paper Bag Design</b>",
+      "CONTENT-P": "<strong>2022 Works-</strong> Packaging Design, Product Rendering<br><strong>Designer:</strong> Global Village<br><strong>3D Rendering:</strong> green"
+    },
+    "PRODUCT-SEVEN": {
+      "H1": "<b>Fudan News Center - Kraft Paper Bag Design</b>",
+      "CONTENT-P": "<strong>2022 Works-</strong> Packaging Design, Product Rendering<br><strong>Designer:</strong> Global Village<br><strong>3D Rendering:</strong> green"
+    },
+    "PRODUCT-EIGHT": {
+      "H1": "<b>Lingguo - Flip Top Gift Box Design</b>",
+      "CONTENT-P": "<strong>2022 works-</strong> packaging design, illustration design, knife layout design, product rendering<br><strong>Designer:</strong> Dayang<br><strong> 3D rendering:</strong> Nai Qing"
+    },
+    "PRODUCT-NINE": {
+      "H1": "<b>APP - Box Design</b>",
+      "CONTENT-P": "<strong>2022 Works-</strong> Packaging Design, Product Rendering<br><strong>Designer:</strong> Global Village<br><strong>3D Rendering:</strong> green"
+    }
+  },
+  "FOOTER-MENU": {
+    "CONTACT": "Contact us",
+    "ABOUT": "About us",
+    "CONFIDENTIAL": "Privacy Policy",
+    "LEGAL-NOTICE": "Legal Notice",
+    "GRAPHICS": "Brand case design",
+    "LOGO-DESIGN": "LOGO Design",
+    "MARKETING": "Promotional Materials",
+    "UIUX": "UIUX",
+    "ART": "Illustration",
+    "BOOK-PRINTING": "Book Printing"
+  },
+  "TOP-MENU": {
+    "HOME": "Home",
+    "GRAPHICS-HOME": "Graphics Design",
+    "GRAPHICS": "Brand case design",
+    "LOGO-DESIGN": "LOGO Design",
+    "LEGAL-NOTICE": "Legal Notice",
+    "BOOK-PRINTING": "Book Printing",
+    "MARKETING": "Promotional Materials",
+    "UIUX": "UIUX",
+    "ART": "Illustration",
+    "ABOUT": "About us",
+    "CONTACT": "Contact Us"
+  },
+  "ABOUT": {
+    "ARIANE-H2": "IF Design Studio, enhance your brand image!",
+    "ARIANE-LI": "Home",
+    "H3": "About us",
+    "H1": "Explore the world of unlimited creativity!",
+    "TEXT": "We believe that everyone has a unique story and visual appeal, so we will transform your ideas into visually wonderful expressions through in-depth communication and understanding with you. In IF Design Studio, we not only Is a designer, but also your creative partner. We know the importance of design to convey brand value and attract target audience, so we pay attention to details and put enthusiasm into every project. Whether it is brand image of graphic design, poster And promotional materials, or illustration painting and LOGO production, we can meet your needs. Of course, we also have an excellent UI team waiting for you here. We hope that what you want can become a reality, not only for design love, and want to leave a trace of our existence.",
+    "CITATION-ONE": "There are three responses to a piece of design - yes, no, and WOW! <br><strong>Wow is the one to aim for. </strong><br>——Milton Glaser",
+    "H1-TWO": "Our advantages",
+    "CITATION-TWO": "The 'hexagonal fighters' that our team has is a huge advantage, but more importantly the values we live by. As a graphic design studio, we have everything we need to execute a campaign A skill, but also a passion!<br><br>Creativity, ingenuity and quality are the key words of our studio. Our team is full of passion and creativity, committed to bringing a unique solution to each project solutions. We believe that driven by passion and creativity, we can deliver exceptional results that make your brand stand out.<br><br>Whether it is brand design, print communications or other projects, our team will provide you with high Quality of service. We firmly believe that passion is what drives excellence and that creativity, ingenuity and quality are the keys to our success.<br><br>Let us breathe new life into your projects with passion and creativity and serve you For a unique and eye-catching spread!",
+    "CONTACT": "View latest portfolio"
+  },
+  "BOOK-PRINTING": {
+    "ARIANE-H2": "Book Printing",
+    "ARIANE-LI": "Home",
+    "TEXT": "We are sorting out and uploading works non-stop, do you want to take a look at our two-dimensional works?",
+    "CONTACT": "Contact Us"
+  },
+  "CONTACT": {
+    "ARIANE-H2": "Contact Us",
+    "ARIANE-LI": "Home",
+    "CONTACT-FORM": "Contact Form",
+    "NAME": "Name:",
+    "EMAIL": "Email:",
+    "MESSAGE": "Message:",
+    "SUBMIT": "Submit",
+    "FULLNAME": "Full Name",
+    "YOURMESSAGE": "Your message"
+  },
+  "GRAPHICS": {
+    "ARIANE-H2": "Contact Us",
+    "ARIANE-LI": "A full range of brand design projects",
+    "H3": "About us",
+    "H1": "Strategy, drive, one-stop",
+    "CONTENT-ONE": "The whole brand solution is the key element to provide a strong driving force and direction for the enterprise. Comparing the enterprise to a ship, the whole brand solution service is like the sail of the ship, providing power and guidance for the enterprise. In this In the metaphor, the whole brand case service is not only the main sail, but also one of the oars on the ship, which promotes the development of the enterprise. The market plan, brand plan and communication plan are organically combined in the brand case to create a unique brand image for the enterprise , to enhance brand awareness and value.",
+    "CONTENT-TWO": "With a comprehensive perspective and professional knowledge, we provide customers with a series of services from brand strategy to brand communication. We have a deep understanding of the customer's brand mission, target audience and market environment, through strategic planning and Creative design to create a unique and attractive brand image.Our brand design full case covers brand identity design, including the creation of iconic brand identity and logo system, as well as the development of visual language, such as color, font, graphics and other elements At the same time, we also create a consistent visual image for the brand, covering various brand materials, advertising, packaging design, etc., to ensure that the brand can convey a consistent and professional image in various media and channels. In addition, we also pay attention to the key channels and strategies of brand communication, including online and offline marketing activities, social media strategies, brand story communication, etc. We are committed to helping customers stand out in the fiercely competitive market and establish a unique brand Different brand images can enhance brand awareness and influence. Through a full range of brand design projects, we aim to provide customers with one-stop brand design services and help them build strong and eye-catching brands. Whether it is Whether launching a new brand or repositioning an existing brand, we work closely with our clients to create a memorable brand experience.",
+    "CARD-ONE": "Brand Scheme",
+    "CARD-TWO": "Market Program",
+    "CARD-THREE": "Promotion Plan"
+  },
+  "HOME-PAGE": {
+    "BANNER": {
+      "H1": "IF Design Studio",
+      "P-ONE": "Endless Visual Creativity",
+      "P-TWO": "IF (Infinity) Design Studio",
+      "CONTACT": "Have an idea?"
+    },
+    "TUILES": {
+      "H1": "Our Vision",
+      "P-ONE": "Looking for Possibilities",
+      "P-TWO": "With boundless creativity and boundless passion, we explore the potential of each project and start a design journey with infinite possibilities for you.",
+      "P-THREE": "Through the boundary",
+      "P-FOUR": "We challenge convention and push the boundaries of creativity and design to bring you surprising and novel solutions.",
+      "P-FIVE": "Communication Resonance",
+      "P-SIX": "We listen attentively and use personalized design as a bridge to create a visual experience that truly connects with you."
+    },
+    "SECTION2": {
+      "H1": "Latest Works",
+      "H4": "Latest works",
+      "P-ONE": "Illustration, packaging, LOGO, e-commerce main picture, picture book, IP image designed by our studio",
+      "P-TWO": "VITAMIN C",
+      "P-THREE": "ZIPPO lighter",
+      "P-FOUR": "Bamboo Mango Technology",
+      "P-FIVE": "L'Etape du Tour de France",
+      "P-SIX": "Yu Qinshan",
+      "P-SEVEN": "Yu Qinshan E-commerce",
+      "MORE-PRODUCTS": "View more portfolios"
+    },
+    "DISCUSSION": {
+      "H2": "Walk with your project!",
+      "TEXT": "At IF Design Studio, we fully understand the importance of each project. So we will always stay in close contact with you and accompany you throughout the process of your project. We will listen to your needs and goals, and then put them into concrete ideas and design solutions.",
+      "CONTACT": "Contact Us"
+    }
+  },
+  "LOGO-DESIGN": {
+    "ARIANE-H2": "LOGO Design Case",
+    "ARIANE-LI": "Home",
+    "H3": "PORTFOLIO LOGO",
+    "H1": "Brand recognition - LOGO",
+    "CONTENT-ONE": "In brand recognition, LOGO plays an important role and significance. It is the visual representation of the brand, and it is the first impression and association of consumers on the brand. A good logo can convey the core value of the brand , personality characteristics and brand image to effectively attract the attention of the target audience and establish an emotional connection with them.<br><br>Logo design should consider the positioning of the brand and the target audience. It needs to be unique and recognizable, ableEnough to stand out in the highly competitive market. Through the clever use of graphics, typography and color, a logo communicates a brand's value proposition, product features and stylistic traits. ",
+    "P-ONE": "Yu Qinshan",
+    "P-TWO": "Between Lemons",
+    "P-THREE": "Game Home",
+    "P-FOUR": "Kirin Pavilion",
+    "P-FIVE": "Lu Feng Hotel"
+  },
+  "UIUX": {
+    "ARIANE-H2": "UIUX User Experience",
+    "ARIANE-LI": "Home",
+    "P-ONE": "We are sorting out and uploading works non-stop, do you want to take a look at our two-dimensional works?",
+    "CONTACT": "Contact Us"
+  },
+  "MARKETING-PAGE": {
+    "ARIANE-H2": "Advertising Material Design",
+    "ARIANE-LI": "Promotional Materials",
+    "H3": "MARKETING AND STRATEGY",
+    "H1": "IF Design Studio - Help you explore infinite possibilities",
+    "CONTENT": "Advertising material design plays an important role in brand promotion. Including leaflets, posters, brochures, display boards, banners and other visual elements, through unique design style and creative expression to attract the target The attention of the audience, shape the brand image, and convey the core information.<br>In brand promotion, the design of advertising materials plays an important role in highlighting brand characteristics and stimulating consumers' interest. Through carefully selected colors, typography, images and Text, designers can create visual effects that are consistent with the brand image and enhance brand recognition and attractiveness.<br>At the same time, design also involves how to accurately express the brand's values, personality characteristics and unique selling points through visual expressions Pass it to the target audience. Designers need to combine brand positioning and the needs of the target audience, and use creative design techniques to create impressive and distinctive advertising materials.<br>Through excellent advertising material design, the brand It can stand out in a highly competitive market, attract more potential customers, enhance brand awareness and reputation, and ultimately achieve sales growth and market share.",
+    "CARD-ONE": "Business Card",
+    "CARD-TWO": "Poster",
+    "CARD-THREE": "Packaging",
+    "CARD-FOUR": "Double/Trifold",
+    "CARD-FIVE": "Taobao E-commerce",
+    "CARD-SIX": "Exhibition board, exhibition hall",
+    "CARD-SEVEN": "PPT",
+    "CARD-EIGHT": "Door Head",
+    "CARD-NINE": "Cultural Wall"
+  },
+  "NEWEST-WORK-ONE": {
+    "ARIANE-H2": "Latest Case",
+    "ARIANE-LI": "Graphic Design",
+    "H3": "NEWEST WORKS",
+    "H1": "Latest Works",
+    "P-ONE": "Our design studio provides customers with a full range of design services, including brand image design, graphic design, illustration creation, etc. By viewing our portfolio, you will gain an in-depth understanding of our team's creativity and design style, as well as various visual effects and communication support we create for our customers.<br>Our design team is inspired by creativity and focuses on providing customers with high-quality design solutions. We know the importance of design in brand communication , so strive to create unique and attractive visual effects to win more attention and recognition from customers. We look forward to continuing to create wonderful design works for more customers to help your exclusive brand image.",
+    "OVERLAY-ONE": "Kirin Pavilion",
+    "OVERLAY-TWO": "Between Lemons",
+    "OVERLAY-THREE": "Golomei",
+    "OVERLAY-FOUR": "Fresh Meat <br> Steamed Dumplings",
+    "OVERLAY-FIVE": "Fudan News Hall",
+    "OVERLAY-SIX": "Golden Mango",
+    "OVERLAY-SEVEN": "Fisherman's Mansion",
+    "OVERLAY-EIGHT": "L’étape Tour de France",
+    "OVERLAY-NINE": "New Huasa Roya",
+    "OVERLAY-TEN": "FATESKY",
+    "OVERLAY-ELEVEN": "Yu Qinshan",
+    "OVERLAY-TWELVE": "Aldehyde removal service",
+    "OVERLAY-THIRTEEN": "Five-Star Service",
+    "OVERLAY-FOURTEEN": "Bamboo Mango <br> Technology",
+    "OVERLAY-FIFTEEN": "Hunan Advertising <br> Company",
+    "OVERLAY-SIXTEEN": "Anti-depression",
+    "OVERLAY-SEVENTEEN": "Fu Hu Sheng Wei",
+    "OVERLAY-EIGHTEEN": "54 Youth Day"
+  }
 }

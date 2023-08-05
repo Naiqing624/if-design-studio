@@ -8,6 +8,9 @@ import { Component, HostListener } from '@angular/core';
 export class ArtComponent {
   opacitySection2 = 1;
 
+  overlayFive = 'ART.OVERLAY-FIVE';
+  overlayFour = 'ART.OVERLAY-FOUR';
+
   @HostListener('window:scroll', ['$event'])
   onScroll() {
     const tuilesSection2 = document.querySelector('.tuilesSection2');

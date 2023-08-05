@@ -382,7 +382,7 @@
     "H3": "关于我们",
     "H1": "探索创意无极限的世界！",
     "TEXT": "我们相信每个人都有独特的故事和视觉诉求，因此我们通过与你的深入沟通和理解，将你的想法转化为视觉上的精彩表达。在IF设计工作室，我们不仅仅是设计师，更是你的创意伙伴。我们深知设计对于传达品牌价值和吸引目标受众的重要性，因此我们注重细节，并将热情融入每一个项目中。无论是平面设计的品牌形象、海报和宣传资料，还是插画的绘画和LOGO制作，我们都能满足你的需求。当然了，我们同样也有一只优秀的UI团队在这里等着大家。我们希望所想能成为现实，不止是对设计的热爱，更想留下我们存在的一丝痕迹。",
-    "CITATION": "There are three responses to a piece of design - yes, no, and WOW! <br><strong>Wow is the one to aim for. </strong><br>——Milton Glaser",
+    "CITATION-ONE": "There are three responses to a piece of design - yes, no, and WOW! <br><strong>Wow is the one to aim for. </strong><br>——Milton Glaser",
     "H1-TWO": "我们的优势",
     "CITATION-TWO": "我们团队拥有的“六边形战士”的特点是巨大的优势，但更重要的是我们所秉持的价值观。作为平面设计工作室，我们具备执行宣传运营所需的各种技能，更在于我们的热情！<br><br>创造力、独创性和质量是我们工作室的关键词。我们团队充满激情和创意，致力于为每个项目带来与众不同的解决方案。我们相信，有着热情和创造力的驱动，我们能够提供卓越的成果，使您的品牌脱颖而出。<br><br>无论是品牌设计、平面传播还是其他项目，我们团队将为您提供高质量的服务。我们坚信，热情是创造卓越的动力，而创造力、独创性和质量是我们成功的关键。<br><br>让我们用热情和创意为您的项目注入新生命，为您带来独特而引人注目的传播效果！",
     "CONTACT": "查看最新作品集"
@@ -482,5 +482,30 @@
     "CARD-SEVEN": "PPT",
     "CARD-EIGHT": "门头",
     "CARD-NINE": "文化墙"
+  },
+  "NEWEST-WORK-ONE": {
+    "ARIANE-H2": "最新案例",
+    "ARIANE-LI": "平面设计",
+    "H3": "NEWEST WORKS",
+    "H1": "最新作品",
+    "P-ONE": "我们的设计工作室为客户提供全方位的设计服务，包括品牌形象设计、平面设计、插画创作等。通过查阅我们的作品集，您将深入了解我们团队的创意和设计风格，以及我们为客户创造的各种视觉效果和沟通支持。<br>我们的设计团队秉承创意为灵感，专注于为客户提供优质的设计解决方案。我们深知设计在品牌传播中的重要性，因此努力创作独具特色且吸引人的视觉效果，以赢得客户更多关注和认可。我们期待继续为更多客户创作出精彩的设计作品，助力专属您的品牌形象。",
+    "OVERLAY-ONE": "麒麟阁",
+    "OVERLAY-TWO": "柠檬之间",
+    "OVERLAY-THREE": "歌乐美家居",
+    "OVERLAY-FOUR": "鲜肉蒸饺",
+    "OVERLAY-FIVE": "复旦新闻馆",
+    "OVERLAY-SIX": "Golden Mango",
+    "OVERLAY-SEVEN": "渔民公馆",
+    "OVERLAY-EIGHT": "L’étape Tour de France",
+    "OVERLAY-NINE": "新华莎罗雅",
+    "OVERLAY-TEN": "FATESKY",
+    "OVERLAY-ELEVEN": "俞沁衫",
+    "OVERLAY-TWELVE": "除醛服务",
+    "OVERLAY-THIRTEEN": "五星服务",
+    "OVERLAY-FOURTEEN": "竹芒科技",
+    "OVERLAY-FIFTEEN": "湖南广告公司",
+    "OVERLAY-SIXTEEN": "防抑郁",
+    "OVERLAY-SEVENTEEN": "福虎生威",
+    "OVERLAY-EIGHTEEN": "54青年节"
   }
 }

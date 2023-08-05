@@ -147,6 +147,17 @@
     display: flex;
 }
 
+.boxEnglish {
+    flex: 1;
+    height: 220px;
+    max-width: 380px;
+    min-width: 200px; 
+    margin: 10px;
+    font-size: 17px;
+    background-color: white;
+    display: flex;
+}
+
 .img {
     position: relative;
     left: 16px;

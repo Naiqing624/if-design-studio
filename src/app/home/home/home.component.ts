@@ -1,5 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { FooterService } from '../services/footer.service';
+import { TranslateService } from '@ngx-translate/core';
 
 interface Logo {
   src: string;
@@ -30,10 +31,14 @@ export class HomeComponent implements OnInit {
     { src: '../../../assets/images/home/logos/10.png', alt: '10' }
   ];
 
-  constructor(private readonly footerService: FooterService) {
+  language = "cn";
+
+  constructor(private readonly footerService: FooterService, private readonly translateService: TranslateService) {
     setInterval(() => {
       this.removeLogo();
     }, 5000);
+
+    this.language = translateService.currentLang;
   }
 
   ngOnInit(): void {

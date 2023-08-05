@@ -11,7 +11,7 @@
 <div class="section1">
     <h1 class="center">{{ 'HOME-PAGE.TUILES.H1' | translate }}</h1>
     <div class="tuiles" [ngClass]="{'fade-in-out': opacitySection1 === 1}">
-        <div class="box">
+        <div class="box" [ngClass]="language === 'en' ? 'boxEnglish' : 'box'">
             <div class="img">
                 <img src="../../../assets/images/ampoule.png" alt="icone" width="50" height="50">
             </div>
@@ -21,7 +21,7 @@
             </div>
         </div>
         <br>
-        <div class="box">
+        <div class="box" [ngClass]="language === 'en' ? 'boxEnglish' : 'box'">
             <div class="img">
                 <img src="../../../assets/images/exponentiel.png" alt="icone" width="50" height="50">
             </div>
@@ -31,7 +31,7 @@
             </div>
         </div>
         <br>
-        <div class="box">
+        <div class="box" [ngClass]="language === 'en' ? 'boxEnglish' : 'box'">
             <div class="img">
                 <img src="../../../assets/images/mains.png" alt="icone" width="50" height="50">
             </div>

@@ -8,6 +8,11 @@ import { Component, HostListener } from '@angular/core';
 export class NewestWorkOneComponent {
   opacitySection2 = 1;
 
+  pOne = 'NEWEST-WORK-ONE.P-ONE';
+  overlayFour = 'NEWEST-WORK-ONE.OVERLAY-FOUR';
+  overlayFourteen = 'NEWEST-WORK-ONE.OVERLAY-FOURTEEN';
+  overlayFifteen = 'NEWEST-WORK-ONE.OVERLAY-FIFTEEN';
+
   @HostListener('window:scroll', ['$event'])
   onScroll() {
     const tuilesSection2 = document.querySelector('.tuilesSection2');

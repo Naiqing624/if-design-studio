@@ -1,5 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 import { FooterService } from 'src/app/home/services/footer.service';
 
 @Component({
@@ -11,8 +12,9 @@ export class TopMenuComponent implements OnInit {
 
   sidebarOpen = false;
   linksDisplay = true;
+  selectedLanguage = 'FR';
   
-  constructor(private readonly router: Router, private readonly footerService: FooterService){}
+  constructor(private readonly router: Router, private readonly footerService: FooterService, private readonly translateService: TranslateService){}
 
   ngOnInit(): void {
     this.checkScreenSize();
@@ -34,5 +36,14 @@ export class TopMenuComponent implements OnInit {
 
   changeCSS(cssClass: string) {
     this.footerService.cssClass = cssClass;
+  }
+
+  selectLanguage(lang: string) {
+    this.selectedLanguage = lang;
+    this.translateService.currentLang = this.selectedLanguage;
+    console.log(this.translateService.currentLang);
+    this.translateService.use(this.translateService.currentLang);
+    this.translateService.setDefaultLang(this.translateService.currentLang);
+    this.translateService.reloadLang(this.selectedLanguage);
   }
 }
