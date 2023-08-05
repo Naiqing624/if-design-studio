@@ -1,23 +1,23 @@
 <div id="banner">
     <div class="text-overlay">
-        <h1 class="text-hoverlay-h1">IF Design Studio</h1>
-        <p class="text-hoverlay-p">无穷尽的视觉创意</p>
-        <p class="text-hoverlay-p2">IF (Infinity) 设计工作室</p>
+        <h1 class="text-hoverlay-h1">{{ 'HOME-PAGE.BANNER.H1' | translate }}</h1>
+        <p class="text-hoverlay-p">{{ 'HOME-PAGE.BANNER.P-ONE' | translate }}</p>
+        <p class="text-hoverlay-p2">{{ 'HOME-PAGE.BANNER.P-TWO' | translate }}</p>
         <br>
-        <button class="button button-1" [routerLink]="'/contact'">有个想法 ?</button>
+        <button class="button button-1" [routerLink]="'/contact'">{{ 'HOME-PAGE.BANNER.CONTACT' | translate }}</button>
         <div style="padding-bottom: 209px;"></div>
     </div>
 </div>
 <div class="section1">
-    <h1 class="center">我们的愿景</h1>
+    <h1 class="center">{{ 'HOME-PAGE.TUILES.H1' | translate }}</h1>
     <div class="tuiles" [ngClass]="{'fade-in-out': opacitySection1 === 1}">
         <div class="box">
             <div class="img">
                 <img src="../../../assets/images/ampoule.png" alt="icone" width="50" height="50">
             </div>
             <div class="textSection1">
-                <p class="title_p text_p">寻找可能</p>
-                <p class="text_p">以无限创意和无限激情，我们探索每个项目的潜力，为您开启无限可能的设计之旅。</p>
+                <p class="title_p text_p">{{ 'HOME-PAGE.TUILES.P-ONE' | translate }}</p>
+                <p class="text_p">{{ 'HOME-PAGE.TUILES.P-TWO' | translate }}</p>
             </div>
         </div>
         <br>
@@ -26,8 +26,8 @@
                 <img src="../../../assets/images/exponentiel.png" alt="icone" width="50" height="50">
             </div>
             <div class="textSection1">
-                <p class="title_p text_p">突破边界</p>
-                <p class="text_p">我们挑战传统，突破创意和设计的边界，为您带来令人惊叹的新颖解决方案。</p>
+                <p class="title_p text_p">{{ 'HOME-PAGE.TUILES.P-THREE' | translate }}</p>
+                <p class="text_p">{{ 'HOME-PAGE.TUILES.P-FOUR' | translate }}</p>
             </div>
         </div>
         <br>
@@ -36,17 +36,17 @@
                 <img src="../../../assets/images/mains.png" alt="icone" width="50" height="50">
             </div>
             <div class="textSection1">
-                <p class="title_p text_p">沟通共鸣</p>
-                <p class="text_p">我们用心倾听，以个性化的设计为桥梁，创造与您真实连接的视觉体验。</p>
+                <p class="title_p text_p">{{ 'HOME-PAGE.TUILES.P-FIVE' | translate }}</p>
+                <p class="text_p">{{ 'HOME-PAGE.TUILES.P-SIX' | translate }}</p>
             </div>
         </div>
     </div>
 </div>
 <div class="section2">
     <div id="textSection2">
-        <h1 class="center">最新的作品</h1>
-        <h4>Latest works</h4>
-        <p class="center"> 由我们工作室设计的插画、包装、LOGO、电商主图、画册、IP形象</p>
+        <h1 class="center">{{ 'HOME-PAGE.SECTION2.H1' | translate }}</h1>
+        <h4>{{ 'HOME-PAGE.SECTION2.H4' | translate }}</h4>
+        <p class="center">{{ 'HOME-PAGE.SECTION2.P-ONE' | translate }}</p>
     </div>
     <div class="tuilesSection2" [ngClass]="{'tuiles2': opacitySection2 === 1}">
         <div class="boxSection2">
@@ -54,7 +54,7 @@
                 <div class="container">
                     <img src="../../../assets/images/home/1.png" alt="icone" class="image">
                         <div class="overlay">
-                            <div class="textSection2">VITAMIN C</div>
+                            <div class="textSection2">{{ 'HOME-PAGE.SECTION2.P-TWO' | translate }}</div>
                         </div>
                     
                 </div>
@@ -63,7 +63,7 @@
                 <div class="container">
                     <img src="../../../assets/images/home/2.png" alt="icone" class="image">
                         <div class="overlay">
-                            <div class="textSection2">ZIPPO 打火机</div>
+                            <div class="textSection2">{{ 'HOME-PAGE.SECTION2.P-THREE' | translate }}</div>
                         </div>
                 </div>
             </a>
@@ -71,7 +71,7 @@
                 <div class="container">
                     <img src="../../../assets/images/home/3.png" alt="icone" class="image">
                         <div class="overlay">
-                            <div class="textSection2">竹芒科技</div>
+                            <div class="textSection2">{{ 'HOME-PAGE.SECTION2.P-FOUR' | translate }}</div>
                         </div>
                 </div>
             </a>
@@ -83,7 +83,7 @@
                 <div class="container">
                     <img src="../../../assets/images/home/4.png" alt="icone" class="image">
                         <div class="overlay">
-                            <div class="textSection2" style="font-size: 17px;">L'Etape du Tour de France</div>
+                            <div class="textSection2" style="font-size: 17px;">{{ 'HOME-PAGE.SECTION2.P-FIVE' | translate }}</div>
                         </div>
                 </div>
             </a>
@@ -91,7 +91,7 @@
                 <div class="container">
                     <img src="../../../assets/images/home/5.png" alt="icone" class="image">
                         <div class="overlay">
-                            <div class="textSection2">俞沁衫</div>
+                            <div class="textSection2">{{ 'HOME-PAGE.SECTION2.P-SIX' | translate }}</div>
                         </div>
                 </div>
             </a>
@@ -99,14 +99,14 @@
                 <div class="container">
                     <img src="../../../assets/images/home/6.png" alt="icone" class="image">
                         <div class="overlay">
-                            <div class="textSection2">俞沁衫电商</div>
+                            <div class="textSection2">{{ 'HOME-PAGE.SECTION2.P-SEVEN' | translate }}</div>
                         </div>
                 </div>
             </a>
         </div>     
     </div>
     <div id="buttonPortfolio">
-        <button class="button button-1" [routerLink]="'/newest-work-one'">查看更多作品集</button>
+        <button class="button button-1" [routerLink]="'/newest-work-one'">{{ 'HOME-PAGE.SECTION2.MORE-PRODUCTS' | translate }}</button>
     </div>
 </div>
 <div id="logos">
@@ -122,10 +122,10 @@
         <div id="textDiscussion">
             <div id="imgDiscussion">
                 <img draggable="false" src="../../../assets/images/discussion.png">
-                <h2>与您项目同行！</h2>
+                <h2>{{ 'HOME-PAGE.DISCUSSION.H2' | translate }}</h2>
             </div>
-            <p>在IF设计工作室，我们完全明白每个项目的重要性。所以我们会一直跟您保持紧密联系，全程陪伴着您的项目。我们会倾听您的需求和目标，然后将它们转化为具体的创意和设计方案。</p>
-            <button id="contactDiscussion" class="button button-1" [routerLink]="'/contact'">联系我们</button>
+            <p>{{ 'HOME-PAGE.DISCUSSION.TEXT' | translate }}</p>
+            <button id="contactDiscussion" class="button button-1" [routerLink]="'/contact'">{{ 'HOME-PAGE.DISCUSSION.CONTACT' | translate }}</button>
         </div>           
     </div>
 </div>

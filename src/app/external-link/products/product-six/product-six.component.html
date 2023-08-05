@@ -3,15 +3,10 @@
  </div>
  <div id="section1">
     <div id="description">
-        <h3>PORTFOLIO PACKAGING</h3>
-        <h1><b>觅糖 - 牛皮纸袋设计</b></h1>
+        <h3>{{ 'PRODUCT.SECTION1-DESCRIPTION-H3' | translate }}</h3>
+        <h1 [innerHTML]="descriptionH1 | translate"></h1>
         <div class="content">
-            <p><strong>2022作品 -</strong> 包装设计、产品渲染
-                <br>
-                <strong>设计师：</strong> 地球村
-                <br>
-                <strong>3D渲染：</strong> 乃青
-            </p>
+            <p [innerHTML]="contentP | translate"></p>
         </div>
     </div>
     <div id="descriptionImage">

@@ -7,6 +7,8 @@ import { Component, HostListener } from '@angular/core';
 })
 export class ProductTwoComponent {
   opacitySection2 = 1;
+  descriptionH1 = 'PRODUCT.PRODUCT-TWO.H1';
+  contentP = 'PRODUCT.PRODUCT-TWO.CONTENT-P';
 
   @HostListener('window:scroll', ['$event'])
   onScroll() {

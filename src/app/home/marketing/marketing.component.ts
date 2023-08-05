@@ -9,46 +9,48 @@ export class MarketingComponent implements OnInit {
   isExpanded = false;
   opacitySection2 = 1;
 
+  content = 'MARKETING-PAGE.CONTENT';
+
   items = [
   {
     image: "../../../assets/images/marketing/1.png",
-    text: "名片",
+    text: 'MARKETING-PAGE.CARD-ONE',
     link: "marketing-one"
   },{
     image: "../../../assets/images/marketing/2.png",
-    text: "海报",
+    text: "MARKETING-PAGE.CARD-TWO",
     link: "marketing-two"
   },
   {
     image: "../../../assets/images/marketing/3.png",
-    text: "包装",
+    text: "MARKETING-PAGE.CARD-THREE",
     link: "marketing-three"
   },{
     image: "../../../assets/images/marketing/4.png",
-    text: "双/三折页",
+    text: "MARKETING-PAGE.CARD-FOUR",
     link: "marketing-four"
   },
   {
     image: "../../../assets/images/marketing/5.png",
-    text: "淘宝电商",
+    text: "MARKETING-PAGE.CARD-FIVE",
     link: "marketing-five"
   },{
     image: "../../../assets/images/marketing/6.png",
-    text: "展板、展厅",
+    text: "MARKETING-PAGE.CARD-SIX",
     link: "marketing-six"
   },
   {
     image: "../../../assets/images/marketing/7.png",
-    text: "PPT",
+    text: "MARKETING-PAGE.CARD-SEVEN",
     link: "marketing-seven"
   },{
     image: "../../../assets/images/marketing/8.png",
-    text: "门头",
+    text: "MARKETING-PAGE.CARD-EIGHT",
     link: "marketing-eight"
   },
   {
     image: "../../../assets/images/marketing/9.png",
-    text: "文化墙",
+    text: "MARKETING-PAGE.CARD-NINE",
     link: "marketing-nine"
   }
 ];

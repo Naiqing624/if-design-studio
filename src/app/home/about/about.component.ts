@@ -8,6 +8,9 @@ import { FooterService } from '../services/footer.service';
 })
 export class AboutComponent implements OnInit {
 
+  citationOne = 'ABOUT.CITATION-ONE';
+  citationTwo = 'ABOUT.CITATION-TWO';
+
   constructor(private readonly footerService: FooterService){}
 
   ngOnInit(): void {
