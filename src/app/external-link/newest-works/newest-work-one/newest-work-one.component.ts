@@ -10,8 +10,7 @@ export class NewestWorkOneComponent {
 
   pOne = 'NEWEST-WORK-ONE.P-ONE';
   overlayFour = 'NEWEST-WORK-ONE.OVERLAY-FOUR';
-  overlayFourteen = 'NEWEST-WORK-ONE.OVERLAY-FOURTEEN';
-  overlayFifteen = 'NEWEST-WORK-ONE.OVERLAY-FIFTEEN';
+  overlayTwelve = 'NEWEST-WORK-ONE.OVERLAY-TWELVE';
 
   @HostListener('window:scroll', ['$event'])
   onScroll() {
