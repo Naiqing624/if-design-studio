@@ -10,7 +10,7 @@
 <div id="planet">
     <img src="../../../assets/images/UIUX/planet.png" alt="planet">
     <div id="description">
-        <p>{{ 'BOOK-PRINTING.TEXT' | translate }}</p>
+        <p class="text" [ngClass]="selectedLanguage === 'CN' ? 'textLineHeight' : ''">{{ 'BOOK-PRINTING.TEXT' | translate }}</p>
         <button class="button button-1" routerLink='/contact'>{{ 'BOOK-PRINTING.CONTACT' | translate }}</button>
     </div>
 </div>
