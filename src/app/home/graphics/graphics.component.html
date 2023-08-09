@@ -44,7 +44,15 @@
       </div>
     </li>
 
-   <div class="bar" [ngClass]="{'barExtended': cardNumber === 2}"></div>
+   <div [ngClass]="{
+    'barExtendedCN': cardNumber === 2 && selectedLanguage === 'CN',
+    'barExtendedFR': cardNumber === 2 && selectedLanguage === 'FR',
+    'barExtendedEN': cardNumber === 2 && selectedLanguage === 'EN',
+    'barCN': selectedLanguage === 'CN',
+    'barFR': selectedLanguage === 'FR',
+    'barEN': selectedLanguage == 'EN'
+  }"
+  ></div>
 
    <div id="card">
       <div class="position-text-1">

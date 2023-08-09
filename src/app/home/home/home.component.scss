@@ -381,6 +381,11 @@
     background-color: #6247aa;
 }
 
+.img img {
+    width: 50px;
+    height: 50px;
+}
+
 @media (max-width: 1800px){
     .text-overlay {
         padding-left: 240px;
@@ -756,8 +761,9 @@
     }
 
     .boxFrenchEnglish {
-        height: 280px;
+        height: 230px;
         width: 250px;
+        max-width: 250px;
     }
     
     .boxChinese {
@@ -769,8 +775,8 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        left: 20px;
-        top: 10px;
+        left: 10px;
+        top: 8px;
     }
     
     .textSection1 {
@@ -779,18 +785,23 @@
     }
 
     .title_p {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .text_p {
         position: relative;
         align-items: center;
         width: auto;
-        left: 40px;
+        left: 20px;
     }
 
     .text_p_mobile {
-        width: 130px;
+        width: 180px;
+    }
+
+    .img img {
+        width: 35px;
+        height: 35px;
     }
 }
 

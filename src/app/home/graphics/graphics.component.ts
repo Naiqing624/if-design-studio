@@ -1,5 +1,6 @@
 import { Component, ViewChildren, QueryList, HostListener, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { LanguageService } from 'src/app/language.service';
 
 interface Card {
   title1: string;
@@ -49,9 +50,14 @@ export class GraphicsComponent implements OnInit {
   @ViewChildren('item')
   items!: QueryList<HTMLElement>;
 
-  constructor(public translate: TranslateService) {}
+  selectedLanguage = 'FR';
+
+  constructor(public translate: TranslateService, private languageService: LanguageService) {}
 
   ngOnInit(): void {
+    this.languageService.selectedLanguage$.subscribe(language => {
+      this.selectedLanguage = language;
+    });
     this.checkScreenSize();
   }
 
