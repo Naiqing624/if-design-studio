@@ -38,7 +38,7 @@
     left: -90px;
 }
 
-#useful_links{
+.useful_links{
     position: relative;
     left: 100px;
     padding-left: 111px;
@@ -47,17 +47,40 @@
     line-height: 40px;
 }
 
-#useful_links a {
+.useful_links a {
     text-decoration: none;
     color: white;
 }
 
-#useful_links a:hover {
+.useful_links a:hover {
     text-decoration: underline;
     text-underline-offset: 8px;
 }
 
-#useful_links p {
+.useful_links p {
+    padding-bottom: 10px;
+}
+
+.useful_links_fr_en{
+    position: relative;
+    left: 100px;
+    padding-left: 65px;
+    padding-top: 50px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.useful_links_fr_en a {
+    text-decoration: none;
+    color: white;
+}
+
+.useful_links_fr_en a:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.useful_links_fr_en p {
     padding-bottom: 10px;
 }
 
@@ -66,9 +89,15 @@
 }
 
 @media (max-width: 1600px){ 
-    #useful_links{
+    .useful_links{
         padding-top: 30px;
         padding-left: 85px;
+        font-size: 16px;
+    }
+
+    .useful_links_fr_en{
+        padding-top: 30px;
+        padding-left: 55px;
         font-size: 16px;
     }
 
@@ -85,9 +114,16 @@
 }
 
 @media (max-width: 1400px){ 
-    #useful_links{
+    .useful_links{
         padding-top: 20px;
         padding-left: 70px;
+        font-size: 15px;
+    }
+
+    .useful_links_fr_en{
+        left: 40px;
+        padding-top: 20px;
+        padding-left: 40px;
         font-size: 15px;
     }
 
@@ -98,27 +134,49 @@
 }
 
 @media (max-width: 1300px){ 
-    #useful_links{
+    .useful_links{
+        padding-left: 60px;
+        font-size: 13px;
+    }
+
+    .useful_links_fr_en{
         padding-left: 60px;
         font-size: 13px;
     }
 } 
 
 @media (max-width: 1200px){ 
-    #useful_links{
+    .useful_links{
+        padding-left: 55px;
+    }
+
+    .useful_links_fr_en{
         padding-left: 55px;
     }
 } 
 
 @media (max-width: 1100px){ 
-     #useful_links{
+    .useful_links{
+        padding-left: 30px;
+        font-size: 11px;
+    }
+
+    .useful_links_fr_en{
         padding-left: 30px;
         font-size: 11px;
     }
 } 
 
 @media (max-width: 900px){ 
-    #useful_links{
+    .useful_links{
+        padding-left: 0;
+        padding-top: 25px;
+        font-size: 18px;
+        text-align: center;
+        left: 0;
+    }
+
+    .useful_links_fr_en{
         padding-left: 0;
         padding-top: 25px;
         font-size: 18px;

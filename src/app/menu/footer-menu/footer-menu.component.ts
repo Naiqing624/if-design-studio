@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FooterService } from 'src/app/home/services/footer.service';
+import { LanguageService } from 'src/app/language.service';
 
 @Component({
   selector: 'app-footer-menu',
@@ -9,6 +10,14 @@ import { FooterService } from 'src/app/home/services/footer.service';
 export class FooterMenuComponent {
   currentUrl: string;
 
-  constructor(public readonly footerService: FooterService) { }
+  selectedLanguage = 'FR';
+
+  constructor(public readonly footerService: FooterService, private languageService: LanguageService) { }
+
+  ngOnInit(): void {
+    this.languageService.selectedLanguage$.subscribe(language => {
+      this.selectedLanguage = language;
+    });
+  }
 
 }

@@ -6,23 +6,23 @@
         <div id="contact">
             <img src="../../../assets/images/footer-logo.png" alt="footer-logo">
         </div>
-        <div id="useful_links">
+        <div [ngClass]="selectedLanguage === 'CN' ? 'useful_links' : 'useful_links_fr_en'">
             <a routerLink="/contact"><p>{{ 'FOOTER-MENU.CONTACT' | translate }}</p></a>
             <a routerLink="/about"><p>{{ 'FOOTER-MENU.ABOUT' | translate }}</p></a>
             <a routerLink="/confidential"><p>{{ 'FOOTER-MENU.CONFIDENTIAL' | translate }}</p></a>
             <a routerLink="/legal-notice"><p>{{ 'FOOTER-MENU.LEGAL-NOTICE' | translate }}</p></a>
         </div>
-        <div id="useful_links">
+        <div [ngClass]="selectedLanguage === 'CN' ? 'useful_links' : 'useful_links_fr_en'">
             <a routerLink="/graphics"><p>{{ 'FOOTER-MENU.GRAPHICS' | translate }}</p></a>
             <a routerLink="/logo-design"><p>{{ 'FOOTER-MENU.LOGO-DESIGN' | translate }}</p></a>
             <a routerLink="/marketing"><p>{{ 'FOOTER-MENU.MARKETING' | translate }}</p></a>
         </div>
-        <div id="useful_links">
+        <div [ngClass]="selectedLanguage === 'CN' ? 'useful_links' : 'useful_links_fr_en'">
             <a routerLink="/UI/UX"><p>{{ 'FOOTER-MENU.UIUX' | translate }}</p></a>
             <a routerLink="/art"><p>{{ 'FOOTER-MENU.ART' | translate }}</p></a>
             <a routerLink="/book-printing"><p>{{ 'FOOTER-MENU.BOOK-PRINTING' | translate }}</p></a>
         </div>
-        <div id="useful_links" class="align-right">
+        <div class="align-right" [ngClass]="selectedLanguage === 'CN' ? 'useful_links' : 'useful_links_fr_en'">
             <p>WeChat  丨  if9998877163</p>
             <p>Mobile Phone  丨  +86 181 2073 3276</p>
             <p>+33 6 95 89 05 93</p>
