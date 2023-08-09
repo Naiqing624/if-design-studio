@@ -78,7 +78,7 @@
         <a [routerLink]="'about'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">{{ 'TOP-MENU.ABOUT' | translate }}</a>
         <a [routerLink]="'contact'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footerContact')">{{ 'TOP-MENU.CONTACT' | translate }}</a>
         <ul>
-          <div class="languagePosition" (click)="toggleLanguageMenu()" id="languageToggle">
+          <div class="languagePosition">
             <div class="imgLanguage"><img src="../../../assets/images/language.png" alt="language" width="15px" height="15px"></div>
             <label for="btnLanguage" style="color: white">{{ selectedLanguage }}
               <span class="fa fa-angle-down"></span>

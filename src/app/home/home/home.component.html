@@ -4,48 +4,48 @@
         <p class="text-hoverlay-p">{{ 'HOME-PAGE.BANNER.P-ONE' | translate }}</p>
         <p class="text-hoverlay-p2">{{ 'HOME-PAGE.BANNER.P-TWO' | translate }}</p>
         <br>
-        <button class="button button-1" [routerLink]="'/contact'">{{ 'HOME-PAGE.BANNER.CONTACT' | translate }}</button>
+        <button class="button button-1" id="buttonIdea" [routerLink]="'/contact'">{{ 'HOME-PAGE.BANNER.CONTACT' | translate }}</button>
         <div style="padding-bottom: 209px;"></div>
     </div>
 </div>
 <div class="section1">
     <h1 class="center">{{ 'HOME-PAGE.TUILES.H1' | translate }}</h1>
     <div class="tuiles" [ngClass]="{'fade-in-out': opacitySection1 === 1}">
-        <div class="box" [ngClass]="language === 'en' ? 'boxEnglish' : 'box'">
+        <div [ngClass]="selectedLanguage === 'CN' ? 'boxChinese' : 'boxFrenchEnglish'">
             <div class="img">
                 <img src="../../../assets/images/ampoule.png" alt="icone" width="50" height="50">
             </div>
             <div class="textSection1">
                 <p class="title_p text_p">{{ 'HOME-PAGE.TUILES.P-ONE' | translate }}</p>
-                <p class="text_p">{{ 'HOME-PAGE.TUILES.P-TWO' | translate }}</p>
+                <p class="text_p text_p_mobile">{{ 'HOME-PAGE.TUILES.P-TWO' | translate }}</p>
             </div>
         </div>
         <br>
-        <div class="box" [ngClass]="language === 'en' ? 'boxEnglish' : 'box'">
+        <div [ngClass]="selectedLanguage === 'CN' ? 'boxChinese' : 'boxFrenchEnglish'">
             <div class="img">
                 <img src="../../../assets/images/exponentiel.png" alt="icone" width="50" height="50">
             </div>
             <div class="textSection1">
                 <p class="title_p text_p">{{ 'HOME-PAGE.TUILES.P-THREE' | translate }}</p>
-                <p class="text_p">{{ 'HOME-PAGE.TUILES.P-FOUR' | translate }}</p>
+                <p class="text_p text_p_mobile">{{ 'HOME-PAGE.TUILES.P-FOUR' | translate }}</p>
             </div>
         </div>
         <br>
-        <div class="box" [ngClass]="language === 'en' ? 'boxEnglish' : 'box'">
+        <div [ngClass]="selectedLanguage === 'CN' ? 'boxChinese' : 'boxFrenchEnglish'">
             <div class="img">
                 <img src="../../../assets/images/mains.png" alt="icone" width="50" height="50">
             </div>
             <div class="textSection1">
                 <p class="title_p text_p">{{ 'HOME-PAGE.TUILES.P-FIVE' | translate }}</p>
-                <p class="text_p">{{ 'HOME-PAGE.TUILES.P-SIX' | translate }}</p>
+                <p class="text_p text_p_mobile">{{ 'HOME-PAGE.TUILES.P-SIX' | translate }}</p>
             </div>
         </div>
     </div>
 </div>
 <div class="section2">
     <div id="textSection2">
-        <h1 class="center">{{ 'HOME-PAGE.SECTION2.H1' | translate }}</h1>
         <h4>{{ 'HOME-PAGE.SECTION2.H4' | translate }}</h4>
+        <h1 class="center">{{ 'HOME-PAGE.SECTION2.H1' | translate }}</h1>
         <p class="center">{{ 'HOME-PAGE.SECTION2.P-ONE' | translate }}</p>
     </div>
     <div class="tuilesSection2" [ngClass]="{'tuiles2': opacitySection2 === 1}">

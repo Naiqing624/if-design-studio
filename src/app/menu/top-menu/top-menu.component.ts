@@ -2,6 +2,7 @@ import { Component, HostListener, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { FooterService } from 'src/app/home/services/footer.service';
+import { LanguageService } from 'src/app/language.service';
 
 @Component({
   selector: 'app-top-menu',
@@ -13,9 +14,8 @@ export class TopMenuComponent implements OnInit {
   sidebarOpen = false;
   linksDisplay = true;
   selectedLanguage = 'FR';
-  languageMenu: boolean = false;
   
-  constructor(private readonly router: Router, private readonly footerService: FooterService, private readonly translateService: TranslateService){}
+  constructor(private readonly router: Router, private readonly footerService: FooterService, private readonly translateService: TranslateService, private languageService: LanguageService){}
 
   ngOnInit(): void {
     this.checkScreenSize();
@@ -41,14 +41,10 @@ export class TopMenuComponent implements OnInit {
 
   selectLanguage(lang: string) {
     this.selectedLanguage = lang;
+    this.languageService.setLanguage(lang);
     this.translateService.currentLang = this.selectedLanguage;
-    console.log(this.translateService.currentLang);
     this.translateService.use(this.translateService.currentLang);
     this.translateService.setDefaultLang(this.translateService.currentLang);
     this.translateService.reloadLang(this.selectedLanguage);
-  }
-
-  toggleLanguageMenu() {
-    this.languageMenu = !this.languageMenu;
   }
 }

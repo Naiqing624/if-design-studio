@@ -136,9 +136,9 @@
     justify-content: center;
 }
 
-.box {
+.boxFrenchEnglish {
     flex: 1;
-    height: 170px;
+    height: 220px;
     max-width: 380px;
     min-width: 200px; 
     margin: 10px;
@@ -147,9 +147,9 @@
     display: flex;
 }
 
-.boxEnglish {
+.boxChinese {
     flex: 1;
-    height: 220px;
+    height: 170px;
     max-width: 380px;
     min-width: 200px; 
     margin: 10px;
@@ -195,7 +195,7 @@
 
 #textSection2 h4 {
     position: relative;
-    top: -18px;
+    top: 10px;
     font-size: 16px;
     font-weight: lighter;
 }
@@ -344,7 +344,7 @@
 
 #imgDiscussion h2 {
     margin-top: 0;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     padding-left: 32px;
 }
@@ -408,7 +408,7 @@
 
     .text_p {
         width: 150px;
-        font-size: 15px;
+        font-size: 13px;
         top: -5px;
     }
 
@@ -427,6 +427,22 @@
     .container::after {
         top: 155px;
         left: 186px;
+    }
+
+    .boxFrenchEnglish {
+        height: 220px;
+        max-width: 380px;
+        min-width: 250px; 
+        margin: 10px;
+        font-size: 17px;
+    }
+    
+    .boxChinese {
+        height: 170px;
+        max-width: 380px;
+        min-width: 200px; 
+        margin: 10px;
+        font-size: 17px;
     }
 }
 
@@ -472,29 +488,31 @@
     }
 
     .img {
-        display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 0;
-        left: 0;
+        position: relative;
+        left: 20px;
+        top: 10px;
     }
     
     .textSection1 {
         margin-left: 0;
+        width: 380px;
     }
 
     .title_p {
-        font-size: 24px;
+        font-size: 20px;
     }
     
     .text_p {
-        padding-left: 20px;
-        padding-right: 20px;
-        display: flex;
+        position: relative;
         align-items: center;
-        justify-content: center;
-        text-align: center;
         width: auto;
+        left: 40px;
+    }
+
+    .text_p_mobile {
+        width: 280px;
     }
 
     .boxSection2 {
@@ -589,7 +607,7 @@
     }
     
     #imgDiscussion h2 {
-        font-size: 30px;
+        font-size: 22px;
         font-weight: 400;
     }
 
@@ -614,20 +632,41 @@
 
     .text-hoverlay-h1{
         font-size: 54px; 
+        position: relative;
+        top: -10px;
     }
     
     .text-hoverlay-p{
-        font-size: 25px
+        position: relative;
+        top: 25px;
+        font-size: 25px;
+        background-color: white;
+        color: rgb(0, 0, 0);
     }
 
     .text-hoverlay-p2{
-        font-size: 25px
+        background-color: black;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
     }
 
     #ideaButton {
         height: 36px;
         width: 145px;
         font-size: 17px;
+    }
+
+    #buttonIdea {
+        position: relative;
+        top: 30px;
+    }
+
+    .boxFrenchEnglish {
+        height: 200px;
+    }
+    
+    .boxChinese {
+        height: 150px;
     }
 }
 
@@ -715,6 +754,44 @@
     #textSection2 {
         max-width: 260px;
     }
+
+    .boxFrenchEnglish {
+        height: 280px;
+        width: 250px;
+    }
+    
+    .boxChinese {
+        height: 180px;
+        width: 250px;
+    }
+
+    .img {
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 20px;
+        top: 10px;
+    }
+    
+    .textSection1 {
+        margin-left: 0;
+        width: 250px;
+    }
+
+    .title_p {
+        font-size: 20px;
+    }
+    
+    .text_p {
+        position: relative;
+        align-items: center;
+        width: auto;
+        left: 40px;
+    }
+
+    .text_p_mobile {
+        width: 130px;
+    }
 }
 
 @media (max-width: 350px){
@@ -740,6 +817,6 @@
     }
 
     #imgDiscussion h2 {
-        font-size: 25px;
+        font-size: 18px;
     }
 }

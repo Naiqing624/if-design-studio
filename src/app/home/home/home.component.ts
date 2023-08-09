@@ -1,6 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { FooterService } from '../services/footer.service';
-import { TranslateService } from '@ngx-translate/core';
+import { LanguageService } from 'src/app/language.service';
 
 interface Logo {
   src: string;
@@ -31,17 +31,18 @@ export class HomeComponent implements OnInit {
     { src: '../../../assets/images/home/logos/10.png', alt: '10' }
   ];
 
-  language = "cn";
+  selectedLanguage = 'FR';
 
-  constructor(private readonly footerService: FooterService, private readonly translateService: TranslateService) {
+  constructor(private readonly footerService: FooterService, private languageService: LanguageService) {
     setInterval(() => {
       this.removeLogo();
     }, 5000);
-
-    this.language = translateService.currentLang;
   }
 
   ngOnInit(): void {
+    this.languageService.selectedLanguage$.subscribe(language => {
+      this.selectedLanguage = language;
+    });
     this.footerService.setCssClass('footer');
   }
   
@@ -98,7 +99,6 @@ export class HomeComponent implements OnInit {
     this.startX = touch.clientX;
   };
   
-
   onTouchEnd = () => {
     document.removeEventListener('touchmove', this.onTouchMove);
     document.removeEventListener('touchend', this.onTouchEnd);
