@@ -118,7 +118,7 @@ input {
     top: 0;
     animation: slide-out 0.4s forwards;
     #hamburger {
-        margin-left: 80px;
+        margin-left: 120px;
         cursor: pointer;
     }
 }
@@ -210,11 +210,28 @@ input {
     background:rgb(0, 0, 0);
 }
 
-.navigationTwo ul li ul{
+.navigationTwoFR{
+    width: 160px;
     display: none;
     position: absolute;
     top: 100%;
-    left: 25px;
+    left: 15px;
+}
+
+.navigationTwoEN{
+    width: 160px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -5px;
+}
+
+.navigationTwoCN{
+    width: 130px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -20px;
 }
 
 .navigationTwo ul li:hover ul{
@@ -329,9 +346,13 @@ input {
 
     label {
         cursor: pointer;
-        font-size: 15px;
+        font-size: 11px;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    .sidebar-item {
+        font-size: 11px;
     }
     
     ul ul {
@@ -345,6 +366,10 @@ input {
     }
     
     [id^=btn]:checked + ul {
+        display: block;
+    }
+
+    [id^=btnLanguage]:checked + ul {
         display: block;
     }
     
@@ -362,7 +387,7 @@ input {
     ul ul li a, ul ul li label {
         color: white;
         text-decoration: none;
-        font-size: 13px;
+        font-size: 9px;
         display: block;
         padding-left: 0;
     }
@@ -386,12 +411,27 @@ input {
     ul ul li span {
         font-size: 13px;
     }
+
+    #languageToggle {
+        cursor: pointer;
+        font-size: 11px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .imgLanguage {
+        padding-left: 23px;
+    }
+
+    .textLanguage {
+        font-size: 9px;
+    }
 }
 
 @media (max-width: 700px){
     .body-container-open {
         #hamburger {
-            margin-left: 90px;
+            margin-left: 130px;
         }
     }
 }
@@ -412,7 +452,7 @@ input {
 
     .body-container-open {
         #hamburger {
-            margin-left: 110px;
+            margin-left: 130px;
         }
     }
 }

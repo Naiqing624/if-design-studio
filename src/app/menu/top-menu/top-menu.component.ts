@@ -13,6 +13,7 @@ export class TopMenuComponent implements OnInit {
   sidebarOpen = false;
   linksDisplay = true;
   selectedLanguage = 'FR';
+  languageMenu: boolean = false;
   
   constructor(private readonly router: Router, private readonly footerService: FooterService, private readonly translateService: TranslateService){}
 
@@ -45,5 +46,9 @@ export class TopMenuComponent implements OnInit {
     this.translateService.use(this.translateService.currentLang);
     this.translateService.setDefaultLang(this.translateService.currentLang);
     this.translateService.reloadLang(this.selectedLanguage);
+  }
+
+  toggleLanguageMenu() {
+    this.languageMenu = !this.languageMenu;
   }
 }

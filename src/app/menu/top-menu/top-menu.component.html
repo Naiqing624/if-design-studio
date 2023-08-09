@@ -18,7 +18,7 @@
                   <span class="fa fa-angle-down"></span>
                 </label>
               </a>
-              <ul>
+              <ul class="navigationTwoFR" [ngClass]="selectedLanguage === 'EN' ? 'navigationTwoEN' : (selectedLanguage === 'FR' ? 'navigationTwoFR' : 'navigationTwoCN')"              >
                 <li><a routerLink="/graphics" class="underline" (click)="changeCSS('footer')">{{ 'TOP-MENU.GRAPHICS' | translate }}</a></li>
                 <li><a routerLink="/logo-design" class="underline" (click)="changeCSS('footer')">{{ 'TOP-MENU.LOGO-DESIGN' | translate }}</a></li>
                 <li><a routerLink="/book-printing" class="underline" (click)="changeCSS('footer')">{{ 'TOP-MENU.BOOK-PRINTING' | translate }}</a></li>
@@ -77,6 +77,22 @@
         <a [routerLink]="'art'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">{{ 'TOP-MENU.ART' | translate }}</a>
         <a [routerLink]="'about'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footer')">{{ 'TOP-MENU.ABOUT' | translate }}</a>
         <a [routerLink]="'contact'" routerLinkActive="active-link" class="sidebar-item" (click)="changeCSS('footerContact')">{{ 'TOP-MENU.CONTACT' | translate }}</a>
+        <ul>
+          <div class="languagePosition" (click)="toggleLanguageMenu()" id="languageToggle">
+            <div class="imgLanguage"><img src="../../../assets/images/language.png" alt="language" width="15px" height="15px"></div>
+            <label for="btnLanguage" style="color: white">{{ selectedLanguage }}
+              <span class="fa fa-angle-down"></span>
+            </label>
+          </div>
+          <input type="checkbox" id="btnLanguage">
+          <ul>
+            <li class="textLanguage" *ngIf="selectedLanguage != 'FR'" [ngClass]="selectedLanguage != 'FR' ? 'underline' : ''" (click)="selectLanguage('FR')">FR</li>
+            <li class="textLanguage" *ngIf="selectedLanguage != 'CN'" [ngClass]="selectedLanguage != 'CN' ? 'underline' : ''" (click)="selectLanguage('CN')">CN</li>
+            <li class="textLanguage" *ngIf="selectedLanguage != 'EN'"  (click)="selectLanguage('EN')">EN</li>
+          </ul>
+        </ul>
+        <ul>
+        </ul>
       </div>
     </div>
   </div>
