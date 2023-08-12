@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
     { src: '../../../assets/images/home/logos/10.png', alt: '10' }
   ];
 
-  selectedLanguage = 'FR';
+  selectedLanguage = 'EN';
 
   constructor(private readonly footerService: FooterService, private languageService: LanguageService) {
     setInterval(() => {

@@ -13,7 +13,7 @@ export class TopMenuComponent implements OnInit {
 
   sidebarOpen = false;
   linksDisplay = true;
-  selectedLanguage = 'FR';
+  selectedLanguage = 'EN';
   
   constructor(private readonly router: Router, private readonly footerService: FooterService, private readonly translateService: TranslateService, private languageService: LanguageService){}
 

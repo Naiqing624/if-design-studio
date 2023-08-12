@@ -9,6 +9,7 @@ export class MarketingTwoComponent {
   opacitySection2 = 1;
   descriptionH1 = 'MARKETING.MARKETING-TWO.H1';
   contentP = 'MARKETING.MARKETING-TWO.CONTENT-P';
+  isExpanded = false;
 
   @HostListener('window:scroll', ['$event'])
   onScroll() {
@@ -19,5 +20,9 @@ export class MarketingTwoComponent {
     }else{
       this.opacitySection2 = 0;
     }
+  }
+
+  toggleExpansion() {
+    this.isExpanded = !this.isExpanded;
   }
 }

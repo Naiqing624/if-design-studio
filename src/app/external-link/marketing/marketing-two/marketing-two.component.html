@@ -11,9 +11,10 @@
     <div id="description">
         <h3>{{ 'MARKETING.SECTION1-DESCRIPTION-TWO-H3' | translate }}</h3>
         <h1 [innerHTML]="descriptionH1 | translate"></h1>
-        <div class="content">
+        <div class="content" [ngStyle]="{ 'max-height': isExpanded ? 'none' : '195px', 'overflow': isExpanded ? 'visible' : 'hidden' }">
             <p [innerHTML]="contentP | translate"></p>
         </div>
+        <p class="read-more" (click)="toggleExpansion()">{{ isExpanded ? ('EXPAND.IS-EXPANDED'| translate)  : ('EXPAND.NOT-EXPANDED' | translate) }}</p>
     </div>
     <div id="descriptionImage">
        <img id="imageSection1" src="../../../../assets/images/marketing/marketing-two/1.png" alt="scene">

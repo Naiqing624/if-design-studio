@@ -8,7 +8,7 @@ import { LanguageService } from 'src/app/language.service';
   styleUrls: ['./ui-ux.component.scss']
 })
 export class UiUxComponent implements OnInit{
-  selectedLanguage = 'FR';
+  selectedLanguage = 'EN';
 
   constructor(private languageService: LanguageService) {}
 

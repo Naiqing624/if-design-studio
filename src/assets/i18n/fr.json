@@ -36,27 +36,27 @@
     "OVERLAY-SIX": "Silhouette de la ville",
     "SECTION1-DESCRIPTION-H3": "ILLUSTRATION DU PORTFOLIO",
     "ART-ONE": {
-      "SECTION1-DESCRIPTION-H1": "Bagages Heiwas - Conception d'illustration promotionnelle",
+      "SECTION1-DESCRIPTION-H1": "Bagages Heiwas",
       "SECTION1-DESCRIPTION-P": "<strong>2023</strong><br><strong>Designer :</strong> Nanzhu"
     },
     "ART-DEUX": {
-      "SECTION1-DESCRIPTION-H1": "Produits VC - Conception d'illustrations",
+      "SECTION1-DESCRIPTION-H1": "Produits VC",
       "SECTION1-DESCRIPTION-P": "<strong>2023</strong><br><strong>Designer : </strong> Ah Baa"
     },
     "ART-TROIS": {
-      "SECTION1-DESCRIPTION-H1": "Mode de vie sain - Conception d'illustrations",
+      "SECTION1-DESCRIPTION-H1": "Mode de vie sain",
       "SECTION1-DESCRIPTION-P": "<strong>2023</strong><br><strong>Designer :</strong> Nanzhu"
     },
     "ART-QUATRE": {
-      "SECTION1-DESCRIPTION-H1": "Anthropomorphisme du vélo partagé - conception de l'illustration",
+      "SECTION1-DESCRIPTION-H1": "Anthropomorphisme du vélo partagé",
       "SECTION1-DESCRIPTION-P": "<strong>2023</strong><br><strong>Designer :</strong> Dayang"
     },
     "ART-CINQ": {
-      "SECTION1-DESCRIPTION-H1": "Teletubbies Anthropomorphique - Conception d'illustration",
+      "SECTION1-DESCRIPTION-H1": "Teletubbies Anthropomorphique",
       "SECTION1-DESCRIPTION-P": "<strong>2023</strong><br><strong>Designer :</strong> Dayang"
     },
     "ART-SIX": {
-      "SECTION1-DESCRIPTION-H1": "Paysages urbains - Illustration plate",
+      "SECTION1-DESCRIPTION-H1": "Paysages urbains",
       "SECTION1-DESCRIPTION-P": "<strong>2023</strong><br><strong>Designer :</strong> Nanzhu"
     }
   },
@@ -68,7 +68,7 @@
      "ARIANE-H2": "Découvrez notre portfolio",
      "ARIANE-LI": "Conception E-Commerce",
      "SECTION1-DESCRIPTION-H3": "PORTFOLIO",
-     "SECTION3-COULEUR": "Couleur",
+     "SECTION3-COLOR": "Couleur",
      "SECTION3-COLOR-PADDING": "Couleur",
      "SECTION4-PRODUCT-MASTER": "PRODUIT PLAN DIRECTEUR",
      "SECTION4-PRODUCT-MASTER-SUB": "Conception graphique principale",
@@ -91,7 +91,7 @@
      "E-COMMERCE-FOUR": {
        "H1": "<b>Yu Qinshan</b>",
        "CONTENT-P": "<strong>2022 -</strong> Conception de l'e-commerce, conception d'image principale, conception de page de détail, conception d'image de carrousel<br><strong>Designer :</strong> Dayang",
-       "SECTION2-TEXT-CONTAINER": "Yu Qinshan<br>Gel douche parfumé<br>Conception de l'e-commerce"
+       "SECTION2-TEXT-CONTAINER": "Yu Qinshan<br>Gel douche parfumé"
      },
      "E-COMMERCE-FIVE": {
        "H1": "<b>Service d'élimination des aldéhydes</b>",
@@ -117,7 +117,7 @@
      },
      "FLYER-FOUR": {
        "H1": "<b>L'étape du Tour de France</b>",
-       "CONTENT-P": "<strong>2022 - </strong>Mise en page, Impression<br><strong>Designer :</strong> Naiqing"
+       "CONTENT-P": "<strong>2022 - </strong>Mise en page<br><strong>Designer :</strong> Naiqing"
      },
      "FLYER-FIVE": {
        "H1": "<b>Saraya</b>",
@@ -129,34 +129,34 @@
      }
    },
    "LEGAL-NOTICE": {
-     "ARIANE-H2" : "Mentions Légales",
+     "ARIANE-H2": "Mentions Légales",
      "TEXT-CONTAINER-P": "Bienvenue sur le site de notre agence de création. Veuillez lire attentivement les mentions légales suivantes avant d'utiliser ce site. Par accèsEn utilisant et en utilisant ce site Web, vous acceptez et acceptez les termes et conditions suivants : <br>Droits de propriété intellectuelle<br>Tout le contenu de ce site Web, y compris, mais sans s'y limiter, les textes, images, logos, icônes, boutons, clips audio et vidéo , etc., sont protégés par les lois sur le droit d'auteur et les marques de commerce. Sans notre consentement écrit préalable, toute utilisation, reproduction, diffusion ou modification de ces contenus sur tout support ou canal est interdite.<br>Avertissement<br>Tout le contenu de ce site Web est fourni à des fins d'information générale uniquement et ne constitue pas un avis professionnel ou opinion de quelque nature que ce soit. Nous nous efforçons de nous assurer que les informations sur le site Web sont exactes, complètes et à jour, mais aucune garantie n'est donnée quant à leur exactitude ou leur exhaustivité.<br>Liens de tiers<br>Ce site Web peut contenir des liens aux sites Web tiers qui sont fournis uniquement pour la commodité des utilisateurs. Nous ne sommes pas responsables du contenu ou des politiques de confidentialité de ces sites Web tiers, et l'accès à ces liens est aux risques et périls de l'utilisateur.<br>Modifications de la clause de non-responsabilité<br>Nous nous réservons le droit de modifier ou de mettre à jour cet avis juridique à à tout moment. Vous Lorsque vous utilisez ce site Web, vous devez vérifier régulièrement la dernière version de la déclaration légale.<br>Droit applicable<br>Cette déclaration légale est régie par les lois du lieu. Tout litige survenant lors de l'utilisation de ce site Web doit d'abord être résolu par une négociation amicale entre les deux parties. Si aucun accord ne peut être trouvé, tout litige doit être soumis au tribunal compétent du lieu où il se trouve.<br> Encore une fois, veuillez lire et comprendre attentivement la déclaration légale ci-dessus avant d'utiliser ce site Web. Si vous avez des questions ou avez besoin de plus d'informations, n'hésitez pas à nous contacter. Merci de visiter notre site Web, nous ferons de notre mieux pour vous fournir un service de qualité !"
    },
    "LOGO": {
      "ARIANE-H2": "Schéma de Branding Complet",
      "ARIANE-LI": "Design graphique",
      "SECTION1-DESCRIPTION-H3": "IMAGE DE MARQUE DU PORTFOLIO",
-     "SECTION1-DESCRIPTION-TWO-H3": "PORTFOLIO VI",
+     "SECTION1-DESCRIPTION-TWO-H3": "PORTFOLIO CHARTE GRAPHIQUE",
      "SECTION1-DESCRIPTION-THREE-H3": "LOGO DU PORTFOLIO",
      "LOGO-ONE": {
        "H1": "<b>Yu Qinshan</b>",
-       "CONTENT-P": "<strong>2023 -</strong> Conception de LOGO, conception de VI, interprétation des spécifications de base, conception de produit, conception d'illustration<br><strong>Designer :</strong> Dayang"
+       "CONTENT-P": "<strong>2023 -</strong> Conception de LOGO, Charte graphique, interprétation des spécifications de base, conception de produit, conception d'illustration<br><strong>Designer :</strong> Dayang"
      },
      "LOGO-TWO": {
        "H1": "<b>LEMONBETWEEN</b>",
-       "CONTENT-P": "<strong>2023 -</strong> Conception VI, interprétation des spécifications de base, définition du scénario d'application<br><strong>Designer :</strong> Dayang"
+       "CONTENT-P": "<strong>2023 -</strong> Charte graphique, interprétation des spécifications de base, définition du scénario d'application<br><strong>Designer :</strong> Dayang"
      },
      "LOGO-THREE": {
        "H1": "<b>Golomei</b>",
-       "CONTENT-P": "<strong>2018 -</strong> Conception du LOGO, conception VI, interprétation des spécifications de base, mise en scène de l'application<br><strong>Designer :</strong> Li Di"
+       "CONTENT-P": "<strong>2018 -</strong> Conception du LOGO, charte graphique, interprétation des spécifications de base, mise en scène de l'application<br><strong>Designer :</strong> Li Di"
      },
      "LOGO-FOUR": {
        "H1": "<b>Pavillon Kirin</b>",
-       "CONTENT-P": "<strong>2020 -</strong> LOGO de la marque, conception VI, interprétation des spécifications de base, mise en scène de l'application, design d'intérieur, conception d'affiches, conception d'emballages, conception de beauté<br><strong>Professeur de design :</strong> Li Di"
+       "CONTENT-P": "<strong>2020 -</strong> LOGO de la marque, charte graphique, interprétation des spécifications de base, mise en scène de l'application, design d'intérieur, conception d'affiches, conception d'emballages, conception de beauté<br><strong>Designer:</strong> Li Di"
      },
      "LOGO-FIVE": {
        "H1": "<b>Lavande</b>",
-       "CONTENT-P": "<strong>2020 -</strong> Conception de LOGO, conception VI, interprétation des spécifications de base, mise en scène de l'application<br><strong>Designer :</strong> Li Di"
+       "CONTENT-P": "<strong>2020 -</strong> Conception de LOGO, charte graphique, interprétation des spécifications de base, mise en scène de l'application<br><strong>Designer :</strong> Li Di"
      }
    },
    "MARKETING": {
@@ -178,19 +178,19 @@
        "CONTENT-P": "La carte de visite est un outil petit mais puissant aux multiples fonctions. Tout d'abord, la carte de visite est un outil de communication d'entreprise, qui peut transmettre des informations de contact personnelles ou d'entreprise dans les activités commerciales. En échangeant des cartes de visite, les gens peut facilement obtenir des informations clés telles que le nom, le poste, le nom de l'entreprise, le numéro de téléphone et l'adresse e-mail de l'autre partie, ce qui est pratique pour les contacts et la coopération futurs.<br>Deuxièmement, les cartes de visite sont un moyen d'afficher des images personnelles ou d'entreprise. élaborer Une carte de visite conçue peut mettre en valeur le professionnalisme, la créativité et le caractère unique d'un individu ou d'une entreprise et laisser une profonde impression sur les gens. Des éléments tels que le design, le logo, la couleur et la police de la carte de visite peuvent transmettre les caractéristiques et les valeurs de la marque et améliorer l'image de marque. <br>JeEn outre, les cartes de visite peuvent également jouer le rôle de liens sociaux lors d'occasions sociales. En échangeant des cartes de visite, les gens peuvent établir des liens et des relations, élargir les cercles sociaux et ouvrir la voie à une coopération et à des opportunités futures. Les cartes de visite ne sont pas seulement un outil A, ou un moyen de démontrer l'identité personnelle ou d'entreprise, la confiance et le professionnalisme.<br>En conclusion, une carte de visite est un outil petit mais important qui transmet des informations de contact, présente une image personnelle ou d'entreprise, et Il joue un rôle important dans les occasions sociales. Une carte de visite bien conçue et utilisée efficacement peut apporter plus d'opportunités commerciales, de partenaires et de liens sociaux à une personne ou à une entreprise."
       },
       "MARKETING-TWO": {
-        "H1": "<b>Flyer</b>",
-        "CONTENT-P": "L'emballage joue plusieurs rôles dans la conception et le merchandising des produits. Non seulement il protège les produits contre les dommages, mais il attire également l'attention du consommateur et communique des messages clés. Grâce à des éléments de conception et de marque uniques, l'emballage établit le produit. L'image et les valeurs de l'entreprise peuvent stimuler le désir d'acheter. En fin de compte, une conception d'emballage de haute qualité peut promouvoir les ventes, faire en sorte que les produits se démarquent sur un marché hautement concurrentiel et obtenir un succès commercial."
+        "H1": "<b>Affiche</b>",
+        "CONTENT-P": "Les affiches sont un outil de communication important avec des fonctions diverses et puissantes. Grâce à la combinaison ingénieuse de la vision et du texte, les affiches peuvent transmettre intuitivement des informations et du contenu promotionnel, attirer l'attention des gens et rendre les informations plus facilement visibles. Pour les marques, les affiches sont un outil puissant pour construire et renforcer votre image de marque, laissant une impression durable sur vos clients potentiels. Dans le même temps, pour la promotion des produits, les affiches montrent les avantages du produit et des effets visuels attrayants, favorisent les ventes et attirent plus de clients. De plus, les affiches peuvent promouvoir des événements, évoquer une résonance émotionnelle et ajouter beaucoup de couleur aux activités de marketing et de promotion. En général, les affiches jouent un rôle indispensable dans la communication, rendant les informations plus vivantes, compréhensibles, acceptables et mémorables."
       },
       "MARKETING-THREE": {
         "H1": "<b>Conception et emballage du produit</b>",
         "CONTENT-P": "L'emballage joue plusieurs rôles dans la conception et le merchandising des produits. Non seulement il protège les produits contre les dommages, mais il attire également l'attention du consommateur et communique des messages clés. Grâce à des éléments de conception et de marque uniques, l'emballage établit le produit. L'image et Les valeurs de l'entreprise stimulent le désir d'achat. En fin de compte, une conception d'emballage de haute qualité peut promouvoir les ventes, faire ressortir les produits sur un marché hautement concurrentiel et obtenir un succès commercial.",
         "OVERLAY-ONE": "Briquets ZIPPO",
-        "OVERLAY-TWO": "Chercher du sucre",
+        "OVERLAY-TWO": "Chaozhou",
         "OVERLAY-THREE": "KARYOOSI",
         "OVERLAY-FOUR": "Boulettes de Viande",
-        "OVERLAY-FIVE": "Chercher du sucre",
+        "OVERLAY-FIVE": "Musique de Voiture",
         "OVERLAY-SIX": "Chercher du sucre",
-        "OVERLAY-SEVEN": "Chercher du sucre",
+        "OVERLAY-SEVEN": "Fudan",
         "OVERLAY-EIGHT": "Fruit Spirituel",
         "OVERLAY-NINE": "APP"
       },
@@ -207,7 +207,7 @@
       "MARKETING-FIVE": {
         "H1": "<b>Conception de l'E-Commerce</b>",
         "CONTENT-P": "La décoration de l'e-commerce, comme Amazon, couvre la bannière, l'image principale et la conception de la page de détail, ces trois aspects jouent un rôle important dans les opérations de l'e-commerce. La bannière est la bannière publicitaire sur la page d'accueil du magasin, généralement à la haut de la page. Une excellente conception de bannière peut attirer l'attention des utilisateurs et transmettre des fonctionnalités de magasin et des informations promotionnelles. Grâce à des images soigneusement sélectionnées, des titres accrocheurs et un texte accrocheur. La bannière peut inciter les utilisateurs à entrer dans le magasin, augmenter le temps de séjour de la page, et promouvoir la navigation et la promotion du comportement d'achat.<br>L'image principale est un élément important pour afficher le produit, situé dans la liste des produits et les pages de détail. L'image principalela conception doit se concentrer sur la clarté, la correspondance des couleurs et l'attractivité du produit. Grâce à des images de produits soigneusement photographiées ou éditées, et efficaces, l'image principale peut inciter les utilisateurs à cliquer sur la page de détails et à susciter l'intérêt pour l'achat.<br>La conception de la page de détails est un lien clé dans l'affichage des détails du produit et la promotion des décisions d'achat. Une excellente conception de page de détail doit être combinée avec des images claires, des descriptions de texte riches, des paramètres de spécification, des évaluations de clients et d'autres éléments, fournir aux utilisateurs une compréhension complète et une référence d'achat. En mettant en évidence les caractéristiques du produit, en guidant l'attention des utilisateurs et en répondant aux questions, la conception de la page détaillée peut améliorer la détermination d'achat des utilisateurs et améliorer le taux de conversion.<br>Pour résumer, la conception de la bannière, de l'image principale et de la page détaillée dans la décoration de Taobao magasin est un lien important pour améliorer l'image du magasin, attirer les utilisateurs et promouvoir les ventes. Grâce à une conception soignée et à l'optimisation de ces éléments, le magasin peut attirer davantage d'utilisateurs cibles, augmenter le taux de conversion des achats et obtenir de bons résultats commerciaux.",
-        "OVERLAY-ONE" : "FATESKY",
+        "OVERLAY-ONE": "FATESKY",
        "OVERLAY-TWO": "CAN CAR",
        "OVERLAY-THREE": "Nandian",
        "OVERLAY-FOUR": "Yu Qinshan",
@@ -229,7 +229,7 @@
        "OVERLAY-TWO": "Golomei"
      },
      "MARKETING-NINE": {
-       "H1": "<b>Design mural culturel</b>",
+       "H1": "<b>Design mur culturel</b>",
        "CONTENT-P": "La conception du mur culturel transmet les valeurs fondamentales, la mission et la vision de l'organisation ou de l'école en affichant des images, du texte et des éléments artistiques, aidant les employés ou les étudiants à comprendre et à s'identifier à la culture organisationnelle et à former un sens commun de identité culturelle.Dans le même temps, la conception du mur culturel peut également renforcer l'identité des employés ou des étudiants à l'organisation ou à l'école, et stimuler un sentiment d'appartenance et de fierté.En affichant l'histoire, les réalisations et les symboles culturels de l'organisation ou de l'école , la conception du mur culturel améliore la reconnaissance de l'employé ou de l'étudiant envers l'organisation ou l'école Fidélité et engagement.En outre, la conception du mur culturel favorise également la communication et l'échange internes, aidant les employés ou les étudiants à comprendre les derniers développements et les questions importantes de l'organisation ou l'école en affichant des informations importantes, des jalons et des réalisations. Grâce à l'utilisation de couleurs vives, d'un langage motivant et d'images d'énergie positive, la conception du mur culturel crée un environnement de travail positif, optimiste et motivant, inspire les employés ou les étudiants à réaliser leur potentiel, favorise l'innovation et le travail d'équipe. De plus, la conception du mur culturel aide également à hériter et à éduquer les organisations Ou la culture de l'école, en affichant la culture historique, les connaissances traditionnelles et les événements importants, elle aide les employés ou les étudiants à comprendre et à apprendre les traditions culturelles de l'organisation ou de l'école, et hériter et transmettre des valeurs culturelles. En résumé, un mur culturel bien conçu et agencé peut Les organisations, les entreprises ou les écoles jouent un rôle important dans la promotion de la transmission culturelle, le renforcement de l'identité, la promotion de la communication interne, la création d'un bon environnement de travail et l'héritage de la culture et de l'éducation.",
        "OVERLAY-ONE": "Salon de la police",
        "OVERLAY-TWO": "Technologie bambou",
@@ -243,7 +243,7 @@
      "NOT-EXPANDED": "Voir plus"
    },
    "CULTURAL-WALL": {
-     "ARIANE-H2" : "Design mural culturel",
+     "ARIANE-H2": "Design mur culturel",
      "ARIANE-LI": "Design graphique",
      "SECTION1-DESCRIPTION-H3": "PORTFOLIO MUR CULTUREL",
      "CULTURAL-WALL-ONE": {
@@ -272,83 +272,83 @@
      "ARIANE-LI": "Design graphique",
      "SECTION1-DESCRIPTION-H3": "AFFICHE PORTFOLIO",
      "FLYER-ONE": {
-       "H1": "<b>Hériter des caractères chinois - Conception de l'emballage</b>",
-       "H1-TWO": "<b>Porcelaine bleue et blanche - Conception d'affiche</b>",
-       "CONTENT-P": "<strong>2022 - </strong>Conception d'affiches<br><strong>Designer : </strong>Global Village",
+       "H1": "<b>Hériter des caractères chinois</b>",
+       "H1-TWO": "<b>Porcelaine bleue et blanche</b>",
+       "CONTENT-P": "<strong>2022 - </strong>Conception d'affiches<br><strong>Designer : </strong>RuiLi",
        "CONTENT-P-TWO": "<strong>2022 - </strong> Conception d'affiches<br><strong>Designer : </strong> Tudou"
      },
      "FLYER-TWO": {
-       "H1": "<b>Marionnettes d'ombres - conception d'affiches</b>",
-       "H1-TWO": "<b>Camp d'entraînement de sauvetage de poireau - Conception d'affiche</b>",
+       "H1": "<b>Marionnettes d'ombres</b>",
+       "H1-TWO": "<b>Camp d'entraînement de sauvetage de poireau</b>",
        "CONTENT-P": "<strong>2022 - </strong>conception de l'affiche<br><strong>Designer :</strong>Yang ",
        "CONTENT-P-TWO": "<strong>2022 - </strong>Conception de l'affiche<br><strong>Designer :</strong>Dayang"
      },
      "FLYER-THREE": {
-       "H1": "<b>Nouvel An chinois - Conception d'affiches</b>",
-       "H1-TWO": "<b>Vous dites que je dessine - Conception d'affiche</b>",
+       "H1": "<b>Nouvel An chinois</b>",
+       "H1-TWO": "<b>Vous dites que je dessine</b>",
        "CONTENT-P": "<strong>2022 - </strong>conception de l'affiche<br><strong>Designer :</strong>Yang ",
        "CONTENT-P-TWO": "<strong>2022 - </strong>Conception de l'affiche<br><strong>Designer :</strong>Dayang"
      },
      "FLYER-FOUR": {
-       "H1": "<b>Gym Subway - Conception d'affiches</b>",
-       "H1-TWO": "<b>Cours de calligraphie - Conception d'affiches</b>",
-       "H1-THREE": "<b>Recrutement communautaire - Conception d'affiches</b>",
+       "H1": "<b>Gym Subway</b>",
+       "H1-TWO": "<b>Cours de calligraphie</b>",
+       "H1-THREE": "<b>Recrutement communautaire</b>",
        "CONTENT-P": "<strong>2022 - </strong>conception de l'affiche<br><strong>Designer :</strong>Yang ",
        "CONTENT-P-TWO": "<strong>2022 - </strong> Conception d'affiches<br><strong>Designer : </strong> Da Yang ",
        "CONTENT-P-THREE": "<strong>2022 - </strong> Conception d'affiches<br><strong>Designer :</strong> Dayang"
      },
      "FLYER-FIVE": {
-       "H1": "<b>Journée de la jeunesse du 4 mai - Conception d'affiches</b>",
-       "H1-TWO": "<b>Énergie cardiaque - Conception d'affiches</b>",
-       "H1-THREE": "<b>Ressources en eau - Conception d'affiches</b>",
-       "H1-FOUR": "<b>Dentifrice - Conception d'affiche</b>",
+       "H1": "<b>Journée de la jeunesse du 4 mai</b>",
+       "H1-TWO": "<b>Énergie cardiaque</b>",
+       "H1-THREE": "<b>Ressources en eau</b>",
+       "H1-FOUR": "<b>Dentifrice</b>",
        "CONTENT-P": "<strong>2022 - </strong> Conception d'affiches<br><strong>Designer : </strong> Koala",
        "CONTENT-P-TWO": "<strong>2022 - </strong> Conception d'affiches<br><strong>Designer : </strong> Koala",
        "CONTENT-P-THREE": "<strong>2022 - </strong> Conception d'affiches<br><strong>Designer : </strong> Koala",
-       "CONTENT-P-FOUR": "<strong>2022 - </strong> Conception d'affiches<br><strong>Designer : </strong>Global Village"
+       "CONTENT-P-FOUR": "<strong>2022 - </strong> Conception d'affiches<br><strong>Designer : </strong>RuiLi"
      },
      "FLYER-SIX": {
-       "H1": "<b>Anti-dépression - Conception d'affiches</b>",
+       "H1": "<b>Anti-dépression</b>",
        "CONTENT-P": "<strong>2022 -</strong> Conception d'affiches<br><strong>Designer :</strong> Dayang"
      }
    },
    "PRODUCT": {
      "SECTION1-DESCRIPTION-H3": "EMBALLAGE PORTFOLIO",
      "PRODUCT-ONE": {
-       "H1": "<b>Fermeture éclair- conception plus légère</b>",
+       "H1": "<b>Briquet éclair</b>",
        "CONTENT-P": "<strong>2023 -</strong> Conception d'emballage, conception d'illustration, rendu de produit<br><strong>Designer :</strong> Dayang"
      },
-     "PRODUIT-TWO": {
-       "H1": "<b>Mitang - Conception de sacs en papier kraft</b>",
-       "CONTENT-P": "<strong>2022-</strong> Conception de l'emballage, rendu du produit<br><strong>Designer :</strong> Global Village<br><strong>Rendu 3D :</strong> vert "
+     "PRODUCT-TWO": {
+       "H1": "<b>Mitang</b>",
+       "CONTENT-P": "<strong>2022 -</strong> Conception de l'emballage, rendu du produit<br><strong>Designer :</strong> RuiLi<br><strong>Rendu 3D :</strong> Naiqing "
      },
-     "PRODUIT-THREE": {
-       "H1": "<b>KARYOOSI - Conception de caisson d'avion</b>",
+     "PRODUCT-THREE": {
+       "H1": "<b>KARYOOSI</b>",
        "CONTENT-P": "<strong>2023 -</strong> Conception de l'emballage, rendu des produits<br><strong>Designer :</strong> 27&Naiqing"
      },
-     "PRODUIT-FOUR": {
-       "H1": "<b>Boulettes de viande fraîche - Conception de boîte d'avion</b>",
-       "CONTENT-P": "<strong>2022-</strong> Conception de l'emballage, conception de la disposition des couteaux, rendu du produit<br><strong>Designer :</strong> Dayang<br><strong>Rendu 3D : </ fort> Naiqing"
+     "PRODUCT-FOUR": {
+       "H1": "<b>Boulettes de viande fraîche</b>",
+       "CONTENT-P": "<strong>2022 -</strong> Conception de l'emballage, conception de la disposition<br>des couteaux, rendu du produit<br><strong>Designer:</strong> Dayang<br><strong>Rendu 3D : </strong> Naiqing"
      },
-     "PRODUIT-FIVE": {
-       "H1": "<b>Mitang - Conception de sacs en papier kraft</b>",
-       "CONTENT-P": "<strong>2022-</strong> Conception de l'emballage, rendu du produit<br><strong>Designer :</strong> Global Village<br><strong>Rendu 3D :</strong> vert "
+     "PRODUCT-FIVE": {
+       "H1": "<b>Mitang</b>",
+       "CONTENT-P": "<strong>2022 -</strong> Conception de l'emballage, rendu du produit<br><strong>Designer:</strong> RuiLi<br><strong>Rendu 3D:</strong> Naiqing "
      },
-     "PRODUIT-SIX": {
-       "H1": "<b>Mitang - Conception de sacs en papier kraft</b>",
-       "CONTENT-P": "<strong>2022-</strong> Conception de l'emballage, rendu du produit<br><strong>Designer :</strong> Global Village<br><strong>Rendu 3D :</strong> vert "
+     "PRODUCT-SIX": {
+       "H1": "<b>Mitang</b>",
+       "CONTENT-P": "<strong>2022 -</strong> Conception de l'emballage, rendu du produit<br><strong>Designer:</strong> RuiLi<br><strong>Rendu 3D:</strong> Naiqing "
      },
-     "PRODUIT-SEVEN": {
-       "H1": "<b>Centre d'actualités de Fudan - Conception de sacs en papier kraft</b>",
-       "CONTENT-P": "<strong>2022-</strong> Conception de l'emballage, rendu du produit<br><strong>Designer :</strong> Global Village<br><strong>Rendu 3D :</strong> vert "
+     "PRODUCT-SEVEN": {
+       "H1": "<b>Centre d'actualités de Fudan</b>",
+       "CONTENT-P": "<strong>2022 -</strong> Conception de l'emballage, rendu du produit<br><strong>Designer:</strong> RuiLi<br><strong>Rendu 3D:</strong> Naiqing "
      },
-     "PRODUIT-EIGHT": {
-       "H1": "<b>Lingguo - Conception de boîte cadeau à rabat</b>",
-       "CONTENT-P": "<strong>2022-</strong> Conception de l'emballage, conception de l'illustration, conception de la disposition des couteaux, rendu du produit<br><strong>Designer :</strong> Dayang<br><strong> Rendu 3D :</strong> Naiqing"
+     "PRODUCT-EIGHT": {
+       "H1": "<b>Lingguo</b>",
+       "CONTENT-P": "<strong>2022 -</strong> Conception de l'emballage, conception de l'illustration, conception de la disposition des couteaux, rendu du produit<br><strong>Designer:</strong> Dayang<br><strong> Rendu 3D:</strong> Naiqing"
      },
-     "PRODUIT-NINE": {
-       "H1": "<b>APP - Conception de la boîte</b>",
-       "CONTENT-P": "<strong>2022 Works-</strong> Packaging Design, PrRendu du produit<br><strong>Designer :</strong> Global Village<br><strong>Rendu 3D :</strong> vert"
+     "PRODUCT-NINE": {
+       "H1": "<b>APP</b>",
+       "CONTENT-P": "<strong>2022 Works-</strong> Packaging Design, Rendu du produit<br><strong>Designer:</strong> RuiLi<br><strong>Rendu 3D:</strong> Naiqing"
       }
     },
     "FOOTER-MENU": {
@@ -357,7 +357,7 @@
       "CONFIDENTIAL": "Politique de Confidentialité",
       "LEGAL-NOTICE": "Mentions Légales",
       "GRAPHICS": "Branding",
-      "LOGO-DESIGN" : "LOGO",
+      "LOGO-DESIGN": "LOGO",
       "MARKETING": "Communication",
       "UIUX": "UI/UX",
       "ART": "Illustration",
@@ -380,7 +380,7 @@
       "ARIANE-H2": "IF Design Studio, valorisez votre image de marque !",
       "ARIANE-LI": "Accueil",
       "H3": "À propos de nous",
-      "H1": "Explorez de créativité sans limites !",
+      "H1": "Explorez des créativités sans limites !",
       "TEXT": "Nous pensons que chacun a des histoires et des attraits visuels uniques, nous transformerons donc vos idées en de merveilleuses expressions visuelles grâce à une communication et une compréhension approfondies avec vous. Chez IF Design Studio, nous ne sommes pas seulement des designers, mais aussi vos partenaires créatifs. Nous comprenons l'importance du design pour communiquer les valeurs d'une marque et attirer son public cible, nous prêtons donc attention aux détails et apportons de la passion à chaque projet.",
       "CITATION-ONE": "Il y a trois réponses à un élément de design : oui, non et WOW ! <br><strong>Wow est celui qu'il faut viser. </strong><br>——Milton Glaser" ,
       "H1-TWO": "Notre avantage",
@@ -399,7 +399,7 @@
       "CONTACT-FORM": "Formulaire de contact",
       "NAME": "Nom:",
       "EMAIL": "E-mail:",
-      "MESSAGE": "Message :",
+      "MESSAGE": "Message:",
       "SUBMIT": "Soumettre",
       "FULLNAME": "Nom complet",
       "YOURMESSAGE": "Votre message"
@@ -424,16 +424,16 @@
       "TUILES": {
         "H1": "Notre vision",
         "P-ONE": "Possibilité",
-        "P-TWO": "Avec une créativité infinie et une passion infinie, nous explorons le potentiel de chaque projet et commençons un voyage de conception avec des possibilités infinies pour vous.",
+        "P-TWO": "Avec nos créations et nos passions, nous explorons le potentiel de chaque projet avec des possibilités infinies pour vous.",
         "P-THREE": "Illimité",
         "P-FOUR": "Nous défions les conventions et repoussons les limites de la créativité et du design pour vous apporter de nouvelles solutions surprenantes.",
         "P-FIVE": "Communicative",
-        "P-SIX": "Nous écoutons attentivement et utilisons un design personnalisé comme un pont pour créer une expérience visuelle qui se connecte vraiment avec vous."
+        "P-SIX": "Nous écoutons attentivement et utilisons un design personnalisé pour créer une expérience visuelle attirante."
       },
       "SECTION2": {
         "H1": "Nos dernières créations",
         "H4": "RÉALISATIONS",
-        "P-ONE": "Illustrations, packaging, LOGO, image principale e-commerce, album, image IP, etc. conçus par notre agence",
+        "P-ONE": "Illustrations, packaging, LOGO, E-Commerce, brochures, image IP, etc. conçus par notre agence",
         "P-TWO": "VITAMINE C",
         "P-THREE": "Briquet ZIPPO",
         "P-FOUR": "Technologie bambou",

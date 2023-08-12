@@ -35,7 +35,7 @@ export class InternationalizationModule {
    */
   constructor(private readonly translate: TranslateService) {
     this.translate.addLangs(["EN", "FR", "CN"]);
-    this.translate.setDefaultLang("FR");
-    this.translate.use("FR");
+    this.translate.setDefaultLang("EN");
+    this.translate.use("EN");
   }
 }

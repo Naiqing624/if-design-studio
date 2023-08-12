@@ -10,7 +10,7 @@ import { LanguageService } from 'src/app/language.service';
 export class FooterMenuComponent {
   currentUrl: string;
 
-  selectedLanguage = 'FR';
+  selectedLanguage = 'EN';
 
   constructor(public readonly footerService: FooterService, private languageService: LanguageService) { }
 

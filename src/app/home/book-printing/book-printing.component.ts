@@ -8,7 +8,7 @@ import { LanguageService } from 'src/app/language.service';
 })
 export class BookPrintingComponent implements OnInit{
 
-  selectedLanguage = 'FR';
+  selectedLanguage = 'EN';
 
   constructor(private languageService: LanguageService) {}
 

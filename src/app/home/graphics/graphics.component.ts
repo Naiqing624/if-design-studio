@@ -50,7 +50,7 @@ export class GraphicsComponent implements OnInit {
   @ViewChildren('item')
   items!: QueryList<HTMLElement>;
 
-  selectedLanguage = 'FR';
+  selectedLanguage = 'EN';
 
   constructor(public translate: TranslateService, private languageService: LanguageService) {}
 
