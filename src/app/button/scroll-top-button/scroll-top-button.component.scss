@@ -1,0 +1,44 @@
+.scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+  
+.scroll-button:hover {
+    background-color: #333;
+}
+  
+.scroll-button i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+  
+@keyframes scroll-button {
+    0% {
+        opacity: 0;
+        margin-bottom: 10px;
+    }
+    100% {
+        opacity: 1;
+        margin-bottom: 0;
+    }
+}
+
+.scroll-button.scroll {
+    animation: scroll-button 0.5s ease-in-out;
+}
+
+.unDisplay {
+    display: none;
+}

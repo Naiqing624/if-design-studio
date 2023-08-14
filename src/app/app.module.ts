@@ -8,10 +8,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { InternationalizationModule } from './internationalization/internationalization.module';
 import { ExternalLinkModule } from './external-link/external-link.module';
+import { ScrollTopButtonComponent } from './button/scroll-top-button/scroll-top-button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ScrollTopButtonComponent
   ],
   imports: [
     BrowserModule,

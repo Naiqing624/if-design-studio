@@ -1,16 +1,20 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-marketing-eight',
   templateUrl: './marketing-eight.component.html',
   styleUrls: ['./marketing-eight.component.scss']
 })
-export class MarketingEightComponent {
+export class MarketingEightComponent implements OnInit {
   isExpanded = false;
   opacitySection2 = 1;
 
   descriptionH1 = 'MARKETING.MARKETING-EIGHT.H1';
   contentP = 'MARKETING.MARKETING-EIGHT.CONTENT-P';
+
+  ngOnInit(): void {
+    this.checkScreenSize();
+  }
 
   @HostListener('window:scroll', ['$event'])
   onScroll() {
