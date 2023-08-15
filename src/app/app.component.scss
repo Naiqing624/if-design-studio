@@ -3,6 +3,17 @@
     src: url('../assets/font/PingFang.woff') format('woff');
 } 
 
-* {
+.styles-cn {
+    box-sizing: border-box;
     font-family: 'PingFang', sans-serif;
+}
+  
+.styles-en {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.styles-fr {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }

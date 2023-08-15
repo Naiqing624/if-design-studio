@@ -21,7 +21,7 @@ export class ScrollTopButtonComponent implements OnInit {
   checkScreenSize(): void {
     if (window.scrollY > 1000) {
       this.opacitySection1 = 1;
-    }else{
+    }else {
       this.opacitySection1 = 0;
     }
   }

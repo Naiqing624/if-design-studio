@@ -178,7 +178,7 @@
       "CONTENT-P": "Business cards are small yet powerful tools with various functions. Firstly, they serve as a means of business communication, conveying an individual's or a company's contact information during professional encounters. By exchanging business cards, one can easily access key details such as name, position, company name, phone number, email address, facilitating future contact and collaboration. Secondly, business cards act as a showcase for an individual or company's image. A well-designed card can emphasize one's professionalism, creativity, and uniqueness, leaving a lasting impression. Elements on the card such as design, logos, colors, and fonts can convey the brand's characteristics and values, elevating its image. Furthermore, in social settings, business cards function as connectors. By sharing cards, people can establish connections, broaden their network, and pave the way for future collaborations and opportunities. Beyond being mere tools, they are symbols of identity, trust, and professional ethos. In conclusion, despite their small size, business cards are vital instruments. They convey contact details, project one's image, and serve pivotal roles in networking scenarios. A well-designed and effectively utilized business card can bring forth numerous business opportunities, partnerships, and social connections."
     },
     "MARKETING-TWO": {
-      "H1": "<b>Poster Promotion</b>",
+      "H1": "<b>Poster</b>",
       "CONTENT-P": "Packaging plays diverse roles in product design and marketing. Not only does it protect the product from damage, but it also catches the consumer's eye and communicates essential information. Unique design and branding elements on the packaging establish the product's image and values, enticing purchase desires. Ultimately, high-quality packaging design can drive sales, allowing a product to stand out in a competitive market, achieving commercial success."
     },
     "MARKETING-THREE": {
@@ -195,7 +195,7 @@
       "OVERLAY-NINE": "APP"
     },
     "MARKETING-FOUR": {
-      "H1": "<b>Promotional Flyers</b>",
+      "H1": "<b>Flyers</b>",
       "CONTENT-P": "Flyers are a prevalent promotional tool with an array of purposes. Firstly, flyers are used for disseminating information and promoting products or services. They provide a limited space to present key information, features, and benefits succinctly to the target audience. Typically, flyers consist of captivating headlines, alluring images, and concise text to grab the reader's attention and pique their interest. Secondly, flyers are effective marketing instruments. By offering information about special deals, promotions, or discounts within them, you can lure potential customers and incentivize them to act, like making a purchase, attending an event, or reaching out for more information. Flyers can also showcase a company's professionalism and trustworthiness, building brand image and customer confidence. Additionally, the compact nature of flyers makes them portable and easy to distribute. They can effortlessly be placed in envelopes, attached to mailers, displayed at booths, or handed directly to potential clients. Their compact design ensures ease of dissemination across various events like business meetings, exhibitions, online marketing activities, etc. In conclusion, flyers are versatile communication tools, capable of conveying information, promoting products, events, and sculpting your brand image. Through meticulous design and effective usage of flyers, you can capture your target's attention, interest, and actions, bringing more opportunities and success for your enterprise.",
       "OVERLAY-ONE": "Xianqiao Middle School",
       "OVERLAY-TWO": "Tea Studio",
@@ -205,7 +205,7 @@
       "OVERLAY-SIX": "Mingbang"
     },
     "MARKETING-FIVE": {
-      "H1": "<b>Taobao E-commerce</b>",
+      "H1": "<b>E-commerce</b>",
       "CONTENT-P": "Taobao store decoration includes Banner, main picture, and product detail page design, which play a crucial role in e-commerce operations. The Banner, as the flagship advertisement on the store homepage, typically resides at the top of the page. A well-designed Banner can capture user attention, conveying the unique attributes of the store and promotional information. With carefully selected images, eye-catching headlines, and prominent text, the Banner can lure users into the store, prolonging page viewing times and promoting purchasing behaviors. The main picture is a critical component for product presentation, positioned in the product listing and on the product detail page. The primary image design should focus on product clarity, color coordination, and appeal. Through carefully taken or edited product images, an effective main picture can entice users to click into the product detail page, stimulating buying interest. The design of the product detail page is key for presenting product details and facilitating purchasing decisions. An outstanding detail page design combines clear images, abundant text descriptions, product specifications, customer reviews, and other elements, giving users a comprehensive understanding and buying reference. By emphasizing product features, guiding user attention, and addressing questions, the detail page design bolsters the user's purchasing determination, enhancing conversion rates. In summary, in Taobao store decoration, the design of the Banner, main picture, and product detail page are essential phases to elevate store image, attract users, and boost sales. Through meticulous design and optimization of these elements, stores can appeal to more target users, enhance purchase conversion rates, and achieve favorable business outcomes.",
       "OVERLAY-ONE": "FATESKY",
       "OVERLAY-TWO": "CAN CAR",
@@ -384,14 +384,14 @@
     "TEXT": "Holistic brand solutions are essential elements that provide companies with powerful momentum and direction. Think of a company as a ship, where the comprehensive brand solutions act like its sail, providing propulsion and guidance. In this analogy, our full-brand case services are not just the primary sail but also one of the oars, propelling the company's growth. By organically integrating marketing plans, brand strategies, and communication plans into brand cases, we sculpt a unique brand image for enterprises, enhancing brand recognition and value.",
     "CITATION-ONE": "There are three responses to a piece of design - yes, no, and WOW! <br><strong>Wow is the one to aim for. </strong><br>——Milton Glaser",
     "H1-TWO": "Our advantages",
-    "CITATION-TWO": "The 'hexagonal fighters' that our team has is a huge advantage, but more importantly the values we live by. As a graphic design studio, we have everything we need to execute a campaign A skill, but also a passion!<br><br>Creativity, ingenuity and quality are the key words of our studio. Our team is full of passion and creativity, committed to bringing a unique solution to each project solutions. We believe that driven by passion and creativity, we can deliver exceptional results that make your brand stand out.<br><br>Whether it is brand design, print communications or other projects, our team will provide you with high Quality of service. We firmly believe that passion is what drives excellence and that creativity, ingenuity and quality are the keys to our success.",
+    "CITATION-TWO": "The 'hexagonal fighters' that our team has is a huge advantage, but more importantly the values we live by. As a graphic design studio, we have everything we need to execute a campaign A skill, but also a passion!<br><br>Creativity, ingenuity and quality are the key words of our studio. Our team is full of passion and creativity, committed to bringing a unique solution to each project solutions. We believe that driven by passion and creativity, we can deliver exceptional results that make your brand stand out.",
     "CONTACT": "View latest portfolio"
   },
   "BOOK-PRINTING": {
     "ARIANE-H2": "Book Printing",
     "ARIANE-LI": "Home",
     "TEXT": "We are sorting out and uploading works non-stop, do you want to take a look at our two-dimensional works?",
-    "CONTACT": "Contact Us"
+    "CONTACT": "Recent work"
   },
   "CONTACT": {
     "ARIANE-H2": "Contact Us",
@@ -420,7 +420,7 @@
       "H1": "IF Design Studio",
       "P-ONE": "Endless Visual Creativity",
       "P-TWO": "IF (Infinity) Design Studio",
-      "CONTACT": "Got an idea??"
+      "CONTACT": "Got an idea ?"
     },
     "TUILES": {
       "H1": "Our Vision",
@@ -465,7 +465,7 @@
     "ARIANE-H2": "UIUX User Experience",
     "ARIANE-LI": "Home",
     "P-ONE": "We are sorting out and uploading works non-stop, do you want to take a look at our two-dimensional works?",
-    "CONTACT": "Contact Us"
+    "CONTACT": "Recent work"
   },
   "MARKETING-PAGE": {
     "ARIANE-H2": "Advertising Material Design",
@@ -474,10 +474,10 @@
     "H1": "IF Design Studio - Unlocking Infinite Possibilities",
     "CONTENT": "The design of advertising materials plays a pivotal role in brand promotion. This includes flyers, posters, brochures, display boards, and banners. Through a unique design style and creative expression, these visual elements capture the attention of the target audience, shape the brand image, and convey core messages.<br><br>In brand promotion, the design of advertising materials is crucial for highlighting brand features and stimulating consumer interest. By carefully selecting colors, layouts, images, and texts, designers can create visual effects that align with the brand image, enhancing brand recognition and appeal.<br><br>Moreover, the design also involves accurately expressing the brand's values, individual characteristics, and unique selling points to the target audience through visual representation. Designers, taking into account the brand positioning and the needs of the target audience, use innovative design techniques to craft advertising materials that leave a lasting impression and stand out.<br><br>Through excellent advertising material design, brands can shine in a competitive market, attracting more potential customers, enhancing brand awareness and reputation, and ultimately achieving growth in sales and market share.",
     "CARD-ONE": "Business Cards",
-    "CARD-TWO": "Poster Promotion",
+    "CARD-TWO": "Poster",
     "CARD-THREE": "Product Design & Packaging",
-    "CARD-FOUR": "Promotional Flyers",
-    "CARD-FIVE": "Taobao E-commerce",
+    "CARD-FOUR": "Flyers",
+    "CARD-FIVE": "E-commerce",
     "CARD-SIX": "Exhibition Board/Hall",
     "CARD-SEVEN": "Slide Show PPT",
     "CARD-EIGHT": "Storefront",

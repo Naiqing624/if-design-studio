@@ -1,4 +1,4 @@
-<app-top-menu></app-top-menu>
-<router-outlet></router-outlet>
+<app-top-menu [ngClass]="{'styles-cn': selectedLanguage === 'CN', 'styles-en': selectedLanguage === 'EN', 'styles-fr': selectedLanguage === 'FR'}"></app-top-menu>
+<router-outlet [ngClass]="{'styles-cn': selectedLanguage === 'CN', 'styles-en': selectedLanguage === 'EN', 'styles-fr': selectedLanguage === 'FR'}"></router-outlet>
 <app-scroll-top-button></app-scroll-top-button>
-<app-footer-menu></app-footer-menu>
+<app-footer-menu [ngClass]="{'styles-cn': selectedLanguage === 'CN', 'styles-en': selectedLanguage === 'EN', 'styles-fr': selectedLanguage === 'FR'}"></app-footer-menu>
