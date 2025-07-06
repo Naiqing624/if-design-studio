@@ -1,26 +1,40 @@
-# IfDesignStudio
+# 🎨 IF Design Studio - 官方展示网站
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
+Bienvenue sur le dépôt du site vitrine développé pour **IF Design Studio** — un studio de création spécialisé dans le design graphique, le branding et l'identité visuelle.
 
-## Development server
+> 🚀 Ce projet a été conçu pour mettre en valeur les réalisations, les services et l'esprit créatif du studio, avec un design épuré et une navigation intuitive.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🎯 Objectifs du projet
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Présenter les services du studio (identité visuelle, direction artistique, etc.)
+- Mettre en avant les réalisations graphiques avec une galerie visuelle
+- Fournir un canal de contact professionnel
+- Offrir une expérience utilisateur fluide, responsive et esthétique
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🛠️ Technologies utilisées
 
-## Running unit tests
+| Partie       | Technologie                |
+|--------------|----------------------------|
+| Frontend     | HTML5, CSS3, JavaScript    |
+| Framework(s) | Angular                    |
+| Responsive   | Flexbox, Media Queries     |
+| Hébergement  | Alibaba Cloud              |
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🧩 Fonctionnalités principales
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- 💼 Page d'accueil avec message de bienvenue
+- 📂 Section “Graphique” avec visuels
+- 🧠 Page “À propos” présentant la vision du studio
+- 📞 Formulaire de contact
+- 📱 Responsive design pour tous les écrans
+
+---
 
 ## Further help
 
