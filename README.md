@@ -20,8 +20,7 @@ Bienvenue sur le dépôt du site vitrine développé pour **IF Design Studio** �
 | Partie       | Technologie                |
 |--------------|----------------------------|
 | Frontend     | HTML5, CSS3, JavaScript    |
-| Framework(s) | Angular                    |
-| Responsive   | Flexbox, Media Queries     |
+| Framework(s) | Angular, PrimeNg           |
 | Hébergement  | Alibaba Cloud              |
 
 ---
